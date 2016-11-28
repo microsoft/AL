@@ -1,0 +1,23 @@
+{
+  "id": "a7a49c61-7712-400a-9fc5-bc35f8e02aa0",
+  "name": "Hello World",
+  "publisher": "Microsoft",
+  "brief": "The ability to greet your customers ",
+  "description": "",
+  "version": "1.0.0.0",
+  "compatibilityId": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "capabilities": [],
+  "dependencies": [],
+  "platform": "10.0.0.0",
+  "application": {
+    "version": "10.0.0.0",
+    "locale": "W1"
+  },
+  "screenShots": [],
+  "packageCachePath": "../../resources"
+}
