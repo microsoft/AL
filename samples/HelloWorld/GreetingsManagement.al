@@ -20,6 +20,7 @@ codeunit 70051100 GreetingsManagement
             6:  exit('Thai: หวัดดีชาวโลก');
             7:  exit('Hindi: हैलो वर्ल्ड');
             8:  exit('Japanese: ハローワールド'); 
+            9:  exit('Danish: Hej verden');
         else
             exit('Hello, World'); // Default to the good old one.
         end;
@@ -29,6 +30,6 @@ codeunit 70051100 GreetingsManagement
     procedure GetRandomGreeting() : Text;
     begin
         Randomize;
-        exit(GetHelloWorldText(Random(10)));
+        exit(GetHelloWorldText(Random(11)));
     end;
 }
