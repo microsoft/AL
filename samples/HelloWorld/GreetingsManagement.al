@@ -1,3 +1,4 @@
+ 
 // ------------------------------------------------------------------------------------------------
 // Copyright (c) Microsoft Corporation. All rights reserved. 
 // Licensed under the MIT License. See License.txt in the project root for license information. 
@@ -19,7 +20,8 @@ codeunit 70051100 GreetingsManagement
             5:  exit('Korean: 전 세계 여러분 안녕하세요');
             6:  exit('Thai: หวัดดีชาวโลก');
             7:  exit('Hindi: हैलो वर्ल्ड');
-            8:  exit('Japanese: ハローワールド'); 
+            8:  exit('Japanese: ハローワールド');
+            50000: exit('Dutch' : Hallo Wereld'); //* Mark Brummel
         else
             exit('Hello, World'); // Default to the good old one.
         end;
