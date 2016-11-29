@@ -7,8 +7,8 @@ We're still in preview, so you might bump into bugs. We're sorry about that, but
 
 <!-- not live yet -->
 For documentation about extending Dynamics NAV, see our topics on MSDN:  
-•	[Getting Started](https://msdn.microsoft.com/en-us/dynamics-nav/dyn-fin-getting-started-dev-env)   
-•	[Developing Overview](https://msdn.microsoft.com/en-us/dynamics-nav/dyn-fin-getting-started-dev-env)  
-•	[Developer Reference](https://msdn.microsoft.com/en-us/dynamics-nav/dyn-fin-getting-started-dev-env)  
+•	[Getting Started](https://msdn.microsoft.com/en-us/dynamics-nav/newdev-getting-started-dev-env)   
+•	[Developing Extensions for Dynamics NAV Overview](https://msdn.microsoft.com/en-us/dynamics-nav/newdev-getting-started-dev-env)  
+•	[Developer Reference](https://msdn.microsoft.com/en-us/dynamics-nav/newdev-getting-started-dev-env)  
 
 This project has adopted the Microsoft Open Source Code of Conduct. For more information see the Code of Conduct FAQ or contact opencode@microsoft.com with any additional questions or comments. 
