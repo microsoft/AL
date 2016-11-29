@@ -5,7 +5,8 @@ This repo contains AL language code samples for developing extensions on the Dyn
 
 <!-- Get started by cloning one of the sample projects from this repo, open the folder in [Visual Studio Code](https://code.visualstudio.com/Download), and you’re ready to compile, publish, and run.-->
 
-We're still in preview, so you might bump into bugs. We're sorry about that, but we're working as fast as we can to fix them.
+<!--
+We're still in preview, so you might bump into bugs. We're sorry about that, but we're working as fast as we can to fix them. -->
 
 <!-- not live yet
 For documentation about extending Dynamics NAV, see our topics on MSDN:  
