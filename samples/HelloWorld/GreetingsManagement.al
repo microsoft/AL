@@ -33,6 +33,6 @@ codeunit 70051100 GreetingsManagement
     procedure GetRandomGreeting() : Text;
     begin
         Randomize;
-        exit(GetHelloWorldText(Random(13)));
+        exit(GetHelloWorldText(Random(14)));
     end;
 }
