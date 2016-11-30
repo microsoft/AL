@@ -10,7 +10,7 @@ codeunit 70051100 GreetingsManagement
     // Thanks to https://www.bing.com/translator/
     local procedure GetHelloWorldText(GreetingNo : Integer) : Text;
     begin
-        case GreetingNo of
+        case GreetingNo of 
             0:  exit('Afrikaans: Hallo wêreld');
             1:  exit('Arabic: مرحبا بالعالم');
             2:  exit('Bulgarian: Здравей, свят');
@@ -22,6 +22,7 @@ codeunit 70051100 GreetingsManagement
             8:  exit('Japanese: ハローワールド'); 
             9:  exit('Danish: Hej verden');
             10: exit('Polish: Witaj świecie');
+            13: exit('Catalan: Hola món'); // Josep Pagès: 11 is used by TheDenSter and 12 will be used by Mark (now 50000)
         else
             exit('Hello, World'); // Default to the good old one.
         end;
@@ -31,6 +32,6 @@ codeunit 70051100 GreetingsManagement
     procedure GetRandomGreeting() : Text;
     begin
         Randomize;
-        exit(GetHelloWorldText(Random(12)));
+        exit(GetHelloWorldText(Random(14)));
     end;
 }
