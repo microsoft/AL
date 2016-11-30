@@ -10,7 +10,7 @@ codeunit 70051100 GreetingsManagement
     // Thanks to https://www.bing.com/translator/
     local procedure GetHelloWorldText(GreetingNo : Integer) : Text;
     begin
-        case GreetingNo - 1 of // Random(int) is 1-based
+        case GreetingNo of
             0:  exit('Afrikaans: Hallo wêreld');
             1:  exit('Arabic: مرحبا بالعالم');
             2:  exit('Bulgarian: Здравей, свят');
@@ -36,6 +36,6 @@ codeunit 70051100 GreetingsManagement
     procedure GetRandomGreeting() : Text;
     begin
         Randomize;
-        exit(GetHelloWorldText(Random(17)));
+        exit(GetHelloWorldText(Random(17) - 1));  // Random(int) is 1-based
     end;
 }
