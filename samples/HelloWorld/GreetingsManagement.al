@@ -10,7 +10,7 @@ codeunit 70051100 GreetingsManagement
     // Thanks to https://www.bing.com/translator/
     local procedure GetHelloWorldText(GreetingNo : Integer) : Text;
     begin
-        case GreetingNo of 
+        case GreetingNo of
             0:  exit('Afrikaans: Hallo wêreld');
             1:  exit('Arabic: مرحبا بالعالم');
             2:  exit('Bulgarian: Здравей, свят');
