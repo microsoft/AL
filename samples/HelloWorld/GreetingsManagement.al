@@ -23,6 +23,7 @@ codeunit 70051100 GreetingsManagement
             9:  exit('Danish: Hej verden');
             10: exit('Polish: Witaj świecie');
             11: exit('Pig Latin: Ellohay Orldway');
+            12: exit('Hungarian: Szia, világ!');
         else
             exit('Hello, World'); // Default to the good old one.
         end;
