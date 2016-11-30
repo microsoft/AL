@@ -1,4 +1,4 @@
- 
+
 // ------------------------------------------------------------------------------------------------
 // Copyright (c) Microsoft Corporation. All rights reserved. 
 // Licensed under the MIT License. See License.txt in the project root for license information. 
@@ -21,7 +21,7 @@ codeunit 70051100 GreetingsManagement
             6:  exit('Thai: หวัดดีชาวโลก');
             7:  exit('Hindi: हैलो वर्ल्ड');
             8:  exit('Japanese: ハローワールド');
-            12: exit('Dutch' : Hallo Wereld'); //* Mark Brummel
+            13: exit('Dutch : Hallo Wereld');
         else
             exit('Hello, World'); // Default to the good old one.
         end;
@@ -31,6 +31,6 @@ codeunit 70051100 GreetingsManagement
     procedure GetRandomGreeting() : Text;
     begin
         Randomize;
-        exit(GetHelloWorldText(Random(12)));
+        exit(GetHelloWorldText(Random(13)));
     end;
 }
