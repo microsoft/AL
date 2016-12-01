@@ -11,6 +11,6 @@ codeunit 70051001 HelloWorld
     var
         HelloText : Codeunit GreetingsManagement;
     begin
-        Message(HelloText.GetRandomGreeting() + ', ' + Rec.Name);
+        Message('%1, %2', HelloText.GetRandomGreeting(), Rec.Name);
     end;
 }
