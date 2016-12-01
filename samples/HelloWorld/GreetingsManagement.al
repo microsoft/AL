@@ -10,7 +10,7 @@ codeunit 70051100 GreetingsManagement
     // Thanks to https://www.bing.com/translator/
     local procedure GetHelloWorldText(GreetingNo : Integer) : Text;
     begin
-        case GreetingNo - 1 of // Random(int) is 1-based
+        case GreetingNo of
             0:  exit('Afrikaans: Hallo wêreld');
             1:  exit('Arabic: مرحبا بالعالم');
             2:  exit('Bulgarian: Здравей, свят');
@@ -23,7 +23,12 @@ codeunit 70051100 GreetingsManagement
             9:  exit('Danish: Hej verden');
             10: exit('Polish: Witaj świecie');
             11: exit('Pig Latin: Ellohay Orldway');
-            12: exit('Czech: Ahoj světe');
+            12: exit('Hungarian: Szia, világ!');
+            13: exit('Flemish: Hej wereld');
+            14: exit('Dutch: Hallo wereld');
+            15: exit('French: Bonjour le monde');
+            16: exit('Finnish: Hei maailma');
+            17: exit('Czech: Ahoj světe');
         else
             exit('Hello, World'); // Default to the good old one.
         end;
@@ -33,6 +38,6 @@ codeunit 70051100 GreetingsManagement
     procedure GetRandomGreeting() : Text;
     begin
         Randomize;
-        exit(GetHelloWorldText(Random(13)));
+        exit(GetHelloWorldText(Random(18) - 1));  // Random(int) is 1-based
     end;
 }
