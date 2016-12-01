@@ -30,6 +30,7 @@ codeunit 70051100 GreetingsManagement
             16: exit('Finnish: Hei maailma');
             17: exit('Russian: Привет, мир!');
             18: exit('Czech: Ahoj světe');
+            19: exit('German: Hallo Welt');
         else
             exit('Hello, World'); // Default to the good old one.
         end;
