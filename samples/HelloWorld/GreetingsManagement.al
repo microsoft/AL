@@ -6,41 +6,59 @@
 // Codeunit for creating random greetings
 codeunit 70051100 GreetingsManagement
 {
+    var
+        GreetingsList: temporary Record "Standart Text";
+        GreetingsCount: Integer;
+
     // Get a translated 'Hello World' string.
-    // Thanks to https://www.bing.com/translator/
+    // Thanks to https://www.bing.com/translator/    
     local procedure GetHelloWorldText(GreetingNo : Integer) : Text;
     begin
-        case GreetingNo of
-            0:  exit('Afrikaans: Hallo wêreld');
-            1:  exit('Arabic: مرحبا بالعالم');
-            2:  exit('Bulgarian: Здравей, свят');
-            3:  exit('Cantonese: 世界你好');
-            4:  exit('Greek: Γεια σου κόσμε');
-            5:  exit('Korean: 전 세계 여러분 안녕하세요');
-            6:  exit('Thai: หวัดดีชาวโลก');
-            7:  exit('Hindi: हैलो वर्ल्ड');
-            8:  exit('Japanese: ハローワールド'); 
-            9:  exit('Danish: Hej verden');
-            10: exit('Polish: Witaj świecie');
-            11: exit('Pig Latin: Ellohay Orldway');
-            12: exit('Hungarian: Szia, világ!');
-            13: exit('Flemish: Hej wereld');
-            14: exit('Dutch: Hallo wereld');
-            15: exit('French: Bonjour le monde');
-            16: exit('Finnish: Hei maailma');
-            17: exit('Russian: Привет, мир!');
-            18: exit('Czech: Ahoj světe');            
-            19: exit('German: Hallo Welt');
-            20: exit('Lithuanian: Labas, pasauli!');            
-        else
+        if not GreetingsList.Get(format(GreetingNo)) then
             exit('Hello, World'); // Default to the good old one.
-        end;
+        exit(GreetingsList.Description);
     end;
 
+    local procedure AddGreetingToList(language: Text; greetingText: Text)
+    begin
+        GreetingsCount += 1;
+        GreetingsList.Code := format(GreetingsCount);
+        GreetingsList.Description := strsubstno('%1: %2', language, greetingText);
+        GreetingsList.Insert;        
+    end;
+
+    local procedure CreateGreetingsList()
+    begin
+        GreetingsList.DeleteAll;
+        GreetingsCount := 0;
+        AddGreetingToList('Afrikaans', 'Hallo wêreld');
+        AddGreetingToList('Arabic', 'مرحبا بالعالم');
+        AddGreetingToList('Bulgarian', 'Здравей, свят');
+        AddGreetingToList('Cantonese', '世界你好');
+        AddGreetingToList('Greek', 'Γεια σου κόσμε');
+        AddGreetingToList('Korean', '전 세계 여러분 안녕하세요');
+        AddGreetingToList('Thai', 'หวัดดีชาวโลก');
+        AddGreetingToList('Hindi', 'हैलो वर्ल्ड');
+        AddGreetingToList('Japanese', 'ハローワールド'); 
+        AddGreetingToList('Danish', 'Hej verden');
+        AddGreetingToList('Polish', 'Witaj świecie');
+        AddGreetingToList('Pig Latin', 'Ellohay Orldway');
+        AddGreetingToList('Hungarian', 'Szia, világ!');
+        AddGreetingToList('Flemish', 'Hej wereld');
+        AddGreetingToList('Dutch', 'Hallo wereld');
+        AddGreetingToList('French', 'Bonjour le monde');
+        AddGreetingToList('Finnish', 'Hei maailma');
+        AddGreetingToList('Russian', 'Привет, мир!');
+        AddGreetingToList('Czech', 'Ahoj světe');            
+        AddGreetingToList('German', 'Hallo Welt');
+        AddGreetingToList('Lithuanian', 'Labas, pasauli!');            
+    end;
+   
     // Gets a random greeting.
     procedure GetRandomGreeting() : Text;
     begin
         Randomize;
-        exit(GetHelloWorldText(Random(22) - 1));  // Random(int) is 1-based
+        CreateGreetingsList;
+        exit(GetHelloWorldText(Random(GreetingsCount)));  // Random(int) is 1-based
     end;
 }
