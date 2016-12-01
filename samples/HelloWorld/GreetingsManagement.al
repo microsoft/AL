@@ -29,8 +29,9 @@ codeunit 70051100 GreetingsManagement
             15: exit('French: Bonjour le monde');
             16: exit('Finnish: Hei maailma');
             17: exit('Russian: Привет, мир!');
-            18: exit('Czech: Ahoj světe');
+            18: exit('Czech: Ahoj světe');            
             19: exit('German: Hallo Welt');
+            20: exit('Lithuanian: Labas, pasauli!');            
         else
             exit('Hello, World'); // Default to the good old one.
         end;
@@ -40,6 +41,6 @@ codeunit 70051100 GreetingsManagement
     procedure GetRandomGreeting() : Text;
     begin
         Randomize;
-        exit(GetHelloWorldText(Random(21) - 1));  // Random(int) is 1-based
+        exit(GetHelloWorldText(Random(22) - 1));  // Random(int) is 1-based
     end;
 }
