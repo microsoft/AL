@@ -11,7 +11,6 @@ codeunit 70051100 GreetingsManagement
     local procedure GetHelloWorldText(GreetingNo : Integer) : Text;
     begin
         case GreetingNo of
-            0:  exit('Afrikaans: Hallo wêreld');
             1:  exit('Arabic: مرحبا بالعالم');
             2:  exit('Bulgarian: Здравей, свят');
             3:  exit('Cantonese: 世界你好');
@@ -22,6 +21,18 @@ codeunit 70051100 GreetingsManagement
             8:  exit('Japanese: ハローワールド'); 
             9:  exit('Danish: Hej verden');
             10: exit('Polish: Witaj świecie');
+            11: exit('Pig Latin: Ellohay Orldway');
+            12: exit('Hungarian: Szia, világ!');
+            13: exit('Flemish: Hej wereld');
+            14: exit('Dutch: Hallo wereld');
+            15: exit('French: Bonjour le monde');
+            16: exit('Finnish: Hei maailma');
+            17: exit('Russian: Привет, мир!');
+            18: exit('Czech: Ahoj světe');            
+            19: exit('German: Hallo Welt');
+            20: exit('Lithuanian: Labas, pasauli!');            
+            21: exit('Afrikaans: Hallo wêreld');
+            22: exit('Bakke Snavvendt: Wello Horld');
         else
             exit('Hello, World'); // Default to the good old one.
         end;
@@ -31,6 +42,6 @@ codeunit 70051100 GreetingsManagement
     procedure GetRandomGreeting() : Text;
     begin
         Randomize;
-        exit(GetHelloWorldText(Random(12)));
+        exit(GetHelloWorldText(Random(23)));
     end;
 }
