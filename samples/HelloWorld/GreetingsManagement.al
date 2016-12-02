@@ -33,6 +33,11 @@ codeunit 70051100 GreetingsManagement
             20: exit('Lithuanian: Labas, pasauli!');            
             21: exit('Afrikaans: Hallo wêreld');
             22: exit('Bakke Snavvendt: Wello Horld');
+            23: exit('1337 : h3ll0 w0rld!');
+            24: exit('|_337: |-|3|_|_0 \\/\\/0|2|_|)!');
+            25: exit('Morse code: ...././.-../.-../---//.--/---/.-./.-../-../-.-.--////');
+            26: exit('Ballon script: Ⓗⓔⓛⓛⓞ Ⓦⓞⓡⓛⓓ!');
+            27: exit('Braille: ⠠⠓⠑⠇⠇⠕ ⠠⠺⠕⠗⠇⠙⠖'); 
         else
             exit('Hello, World'); // Default to the good old one.
         end;
@@ -42,6 +47,6 @@ codeunit 70051100 GreetingsManagement
     procedure GetRandomGreeting() : Text;
     begin
         Randomize;
-        exit(GetHelloWorldText(Random(23)));
+        exit(GetHelloWorldText(Random(28)));
     end;
 }
