@@ -11,7 +11,7 @@ codeunit 70051100 GreetingsManagement
         GreetingsCount: Integer;
 
     // Get a translated 'Hello World' string.
-    // Thanks to https://www.bing.com/translator/    
+    // Thanks to https://www.bing.com/translator/
     local procedure GetHelloWorldText(GreetingNo : Integer) : Text;
     begin
         if not GreetingsList.Get(format(GreetingNo)) then
@@ -31,7 +31,6 @@ codeunit 70051100 GreetingsManagement
     begin
         GreetingsList.DeleteAll;
         GreetingsCount := 0;
-        AddGreetingToList('Afrikaans', 'Hallo wêreld');
         AddGreetingToList('Arabic', 'مرحبا بالعالم');
         AddGreetingToList('Bulgarian', 'Здравей, свят');
         AddGreetingToList('Cantonese', '世界你好');
