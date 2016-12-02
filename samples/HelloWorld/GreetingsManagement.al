@@ -51,7 +51,9 @@ codeunit 70051100 GreetingsManagement
         AddGreetingToList('Russian', 'Привет, мир!');
         AddGreetingToList('Czech', 'Ahoj světe');            
         AddGreetingToList('German', 'Hallo Welt');
-        AddGreetingToList('Lithuanian', 'Labas, pasauli!');            
+        AddGreetingToList('Lithuanian', 'Labas, pasauli!');  
+        AddGreetingToList('Afrikaans', 'Hallo wêreld');
+        AddGreetingToList('Bakke Snavvendt', 'Wello Horld');                  
     end;
    
     // Gets a random greeting.

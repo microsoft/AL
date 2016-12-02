@@ -9,6 +9,7 @@
             "packageFileName": "${command.resolvePackageFileName}",                                                                        
             "server": "http://localhost",
             "serverInstance": "Navision_main",                
+            "tenant": "default",
             "windowsAuthentication": true                        
         }
     ]
