@@ -38,6 +38,7 @@ codeunit 70051100 GreetingsManagement
             25: exit('Morse code: ...././.-../.-../---//.--/---/.-./.-../-../-.-.--////');
             26: exit('Ballon script: Ⓗⓔⓛⓛⓞ Ⓦⓞⓡⓛⓓ!');
             27: exit('Braille: ⠠⠓⠑⠇⠇⠕ ⠠⠺⠕⠗⠇⠙⠖'); 
+            28: exit('Español: Hola Mundo!');
         else
             exit('Hello, World'); // Default to the good old one.
         end;
@@ -47,6 +48,6 @@ codeunit 70051100 GreetingsManagement
     procedure GetRandomGreeting() : Text;
     begin
         Randomize;
-        exit(GetHelloWorldText(Random(28)));
+        exit(GetHelloWorldText(Random(29)));
     end;
 }
