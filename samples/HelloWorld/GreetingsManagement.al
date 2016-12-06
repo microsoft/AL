@@ -33,6 +33,7 @@ codeunit 70051100 GreetingsManagement
             20: exit('Lithuanian: Labas, pasauli!');            
             21: exit('Afrikaans: Hallo wêreld');
             22: exit('Bakke Snavvendt: Wello Horld');
+            23: exit('Español: Hola mundo!');
         else
             exit('Hello, World'); // Default to the good old one.
         end;
@@ -42,6 +43,6 @@ codeunit 70051100 GreetingsManagement
     procedure GetRandomGreeting() : Text;
     begin
         Randomize;
-        exit(GetHelloWorldText(Random(23)));
+        exit(GetHelloWorldText(Random(24)));
     end;
 }
