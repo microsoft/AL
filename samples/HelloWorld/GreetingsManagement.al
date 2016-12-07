@@ -39,6 +39,7 @@ codeunit 70051100 GreetingsManagement
             26: exit('Ballon script: Ⓗⓔⓛⓛⓞ Ⓦⓞⓡⓛⓓ!');
             27: exit('Braille: ⠠⠓⠑⠇⠇⠕ ⠠⠺⠕⠗⠇⠙⠖'); 
             28: exit('Español: Hola Mundo!');
+            29: exit('Turkish: Merhaba Dünya!');
         else
             exit('Hello, World'); // Default to the good old one.
         end;
