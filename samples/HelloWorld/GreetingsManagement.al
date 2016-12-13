@@ -40,6 +40,7 @@ codeunit 70051100 GreetingsManagement
             27: exit('Braille: ⠠⠓⠑⠇⠇⠕ ⠠⠺⠕⠗⠇⠙⠖'); 
             28: exit('Español: Hola Mundo!');
             29: exit('Albanian: Përshëndetje, Botë!');
+            30: exit('Turkish: Merhaba Dünya!');
         else
             exit('Hello, World'); // Default to the good old one.
         end;
@@ -49,6 +50,6 @@ codeunit 70051100 GreetingsManagement
     procedure GetRandomGreeting() : Text;
     begin
         Randomize;
-        exit(GetHelloWorldText(Random(30)));
+        exit(GetHelloWorldText(Random(31)));
     end;
 }
