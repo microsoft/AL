@@ -43,6 +43,7 @@ codeunit 70051100 GreetingsManagement
             30: exit('Turkish: Merhaba Dünya!');
             31: exit('Tamil: வணக்கம்');
             32: exit('Sinhalese: ආයුබෝවන්');
+            33: exit('Swahili: Salamu, Dunia);
         else
             exit('Hello, World'); // Default to the good old one.
         end;
@@ -52,6 +53,6 @@ codeunit 70051100 GreetingsManagement
     procedure GetRandomGreeting() : Text;
     begin
         Randomize;
-        exit(GetHelloWorldText(Random(33)));
+        exit(GetHelloWorldText(Random(34)));
     end;
 }
