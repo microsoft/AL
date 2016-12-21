@@ -32,6 +32,6 @@ codeunit 70051100 GreetingsManagement
     procedure GetRandomGreeting() : Text;
     begin
         Randomize;
-        exit(GetHelloWorldText(Random(18) - 1));  // Random(int) is 1-based
+        exit(GetHelloWorldText(Random(12)));
     end;
 }
