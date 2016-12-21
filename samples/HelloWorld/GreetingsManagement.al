@@ -22,7 +22,7 @@ codeunit 70051100 GreetingsManagement
             8:  exit('Japanese: ハローワールド'); 
             9:  exit('Danish: Hej verden');
             10: exit('Polish: Witaj świecie');
-            17: exit('Catalan: Hola món'); 
+            34: exit('Catalan: Hola món'); 
         else
             exit('Hello, World'); // Default to the good old one.
         end;
