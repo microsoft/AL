@@ -54,6 +54,6 @@ codeunit 70051100 GreetingsManagement
     procedure GetRandomGreeting() : Text;
     begin
         Randomize;
-        exit(GetHelloWorldText(Random(34)));
+        exit(GetHelloWorldText(Random(35)));
     end;
 }
