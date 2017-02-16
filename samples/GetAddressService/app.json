@@ -1,0 +1,20 @@
+{
+  "id": "7acaede4-b19b-46e3-9ab6-c8ba239bafd0",
+  "name": "Get Address Service",
+  "publisher": "Microsoft",
+  "brief": "",
+  "description": "",
+  "version": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "", 
+  "logo": "",
+  "capabilities": [],
+  "application": {
+    "version": "10.0.0.0",
+    "locale": "US"
+  },
+  "platform": "10.0.0.0",
+  "screenshots": []
+} 
