@@ -1,0 +1,262 @@
+{
+    "Snippet: Table": {
+        "prefix": "ttable",
+        "body": [
+            "table ${tableId:id} ${tableName:MyTable}",
+            "{",
+            "",
+            "\tfields",
+            "\t{",
+            "\t\tfield(1;${fieldName:MyField};${fieldType:Integer})",
+            "\t\t{",
+            "\t\t}",
+            "\t}",
+            "",
+            "\tkeys",
+            "\t{",
+            "\t\tkey(1;${keyName:PK};${fieldName:MyField})",
+            "\t\t{",
+            "\t\t\tClustered = true;",
+            "\t\t}",
+            "\t}",
+            "",
+            "\ttrigger OnInsert();",
+            "\tbegin",
+            "\tend;",
+            "",
+            "\ttrigger OnModify();",
+            "\tbegin",
+            "\tend;",
+            "",
+            "\ttrigger OnDelete();",
+            "\tbegin",
+            "\tend;",
+            "",
+            "\ttrigger OnRename();",
+            "\tbegin",
+            "\tend;",
+            "",
+            "}"
+        ],
+        "description": "Snippet: Table"
+    },
+    "Snippet: Page": {
+        "prefix": "tpage",
+        "body": [
+            "page ${pageId:Id} ${pageName:PageName}",
+            "{",
+            "\tPageType = ${pageType:Card};",
+            "\tSourceTable = ${tableName:TableName};",
+            "",
+            "\tlayout",
+            "\t{",
+            "\t\tarea(content)",
+            "\t\t{",
+            "\t\t\tgroup(${gropName:GroupName})",
+            "\t\t\t{",
+            "\t\t\t\tfield(${fieldName:Name};${fieldSource:NameSource})",
+            "\t\t\t\t{",
+            "\t\t\t\t\t",
+            "\t\t\t\t}",
+            "\t\t\t}",
+            "\t\t}",
+            "\t}",
+            "",
+            "\tactions",
+            "\t{",
+            "\t\tarea(${areaType:processing})",
+            "\t\t{",
+            "\t\t\taction(${actionName:ActionName})",
+            "\t\t\t{",
+            "\t\t\t\ttrigger OnAction();",
+            "\t\t\t\tbegin",
+            "\t\t\t\tend;",
+            "\t\t\t}",
+            "\t\t}",
+            "\t}",
+            "}"
+        ]
+    },
+    "Snippet: Codeunit": {
+        "prefix": "tcodeunit",
+        "body": [
+            "codeunit ${codeunitId:id} ${codeunitName:MyCodeunit} ",
+            "{",
+            "\ttrigger OnRun();",
+            "\tbegin",
+            "\tend;",
+            "}"
+        ],
+        "description": "Snippet: Codeunit"
+    },
+    "Snippet: Page Extension": {
+        "prefix": "tpageext",
+        "body": [
+            "pageextension ${extensionId:id} ${extensionName:MyExtension} extends ${target:MyTargetPage}",
+            "{",
+            "\tlayout",
+            "\t{",
+            "\t\t${layoutChanges:// Add changes to page layout here}",
+            "\t}",
+            "",
+            "\tactions",
+            "\t{",
+            "\t\t${actionsChanges:// Add changes to page actions here}",
+            "\t}",
+            "}"
+        ],
+        "description": "Snippet: Page Extension"
+    },
+    "Snippet: Table Extension": {
+        "prefix": "ttableext",
+        "body": [
+            "tableextension ${extensionId:id} ${extensionName:MyExtension} extends ${target:MyTargetTable}",
+            "{",
+            "\tfields",
+            "\t{",
+            "\t\t${tableFieldsChanges:// Add changes to table fields here}",
+            "\t}",
+            "}"
+        ]
+    },
+    "Snippet: Table Field": {
+        "prefix": "tfield",
+        "body": [
+            "field(${fieldId:id};${fieldName:MyField};${fieldType:Type})",
+            "{",
+            "\t${fieldPropertyName:FieldPropertyName} = ${fieldPropertyValue:FieldPropertyValue};",
+            "}"
+        ],
+        "description": "Snippet: Table Field"
+    },
+    "Snippet: Page Field": {
+        "prefix": "tfieldpage",
+        "body": [
+            "field(${fieldName:MyField};${fieldSource:Source})",
+            "{",
+            "\t${fieldPropertyName:FieldPropertyName} = ${fieldPropertyValue:FieldPropertyValue};",
+            "}"
+        ],
+        "description": "Snippet: Page Field"
+    },
+    "Snippet: Trigger": {
+        "prefix": "ttrigger",
+        "body": [
+            "trigger ${triggerName:OnWhat}(${triggerParameters:Parameters});",
+            "begin",
+            "\t${triggerStatement:}",
+            "end;"
+        ],
+        "description": "Snippet: Trigger"
+    },
+    "Snippet: Procedure": {
+        "prefix": "tprocedure",
+        "body": [
+            "procedure ${procedureName:MyProcedure}();",
+            "var",
+            "\t${varName:VariableName} : ${varType:VariableType};",
+            "begin",
+            "\t${procedureStatement:}",
+            "end;"
+        ],
+        "description": "Snippet: Procedure"
+    },
+    "Snippet: Assert Error": {
+        "prefix": "tassert",
+        "body": [
+            "assertError ${assertStatement:AssertStatement};",
+            "if ${getLastErrorText:getLastErrorText} <> ${errorText:ErrorText} then",
+            "\terror('${unexpectedErrorText:Unexpected error: %1}', ${whichError:getLastErrorText});"
+        ],
+        "description": "Snippet: Assert Error"
+    },
+    "Snippet: With Do": {
+        "prefix": "twithdo",
+        "body": [
+            "with ${recordName:RecordName} do begin",
+            "\t${withStatement:}",
+            "end;"
+        ],
+        "description": "Snippet: With Do"
+    },
+    "Snippet: If": {
+        "prefix": "tif",
+        "body": [
+            "if ${ifCondition:BooleanExpression} then begin",
+            "\t${ifStatement:}",
+            "end;"
+        ],
+        "description": "Snippet: If"
+    },
+    "Snippet: If Else": {
+        "prefix": "tifelse",
+        "body": [
+            "if ${ifCondition:BooleanExpression} then begin",
+            "\t${ifStatement:}",
+            "end else begin",
+            "\t${elseStatement:}",
+            "end;"
+        ],
+        "description": "Snippet: If Else"
+    },
+    "Snippet: Case Of": {
+        "prefix": "tcaseof",
+        "body": [
+            "case ${caseExpression:BoolExpression} of",
+            "\t${valueSet1:ExpressionOrRange}:",
+            "\t\t${statement1:}",
+            "\t${valueSet2:ExpressionOrRange}:",
+            "\t\t${statement2:}",
+            "end;"
+        ],
+        "description": "Snippet: Case Of"
+    },
+    "Snippet: Case Else": {
+        "prefix": "tcaseelse",
+        "body": [
+            "case ${caseExpression:BoolExpression} of",
+            "\t${valueSet1:ExpressionOrRange}:",
+            "\t\t${statement1:}",
+            "\t${valueSet2:ExpressionOrRange}:",
+            "\t\t${statement2:}",
+            "else",
+            "\t${statementN:}",
+            "end;"
+        ],
+        "description": "Snippet: Case Else"
+    },
+    "Snippet: For": {
+        "prefix": "tfor",
+        "body": [
+            "for ${controlVar:ControlVariable} := ${startNum:StartNumber} to ${endNum:EndNumber} do begin",
+            "\t${forStatement:}",
+            "end;"
+        ],
+        "description": "Snippet: For"
+    },
+    "Snippet: While": {
+        "prefix": "twhile",
+        "body": [
+            "while ${whileExpr:BooleanExpression} do begin",
+            "\t${whileStatement:}",
+            "end;"
+        ],
+        "description": "Snippet: While"
+    },
+    "Snippet: Repeat Until": {
+        "prefix": "trepeat",
+        "body": [
+            "repeat begin",
+            "\t${repeatStatement:}",
+            "end until ${boolExpr:BooleanExpression};"
+        ],
+        "description": "Snippet: Repeat Until"
+    },
+    "Snippet: Event Subscriber": {
+        "prefix": "teventsub",
+        "body": [
+            "[EventSubscriber(ObjectType::${ObjectType}, ${ObjectId}, '${OnSomeEvent}', '${ElementName}', ${SkipOnMissingLicense}, ${SkipOnMissingPermission})"
+        ],
+        "description": "Snippet: Event Subscriber"
+    }
+}
