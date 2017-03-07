@@ -258,5 +258,12 @@
             "[EventSubscriber(ObjectType::${ObjectType}, ${ObjectId}, '${OnSomeEvent}', '${ElementName}', ${SkipOnMissingLicense}, ${SkipOnMissingPermission})"
         ],
         "description": "Snippet: Event Subscriber"
+    },
+    "Snippet: Caption ML": {
+        "prefix": "tcaptionml",
+        "body": [
+            "CaptionML = ENU = \"\"",
+            "\t\t\t\tXYZ = \"\";"
+        ]
     }
 }
