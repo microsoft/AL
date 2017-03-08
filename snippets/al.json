@@ -262,8 +262,8 @@
     "Snippet: Caption ML": {
         "prefix": "tcaptionml",
         "body": [
-            "CaptionML = ENU = \"\",",
-            "\t\t\t\tXYZ = \"\";"
+            "CaptionML = ENU = '${englishText}',",
+            "\t\t\t${languageShortcut} = '${languageText}';"
         ]
     }
 }
