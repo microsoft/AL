@@ -276,5 +276,25 @@
             "\tend;",
             "}"
         ]
-    }
+    },
+    "Snippet: If Table Empty Else": {
+		"prefix": "tisemptyelse",
+		"body": [
+            "if ${Rec}.IsEmpty then begin",
+            "\t${ifStatement:}",
+            "end else begin",
+            "\t${elseStatement:}",
+            "end;"
+        ],
+        "description": "Snippet: If Table Empty Else"
+	},
+	"Snippet: If Table Empty": {
+		"prefix": "tisempty",
+		"body": [
+            "if ${Rec}.IsEmpty then begin",
+            "\t${ifStatement:}",
+            "end;"
+        ],
+        "description": "Snippet: If Table Empty"
+	}
 }
