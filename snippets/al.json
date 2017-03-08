@@ -265,5 +265,16 @@
             "CaptionML = ENU = '${englishText}',",
             "\t\t\t${languageShortcut} = '${languageText}';"
         ]
+    },
+    "Snippet: Action": {
+        "prefix": "taction",
+        "body": [
+            "action(${actionName:ActionName})",
+            "{",
+            "\ttrigger OnAction();",
+            "\tbegin",
+            "\tend;",
+            "}"
+        ]
     }
 }
