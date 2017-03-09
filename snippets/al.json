@@ -328,7 +328,7 @@
         "description": "Snippet: Table Field Date"
     },
 	"Snippet: Table Field DateFormula": {
-	"prefix": "tfieldcateformula",
+	"prefix": "tfielddateformula",
 	"body": [
 		"field(${fieldId:id};${fieldName:MyField};Dateformula)",
 		"{",
@@ -338,7 +338,7 @@
         "description": "Snippet: Table Field Dateformula"
     },
 	"Snippet: Table Field DateTime": {
-	"prefix": "tfieldcatetime",
+	"prefix": "tfielddatetime",
 	"body": [
 		"field(${fieldId:id};${fieldName:MyField};Datetime)",
 		"{",
