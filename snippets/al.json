@@ -277,7 +277,6 @@
             "}"
         ]
     },
-
     "Snippet: Table Field BLOB": {
 	"prefix": "tfieldblob",
 	"body": [
@@ -288,7 +287,6 @@
 	],
         "description": "Snippet: Table Field BLOB"
     },
-
 	"Snippet: Table Field BigInteger": {
 	"prefix": "tfieldbiginteger",
 	"body": [
@@ -299,7 +297,6 @@
 	],
         "description": "Snippet: Table Field BigInteger"
     },
-
 	"Snippet: Table Field Boolean": {
 	"prefix": "tfieldboolean",
 	"body": [
@@ -310,7 +307,6 @@
 	],
         "description": "Snippet: Table Field Boolean"
     },
-
 	"Snippet: Table Field Code": {
 	"prefix": "tfieldcode",
 	"body": [
@@ -321,7 +317,6 @@
 	],
         "description": "Snippet: Table Field Code"
     },
-
 	"Snippet: Table Field Date": {
 	"prefix": "tfielddate",
 	"body": [
@@ -332,7 +327,6 @@
 	],
         "description": "Snippet: Table Field Date"
     },
-
 	"Snippet: Table Field DateFormula": {
 	"prefix": "tfieldcateformula",
 	"body": [
@@ -343,8 +337,6 @@
 	],
         "description": "Snippet: Table Field Dateformula"
     },
-
-
 	"Snippet: Table Field DateTime": {
 	"prefix": "tfieldcatetime",
 	"body": [
@@ -355,7 +347,6 @@
 	],
         "description": "Snippet: Table Field Datetime"
     },
-
 	"Snippet: Table Field Decimal": {
 	"prefix": "tfielddecimal",
 	"body": [
@@ -366,7 +357,6 @@
 	],
         "description": "Snippet: Table Field Decimal"
     },
-
 	"Snippet: Table Field Duration": {
 	"prefix": "tfieldduration",
 	"body": [
@@ -377,7 +367,6 @@
 	],
         "description": "Snippet: Table Field Duration"
     },
-
 	"Snippet: Table Field GUID": {
 	"prefix": "tfieldguid",
 	"body": [
@@ -388,7 +377,6 @@
 	],
         "description": "Snippet: Table Field GUID"
     },
-
 	"Snippet: Table Field Integer": {
 	"prefix": "tfieldinteger",
 	"body": [
@@ -399,7 +387,6 @@
 	],
         "description": "Snippet: Table Field Integer"
     },
-
 	"Snippet: Table Field Option": {
 	"prefix": "tfieldoption",
 	"body": [
@@ -409,8 +396,7 @@
 		"}"
 	],
         "description": "Snippet: Table Field option"
-    },
-	
+    },	
 	"Snippet: Table Field RecordID": {
 	"prefix": "tfieldrecordid",
 	"body": [
@@ -421,7 +407,6 @@
 	],
         "description": "Snippet: Table Field RecordID"
     },
-
 	"Snippet: Table Field Text": {
 	"prefix": "tfieldtext",
 	"body": [
@@ -432,7 +417,6 @@
 	],
         "description": "Snippet: Table Field Text"
     },
-
 	"Snippet: Table Field Time": {
 	"prefix": "tfieldtime",
 	"body": [
