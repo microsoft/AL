@@ -276,5 +276,171 @@
             "\tend;",
             "}"
         ]
+    },
+
+    "Snippet: Table Field BLOB": {
+	"prefix": "tfieldblob",
+	"body": [
+		"field(${fieldId:id};${fieldName:MyField};Blob)",
+		"{",
+		"\t$0",
+		"}"
+	],
+        "description": "Snippet: Table Field BLOB"
+    },
+
+	"Snippet: Table Field BigInteger": {
+	"prefix": "tfieldbiginteger",
+	"body": [
+		"field(${fieldId:id};${fieldName:MyField};BigInteger)",
+		"{",
+		"\t$0",
+		"}"
+	],
+        "description": "Snippet: Table Field BigInteger"
+    },
+
+	"Snippet: Table Field Boolean": {
+	"prefix": "tfieldboolean",
+	"body": [
+		"field(${fieldId:id};${fieldName:MyField};Boolean)",
+		"{",
+		"\t$0",
+		"}"
+	],
+        "description": "Snippet: Table Field Boolean"
+    },
+
+	"Snippet: Table Field Code": {
+	"prefix": "tfieldcode",
+	"body": [
+		"field(${fieldId:id};${fieldName:MyField};Code[${field:Length}])",
+		"{",
+		"\t$0",
+		"}"
+	],
+        "description": "Snippet: Table Field Code"
+    },
+
+	"Snippet: Table Field Date": {
+	"prefix": "tfielddate",
+	"body": [
+		"field(${fieldId:id};${fieldName:MyField};Date)",
+		"{",
+		"\t$0",
+		"}"
+	],
+        "description": "Snippet: Table Field Date"
+    },
+
+	"Snippet: Table Field DateFormula": {
+	"prefix": "tfieldcateformula",
+	"body": [
+		"field(${fieldId:id};${fieldName:MyField};Dateformula)",
+		"{",
+		"\t$0",
+		"}"
+	],
+        "description": "Snippet: Table Field Dateformula"
+    },
+
+
+	"Snippet: Table Field DateTime": {
+	"prefix": "tfieldcatetime",
+	"body": [
+		"field(${fieldId:id};${fieldName:MyField};Datetime)",
+		"{",
+		"\t$0",
+		"}"
+	],
+        "description": "Snippet: Table Field Datetime"
+    },
+
+	"Snippet: Table Field Decimal": {
+	"prefix": "tfielddecimal",
+	"body": [
+		"field(${fieldId:id};${fieldName:MyField};Decimal)",
+		"{",
+		"\t$0",
+		"}"
+	],
+        "description": "Snippet: Table Field Decimal"
+    },
+
+	"Snippet: Table Field Duration": {
+	"prefix": "tfieldduration",
+	"body": [
+		"field(${fieldId:id};${fieldName:MyField};Duration)",
+		"{",
+		"\t$0",
+		"}"
+	],
+        "description": "Snippet: Table Field Duration"
+    },
+
+	"Snippet: Table Field GUID": {
+	"prefix": "tfieldguid",
+	"body": [
+		"field(${fieldId:id};${fieldName:MyField};GUID)",
+		"{",
+		"\t$0",
+		"}"
+	],
+        "description": "Snippet: Table Field GUID"
+    },
+
+	"Snippet: Table Field Integer": {
+	"prefix": "tfieldinteger",
+	"body": [
+		"field(${fieldId:id};${fieldName:MyField};Integer)",
+		"{",
+		"\t$0",
+		"}"
+	],
+        "description": "Snippet: Table Field Integer"
+    },
+
+	"Snippet: Table Field Option": {
+	"prefix": "tfieldoption",
+	"body": [
+		"field(${fieldId:id};${fieldName:MyField};Option)",
+		"{",
+		"\tOptionString = ${Optionstring:};",
+		"}"
+	],
+        "description": "Snippet: Table Field option"
+    },
+	
+	"Snippet: Table Field RecordID": {
+	"prefix": "tfieldrecordid",
+	"body": [
+		"field(${fieldId:id};${fieldName:MyField};RecordID)",
+		"{",
+		"\t$0",
+		"}"
+	],
+        "description": "Snippet: Table Field RecordID"
+    },
+
+	"Snippet: Table Field Text": {
+	"prefix": "tfieldtext",
+	"body": [
+		"field(${fieldId:id};${fieldName:MyField};Text[${field:Length}])",
+		"{",
+		"\t$0",
+		"}"
+	],
+        "description": "Snippet: Table Field Text"
+    },
+
+	"Snippet: Table Field Time": {
+	"prefix": "tfieldtime",
+	"body": [
+		"field(${fieldId:id};${fieldName:MyField};Time",
+		"{",
+		"\t$0",
+		"}"
+	],
+        "description": "Snippet: Table Field Time"
     }
 }
