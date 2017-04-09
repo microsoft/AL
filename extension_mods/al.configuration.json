@@ -1,0 +1,20 @@
+{
+	"comments": {
+		"lineComment": "//",
+		"blockComment": ["/*", "*/"]
+		// We cannot support colorizing a block comment since {} is also used as a BLOCK in defining metadata objects.
+		// And I am not sure it is possible to write a regex that would not color { and } when within a FIELDS, or KEYS etc, but would color when within code.
+		// "blockComment": [ "{", "}" ]
+	},
+	// Whatever we define here will be matched. But for now the editor is dumb. BEgin, ENd will not be matched for example. But we cannot write all 256 possibilities here.  
+	// More it would cause navigation pain.
+	// This is a bug in the VsCode editor.
+	"brackets": [
+		["{", "}"],
+		["[", "]"],
+		["(", ")"],
+		["BEGIN", "END;"],
+		["begin", "end;"],
+		["Begin", "End;"]
+	]
+}
