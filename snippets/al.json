@@ -295,7 +295,7 @@
     "Snippet: Event Subscriber": {
         "prefix": "teventsub",
         "body": [
-            "[EventSubscriber(ObjectType::${ObjectType}, ${ObjectId}, '${OnSomeEvent}', '${ElementName}', ${SkipOnMissingLicense}, ${SkipOnMissingPermission})"
+            "[EventSubscriber(ObjectType::${ObjectType}, ${ObjectId}, '${OnSomeEvent}', '${ElementName}', ${SkipOnMissingLicense}, ${SkipOnMissingPermission})]"
         ],
         "description": "Snippet: Event Subscriber"
     },
