@@ -21,7 +21,7 @@ table 70051000 Address
         }
         field(4;County;Text[30])
         {
-            Description = 'Conty retrieved by Service';
+            Description = 'County retrieved by Service';
         }
     }
     keys
