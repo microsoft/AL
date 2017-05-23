@@ -45,6 +45,7 @@ codeunit 70051100 GreetingsManagement
             32: exit('Sinhalese: ආයුබෝවන්');
             33: exit('Swahili: Salamu, Dunia');
             34: exit('Catalan: Hola món');
+            35: exit('Icelandic: Halló heimur');
         else
             exit('Hello, World'); // Default to the good old one.
         end;
@@ -54,6 +55,6 @@ codeunit 70051100 GreetingsManagement
     procedure GetRandomGreeting() : Text;
     begin
         Randomize;
-        exit(GetHelloWorldText(Random(35)));
+        exit(GetHelloWorldText(Random(36)));
     end;
 }
