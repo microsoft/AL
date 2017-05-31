@@ -303,7 +303,7 @@
         "prefix": "teventint",
         "body": [
             "[Integration(${includeSender:false},${globalVarAccess:false})]",
-            "procedure ${procedureName:MyProcedure}();",
+            "local procedure ${procedureName:MyProcedure}();",
             "begin",
             "end;"
         ],
@@ -313,7 +313,7 @@
         "prefix": "teventbus",
         "body": [
             "[Business(${includeSender:false})]",
-            "procedure ${procedureName:MyProcedure}();",
+            "local procedure ${procedureName:MyProcedure}();",
             "begin",
             "end;"
         ],
