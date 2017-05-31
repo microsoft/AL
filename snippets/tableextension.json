@@ -1,0 +1,17 @@
+{
+    "Snippet: Table Extension": {
+        "prefix": "ttableext",
+        "body": [
+            "tableextension ${1:id} ${2:MyExtension} extends ${3:MyTargetTable}",
+            "{",
+            "\tfields",
+            "\t{",
+            "\t\t${4:// Add changes to table fields here}",
+            "\t}",
+            "\t",
+            "\tvar",
+            "\t\t${5:myInt : Integer;}",
+            "}"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "Snippet: Page Extension": {
+        "prefix": "tpageext",
+        "body": [
+            "pageextension ${1:id} ${2:MyExtension} extends ${3:MyTargetPage}",
+            "{",
+            "\tlayout",
+            "\t{",
+            "\t\t${5:// Add changes to page layout here}",
+            "\t}",
+            "",
+            "\tactions",
+            "\t{",
+            "\t\t${6:// Add changes to page actions here}",
+            "\t}",
+            "\t",
+            "\tvar",
+            "\t\t${7:myInt : Integer;}",
+            "}"
+        ],
+        "description": "Snippet: Page Extension"
+    }
+}
