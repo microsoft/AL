@@ -299,6 +299,26 @@
         ],
         "description": "Snippet: Event Subscriber"
     },
+    "Snippet: Integration Event": {
+        "prefix": "teventint",
+        "body": [
+            "[Integration(${IncludeSender},${GlobalVarAccess})]",
+            "local procedure ${procedureName:MyProcedure}();",
+            "begin",
+            "end;"
+        ],
+        "description": "Snippet: Integration Event"
+    },
+	"Snippet: Business Event": {
+        "prefix": "teventbus",
+        "body": [
+            "[Business(${IncludeSender})]",
+            "local procedure ${procedureName:MyProcedure}();",
+            "begin",
+            "end;"
+        ],
+        "description": "Snippet: Business Event"
+    },
     "Snippet: Caption ML": {
         "prefix": "tcaptionml",
         "body": [
