@@ -18,8 +18,6 @@ For documentation about extending Dynamics NAV, see our topics on MSDN:
 •	[Developer Reference](https://msdn.microsoft.com/en-us/dynamics-nav/newdev-getting-started-dev-env)  
 --> 
 
-This project has adopted the Microsoft Open Source Code of Conduct. For more information see the Code of Conduct FAQ or contact __opencode@microsoft.com__ with any additional questions or comments. 
-
 ## Get the preview
 
 To deploy code built using the new extension you need a NAV Developer Preview Azure Gallery image available at [Azure](https://aka.ms/navdeveloperpreview).
@@ -33,3 +31,5 @@ Get started by cloning one of the sample projects from this repo, open the folde
 __We're still in preview, so you might bump into bugs. We're sorry about that, but we're working as fast as we can to fix them.__
 
 If you find a bug please report it [here](https://github.com/Microsoft/AL/issues/new) on GitHub
+
+This project has adopted the Microsoft Open Source Code of Conduct. For more information see the Code of Conduct FAQ or contact __opencode@microsoft.com__ with any additional questions or comments.
