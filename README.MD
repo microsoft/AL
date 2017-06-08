@@ -32,4 +32,4 @@ __We're still in preview, so you might bump into bugs. We're sorry about that, b
 
 If you find a bug please report it [here](https://github.com/Microsoft/AL/issues/new) on GitHub
 
-This project has adopted the Microsoft Open Source Code of Conduct. For more information see the Code of Conduct FAQ or contact __opencode@microsoft.com__ with any additional questions or comments.
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact __opencode@microsoft.com__ with any additional questions or comments.
