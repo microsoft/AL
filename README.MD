@@ -6,7 +6,7 @@
 
 ## Welcome to the code sample repo for developing extensions to Dynamics NAV.
 
-This repo contains AL language code samples for developing extensions on the Dynamics NAV platform. We're not yet in preview, so this repo is meant as a way for you to get familiar with the new syntax and provide feedback.
+This repo contains AL language code samples for developing extensions on the Dynamics NAV platform. We are currently in the preview and the new developer experience is not yet intended for the productive use, so this repo is meant as a way for you to get familiar with the new syntax and provide feedback.
 
 <!--
 We're still in preview, so you might bump into bugs. We're sorry about that, but we're working as fast as we can to fix them. -->
