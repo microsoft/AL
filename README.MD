@@ -1,4 +1,4 @@
-
+﻿
 # AL code samples for Dynamics NAV
 [![current version 0.4.9309](https://img.shields.io/badge/Current_Version-0.4.9309-orange.svg?style=flat-square)](https://aka.ms/navdeveloperpreview) [![status development](https://img.shields.io/badge/Status-in_development-orange.svg?style=flat-square)](https://aka.ms/navdeveloperpreview) [![next update june](https://img.shields.io/badge/Next_Update-June_Update-blue.svg?style=flat-square)](https://github.com/Microsoft/AL/milestone/6)
 
@@ -6,7 +6,7 @@
 
 ## Welcome to the code sample repo for developing extensions to Dynamics NAV.
 
-This repo contains AL language code samples for developing extensions on the Dynamics NAV platform. We are currently in the preview and the new developer experience is not yet intended for the productive use, so this repo is meant as a way for you to get familiar with the new syntax and provide feedback.
+This repo contains AL language code samples for developing extensions on the Dynamics NAV platform. We are currently in the preview and the new developer experience is not yet intended for the production use, so this repo is meant as a way for you to get familiar with the new tools and provide feedback.
 
 <!--
 We're still in preview, so you might bump into bugs. We're sorry about that, but we're working as fast as we can to fix them. -->
