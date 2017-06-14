@@ -148,6 +148,13 @@
             "\t\t\t${2:languageShortcut} = '${3:languageText}';"
         ]
     },
+    "Snippet: Option Caption ML": {
+        "prefix": "toptioncaptionml",
+        "body": [
+            "OptionCaptionML = ENU = '${1:englishText}',",
+            "\t\t\t${2:languageShortcut} = '${3:languageText}';"
+        ]
+    },
     "Snippet: If Table Empty Else": {
         "prefix": "tisemptyelse",
         "body": [
