@@ -5,10 +5,8 @@
             "type": "al",
             "request": "publish",
             "name": "Publish",
-            "projectRoot": "${workspaceRoot}",
-            "packageFileName": "${command:resolvePackageFileName}",                                                                        
             "server": "http://localhost",
-            "serverInstance": "navision_main",                
+            "serverInstance": "navision_main",
             "windowsAuthentication": true
         }
     ]
