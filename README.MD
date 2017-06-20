@@ -1,6 +1,6 @@
 ﻿
 # AL code samples for Dynamics NAV
-[![current version 0.4.9309](https://img.shields.io/badge/Current_Version-0.4.9309-orange.svg?style=flat-square)](https://aka.ms/navdeveloperpreview) [![status development](https://img.shields.io/badge/Status-in_development-orange.svg?style=flat-square)](https://aka.ms/navdeveloperpreview) [![next update june](https://img.shields.io/badge/Next_Update-June_Update-blue.svg?style=flat-square)](https://github.com/Microsoft/AL/milestone/6)
+[![current version 0.5.10633](https://img.shields.io/badge/Current_Version-0.5.10633-orange.svg?style=flat-square)](https://aka.ms/navdeveloperpreview) [![status development](https://img.shields.io/badge/Status-in_development-orange.svg?style=flat-square)](https://aka.ms/navdeveloperpreview) [![next update june](https://img.shields.io/badge/Next_Update-July_Update-blue.svg?style=flat-square)](https://github.com/Microsoft/AL/milestone/7)
 
 ---
 
