@@ -124,7 +124,7 @@
     "Snippet: Integration Event": {
         "prefix": "teventint",
         "body": [
-            "[Integration(${1:IncludeSender},${2:GlobalVarAccess})]",
+            "[IntegrationEvent(${1:IncludeSender},${2:GlobalVarAccess})]",
             "local procedure ${3:MyProcedure}();",
             "begin",
             "end;"
@@ -134,7 +134,7 @@
     "Snippet: Business Event": {
         "prefix": "teventbus",
         "body": [
-            "[Business(${1:IncludeSender})]",
+            "[BusinessEvent(${1:IncludeSender})]",
             "local procedure ${2:MyProcedure}();",
             "begin",
             "end;"
