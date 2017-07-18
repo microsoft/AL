@@ -6,7 +6,7 @@
             "var",
             "\t${2:myInt : Integer;}",
             "begin",
-            "\t${3:}",
+            "\t${3}",
             "end;"
         ],
         "description": "Snippet: Trigger"
@@ -18,7 +18,7 @@
             "var",
             "\t${2:myInt : Integer;}",
             "begin",
-            "\t${3:}",
+            "\t${3}",
             "end;"
         ],
         "description": "Snippet: Procedure"
@@ -36,7 +36,7 @@
         "prefix": "twithdo",
         "body": [
             "with ${1:RecordName} do begin",
-            "\t${2:}",
+            "\t${2}",
             "end;"
         ],
         "description": "Snippet: With Do"
@@ -54,9 +54,9 @@
         "prefix": "tifelse",
         "body": [
             "if ${1:BooleanExpression} then begin",
-            "\t${2:}",
+            "\t${2}",
             "end else begin",
-            "\t${3:}",
+            "\t${3}",
             "end;"
         ],
         "description": "Snippet: If Else"
@@ -66,9 +66,9 @@
         "body": [
             "case ${1:BoolExpression} of",
             "\t${2:ExpressionOrRange}:",
-            "\t\t${3:}",
+            "\t\t${3}",
             "\t${4:ExpressionOrRange}:",
-            "\t\t${5:}",
+            "\t\t${5}",
             "end;"
         ],
         "description": "Snippet: Case Of"
@@ -78,11 +78,11 @@
         "body": [
             "case ${1:BoolExpression} of",
             "\t${2:ExpressionOrRange}:",
-            "\t\t${3:}",
+            "\t\t${3}",
             "\t${4:ExpressionOrRange}:",
-            "\t\t${5:}",
+            "\t\t${5}",
             "else",
-            "\t${6:}",
+            "\t${6}",
             "end;"
         ],
         "description": "Snippet: Case Else"
@@ -91,7 +91,7 @@
         "prefix": "tfor",
         "body": [
             "for ${1:ControlVariable} := ${2:StartNumber} to ${3:EndNumber} do begin",
-            "\t${4:}",
+            "\t${4}",
             "end;"
         ],
         "description": "Snippet: For"
@@ -100,7 +100,7 @@
         "prefix": "twhile",
         "body": [
             "while ${1:BooleanExpression} do begin",
-            "\t${2:}",
+            "\t${2}",
             "end;"
         ],
         "description": "Snippet: While"
@@ -109,7 +109,7 @@
         "prefix": "trepeat",
         "body": [
             "repeat begin",
-            "\t${1:}",
+            "\t${1}",
             "end until ${2:BooleanExpression};"
         ],
         "description": "Snippet: Repeat Until"
@@ -159,9 +159,9 @@
         "prefix": "tisemptyelse",
         "body": [
             "if ${1:Rec}.IsEmpty then begin",
-            "\t${2:}",
+            "\t${2}",
             "end else begin",
-            "\t${3:}",
+            "\t${3}",
             "end;"
         ],
         "description": "Snippet: If Table Empty Else"
@@ -170,7 +170,7 @@
         "prefix": "tisempty",
         "body": [
             "if ${1}.IsEmpty then begin",
-            "\t${2:}",
+            "\t${2}",
             "end;"
         ],
         "description": "Snippet: If Table Empty"

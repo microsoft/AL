@@ -13,7 +13,7 @@
             "\t\t{",
             "\t\t\tgroup(${5:GroupName})",
             "\t\t\t{",
-            "\t\t\t\tfield(${6:Name};${7:})",
+            "\t\t\t\tfield(${6:Name};${7})",
             "\t\t\t\t{",
             "\t\t\t\t\t",
             "\t\t\t\t}",
@@ -42,7 +42,7 @@
     "Snippet: Page Field": {
         "prefix": "tfieldpage",
         "body": [
-            "field(${1:MyField};${2:})",
+            "field(${1:MyField};${2})",
             "{",
             "\t${3:FieldPropertyName} = ${4:FieldPropertyValue};",
             "}"
