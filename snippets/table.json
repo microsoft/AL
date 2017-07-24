@@ -168,7 +168,7 @@
         "body": [
             "field(${1:id};${2:MyField};Option)",
             "{",
-            "\tOptionString = ${3};",
+            "\tOptionMembers = ${3};",
             "}"
         ],
         "description": "Snippet: Table Field option"
