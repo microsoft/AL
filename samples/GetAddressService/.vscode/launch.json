@@ -6,8 +6,8 @@
             "request": "publish",
             "name": "Publish",
             "server": "http://localhost",
-            "serverInstance": "navision_main",
-            "windowsAuthentication": true
+            "serverInstance": "us",
+            "authentication": "Windows"
         }
     ]
 }
