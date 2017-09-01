@@ -20,10 +20,10 @@ page 70051003 Addresses
         {
             repeater(General)
             {
-                field(Address;Address) {}
-                field(Locality;Locality) {}
-                field("Town/City";"Town/City") {}
-                field(County;County) {}
+                field(Address;Address) { ApplicationArea = All; }
+                field(Locality;Locality) { ApplicationArea = All; }
+                field("Town/City";"Town/City") { ApplicationArea = All; }
+                field(County;County) { ApplicationArea = All; }
             }
         }
     }

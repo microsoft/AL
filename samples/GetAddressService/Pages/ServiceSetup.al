@@ -18,8 +18,8 @@ page 70051004 "Service Setup"
         {
             group(General)
             {
-                field("Service URL";"Service URL") {}
-                field("API Key";"API Key") {}
+                field("Service URL";"Service URL") { ApplicationArea = All; }
+                field("API Key";"API Key") { ApplicationArea = All; }
             }
         }
     }

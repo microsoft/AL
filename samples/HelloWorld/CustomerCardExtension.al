@@ -22,6 +22,7 @@ pageextension 70000021 CustomerCardExtension extends "Customer Card"
                 Image = CheckDuplicates;
                 PromotedCategory = Category8;
                 Promoted = true;
+                ApplicationArea = All; 
             }
         }
     }    
