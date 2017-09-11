@@ -24,7 +24,7 @@ table 70051001 "Service Connection Setup"
     }
     keys
     {
-        key(1;PrimaryKey;"Primary Key")
+        key(PrimaryKey;"Primary Key")
         {
             Clustered = true;
         }

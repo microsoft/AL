@@ -26,7 +26,7 @@ table 70051000 Address
     }
     keys
     {
-        key(1;PrimaryKey;Address)
+        key(PrimaryKey;Address)
         {
             Clustered = true;
         }
