@@ -1,6 +1,6 @@
 ﻿
 # AL code samples for Dynamics NAV
-[![current version 0.9.12794](https://img.shields.io/badge/Current_Version-0.9.12794-orange.svg?style=flat-square)](https://aka.ms/navdeveloperpreview) [![status development](https://img.shields.io/badge/Status-in_development-orange.svg?style=flat-square)](https://aka.ms/navdeveloperpreview) [![next update October](https://img.shields.io/badge/Next_Update-October_Update-blue.svg?style=flat-square)](https://github.com/Microsoft/AL/milestone/10)
+[![current version 0.10.13928](https://img.shields.io/badge/Current_Version-0.10.13928-orange.svg?style=flat-square)](https://github.com/Microsoft/AL/milestone/10) [![status development](https://img.shields.io/badge/Status-in_development-orange.svg?style=flat-square)](https://aka.ms/navdeveloperpreview) [![next update November](https://img.shields.io/badge/Next_Update-November_Update-blue.svg?style=flat-square)](https://github.com/Microsoft/AL/milestone/11)
 
 ---
 
@@ -25,6 +25,10 @@ To deploy code built using the new extension you need a NAV Developer Preview Az
 ## Get started
 
 Get started by cloning one of the sample projects from this repo, open the folder in [Visual Studio Code](https://code.visualstudio.com/Download), and you’re ready to compile, publish, and run.
+
+## FAQ
+
+Our answers to frequently asked questions can be found in our [Wiki](https://github.com/Microsoft/AL/wiki/Frequently-Asked-Questions).
 
 ## Notice
 
