@@ -202,5 +202,15 @@
             "}"
         ],
         "description": "Snippet: Table Field Time"
+    },
+    "Snippet: Table Key": {
+        "prefix": "tkey",
+        "body": [
+            "key(${1:MyKey};${2:MyField})",
+            "{",
+            "\t$0",
+            "}"
+        ],
+        "description": "Snippet: Table Key"
     }
 }
