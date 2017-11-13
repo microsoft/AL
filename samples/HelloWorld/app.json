@@ -11,10 +11,7 @@
   "url": "",
   "logo": "",
   "capabilities": [],
-  "platform": "10.0.0.0",
-  "application": {
-    "version": "10.0.0.0",
-    "locale": "US"
-  },
+  "platform": "11.0.0.0",
+  "application": "11.0.0.0",
   "screenshots": []
 }

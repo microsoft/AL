@@ -11,10 +11,11 @@
   "url": "", 
   "logo": "",
   "capabilities": [],
-  "application": {
-    "version": "10.0.0.0",
-    "locale": "US"
-  },
-  "platform": "10.0.0.0",
-  "screenshots": []
+  "application": "11.0.0.0",
+  "platform": "11.0.0.0",
+  "screenshots": [],
+  "idRange": {
+    "from": 50100,
+    "to": 50149
+  }
 } 
