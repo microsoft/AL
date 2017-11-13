@@ -3,7 +3,7 @@
 // Licensed under the MIT License. See License.txt in the project root for license information.
 // ------------------------------------------------------------------------------------------------
 
-page 70051003 Addresses
+page 50103 Addresses
 {
     PageType = List;
     SourceTable = Address;

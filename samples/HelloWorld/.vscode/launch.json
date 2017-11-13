@@ -5,9 +5,9 @@
             "type": "al",
             "request": "launch",
             "name": "Publish",
-            "server": "http://localhost",
-            "serverInstance": "us",
-            "authentication": "Windows"
+            "server": "https://<vmname>.<azureregion>.cloudapp.azure.com",
+            "serverInstance": "NAV",
+            "authentication": "UserPassword"
         }
     ]
 }

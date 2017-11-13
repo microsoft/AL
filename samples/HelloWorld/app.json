@@ -13,5 +13,9 @@
   "capabilities": [],
   "platform": "11.0.0.0",
   "application": "11.0.0.0",
-  "screenshots": []
+  "screenshots": [],
+  "idRange": {
+    "from": 50100,
+    "to": 50149
+  }
 }

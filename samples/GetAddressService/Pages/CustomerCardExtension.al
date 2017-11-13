@@ -3,7 +3,7 @@
 // Licensed under the MIT License. See License.txt in the project root for license information.
 // ------------------------------------------------------------------------------------------------
 
-pageextension 70000021 CustomerCardExtension extends "Customer Card"
+pageextension 50121 CustomerCardExtension extends "Customer Card"
 {
     layout
     {

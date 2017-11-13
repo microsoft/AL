@@ -3,7 +3,7 @@
 // Licensed under the MIT License. See License.txt in the project root for license information.
 // ------------------------------------------------------------------------------------------------
 
-page 70051004 "Service Setup"
+page 50104 "Service Setup"
 {
     PageType = Card;
     SourceTable = "Service Connection Setup"; 

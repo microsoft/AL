@@ -3,7 +3,7 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-codeunit 70051002 "Address Service"
+codeunit 50102 "Address Service"
 {
     var
         AddressesWhereFoundMsg : TextConst ENU='Would you like to look for addresses on this post code online?';
