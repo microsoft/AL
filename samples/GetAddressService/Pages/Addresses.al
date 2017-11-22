@@ -14,16 +14,28 @@ page 50103 Addresses
     ShowFilter = False;
     LinksAllowed = False;
 
+    Caption = 'Addresses';
+
     layout
     {
         area(Content)
         {
             repeater(General)
             {
-                field(Address;Address) { ApplicationArea = All; }
-                field(Locality;Locality) { ApplicationArea = All; }
-                field("Town/City";"Town/City") { ApplicationArea = All; }
-                field(County;County) { ApplicationArea = All; }
+                Caption = 'General';
+
+                field(Address;Address) { 
+                    Caption = 'Address';
+                    ApplicationArea = All; }
+                field(Locality;Locality) { 
+                    Caption = 'Locality';
+                    ApplicationArea = All; }
+                field("Town/City";"Town/City") { 
+                    Caption = 'Town/City';
+                    ApplicationArea = All; }
+                field(County;County) { 
+                    Caption = 'Country';
+                    ApplicationArea = All; }
             }
         }
     }

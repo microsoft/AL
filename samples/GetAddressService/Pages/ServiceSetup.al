@@ -12,14 +12,22 @@ page 50104 "Service Setup"
     ShowFilter = False;
     LinksAllowed = False;
 
+    Caption = 'Service Setup';
+
     layout
     {
         area(Content)
         {
             group(General)
             {
-                field("Service URL";"Service URL") { ApplicationArea = All; }
-                field("API Key";"API Key") { ApplicationArea = All; }
+                Caption = 'General';
+
+                field("Service URL";"Service URL") { 
+                    Caption = 'Serivce URL';
+                    ApplicationArea = All; }
+                field("API Key";"API Key") { 
+                    Caption = 'API Key';
+                    ApplicationArea = All; }
             }
         }
     }
