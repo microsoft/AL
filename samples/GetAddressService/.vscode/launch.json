@@ -5,8 +5,7 @@
             "type": "al",
             "request": "launch",
             "name": "Publish",
-            // "server": "https://<vmname>.<azureregion>.cloudapp.azure.com",
-            "server": "https://newnavexp.westeurope.cloudapp.azure.com",
+            "server": "https://<vmname>.<azureregion>.cloudapp.azure.com",
             "serverInstance": "NAV",
             "authentication": "UserPassword"
         }
