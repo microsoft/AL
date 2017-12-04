@@ -1,26 +1,30 @@
 ﻿
 # AL code samples for Dynamics NAV
-[![current version 0.11.14434](https://img.shields.io/badge/Current_Version-0.11.14434-orange.svg?style=flat-square)](https://github.com/Microsoft/AL/milestone/11) [![status development](https://img.shields.io/badge/Status-in_development-orange.svg?style=flat-square)](https://aka.ms/navdeveloperpreview) [![next update December](https://img.shields.io/badge/Next_Update-December_Update-blue.svg?style=flat-square)](https://github.com/Microsoft/AL/milestone/12)
+ [![Released version](https://img.shields.io/badge/Release_version-0.12.15355-green.svg?style=flat-square)](https://aka.ms/navdeveloperpreview) [![current preview version 0.11.14434](https://img.shields.io/badge/Current_Preview_Version-0.11.14434-orange.svg?style=flat-square)](https://github.com/Microsoft/AL/milestone/11) [![next preview update December](https://img.shields.io/badge/Next_Preview_Update-December_Update-blue.svg?style=flat-square)](https://github.com/Microsoft/AL/milestone/12)
 
 ---
 
 ## Welcome to the code sample repo for developing extensions to Dynamics NAV.
 
-This repo contains AL language code samples for developing extensions on the Dynamics NAV platform. We are currently in the preview and the new developer experience is not yet intended for production use, so this repo is meant as a way for you to get familiar with the new tools and provide feedback.
+This repo contains AL language code samples for developing extensions on the Dynamics NAV platform. This repo is meant as a way for you to get familiar with the new tools and provide feedback.
 
 <!--
 We're still in preview, so you might bump into bugs. We're sorry about that, but we're working as fast as we can to fix them. -->
 
-<!-- not live yet
-For documentation about extending Dynamics NAV, see our topics on MSDN:  
-•	[Getting Started](https://msdn.microsoft.com/en-us/dynamics-nav/newdev-getting-started-dev-env)   
-•	[Developing Extensions for Dynamics NAV Overview](https://msdn.microsoft.com/en-us/dynamics-nav/newdev-getting-started-dev-env)  
-•	[Developer Reference](https://msdn.microsoft.com/en-us/dynamics-nav/newdev-getting-started-dev-env)  
---> 
 
-## Get the preview
+For documentation about extending Dynamics NAV, see our topics on Docs:  
+•	[Getting Started](https://docs.microsoft.com/en-us/dynamics-nav/developer/devenv-get-started)   
+•	[Building Your First Sample Extension](https://docs.microsoft.com/en-us/dynamics-nav/developer/devenv-extension-example)  
+•	[Developer Reference](https://docs.microsoft.com/en-us/dynamics-nav/)  
 
-To deploy code built using the new extension you need a NAV Developer Preview Azure Gallery image available at [Azure](https://aka.ms/navdeveloperpreview).
+
+## Get the New Developer Experience
+
+To deploy code created with the new extension, you must have at least Dynamics NAV 2018.
+
+You want to develop for the currently released version get the NAV 2018 from [Partner Source](https://mbs.microsoft.com/partnersource/global/deployment/downloads/product-releases/msdnav2018download).
+
+You want to develop for future versions? Get the preview from [Azure](https://aka.ms/navdeveloperpreview).
 
 ## Get started
 
@@ -32,7 +36,7 @@ Our answers to frequently asked questions can be found in our [Wiki](https://git
 
 ## Notice
 
-__We're still in preview, so you might bump into bugs. We're sorry about that, but we're working as fast as we can to fix them.__
+<!-- __We're still in preview, so you might bump into bugs. We're sorry about that, but we're working as fast as we can to fix them.__ -->
 
 If you find a bug please report it [here](https://github.com/Microsoft/AL/issues/new) on GitHub
 
