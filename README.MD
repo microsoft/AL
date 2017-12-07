@@ -1,6 +1,6 @@
 ﻿
 # AL code samples for Dynamics NAV
- [![Released version](https://img.shields.io/badge/Release_version-0.12.15355-green.svg?style=flat-square)](https://aka.ms/navdeveloperpreview) [![current preview version 0.11.14434](https://img.shields.io/badge/Current_Preview_Version-0.11.14434-orange.svg?style=flat-square)](https://github.com/Microsoft/AL/milestone/11) [![next preview update December](https://img.shields.io/badge/Next_Preview_Update-December_Update-blue.svg?style=flat-square)](https://github.com/Microsoft/AL/milestone/12)
+ [![Released version](https://img.shields.io/badge/Release_version-0.12.15355-green.svg?style=flat-square)](https://mbs.microsoft.com/partnersource/global/deployment/downloads/product-releases/msdnav2018download) [![current preview version 0.12.15359](https://img.shields.io/badge/Current_Preview_Version-0.12.15359-orange.svg?style=flat-square)](https://github.com/Microsoft/AL/milestone/12) [![next preview update January](https://img.shields.io/badge/Next_Preview_Update-January_Update-blue.svg?style=flat-square)](https://github.com/Microsoft/AL/milestone/13)
 
 ---
 
