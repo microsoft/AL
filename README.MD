@@ -24,7 +24,7 @@ To deploy code created with the new extension, you must have at least Dynamics N
 
 You want to develop for the currently released version get the NAV 2018 from [Partner Source](https://mbs.microsoft.com/partnersource/global/deployment/downloads/product-releases/msdnav2018download).
 
-You want to develop for future versions? Get the preview from [Azure](https://aka.ms/navdeveloperpreview).
+You want to develop for future versions? Get the preview on [Azure](https://aka.ms/navdeveloperpreview).
 
 ## Get started
 
