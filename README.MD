@@ -8,8 +8,7 @@
 ## Welcome to the repo for developing extensions for Dynamics 365 "Tenerife"
 The main purpose of this repo is to track issues for the latest development environment for Dynamics 365 "Tenerife". In addition, you will find code samples to help you get started writing extensions in AL and get familiar with the new tools. Your feedback is very welcome, submit it directly in this repo.
 
-> [!NOTE]  
-> For issues related to Dynamics NAV, please use the support channel.
+**Note** that for issues related to Dynamics NAV, please use the support channel.
 
 For documentation about extending Dynamics 365 "Tenerife", get started with some of our topics on Docs: 
 
