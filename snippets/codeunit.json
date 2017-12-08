@@ -1,0 +1,17 @@
+{
+    "Snippet: Codeunit": {
+        "prefix": "tcodeunit",
+        "body": [
+            "codeunit ${1:id} ${2:MyCodeunit}",
+            "{",
+            "\ttrigger OnRun();",
+            "\tbegin",
+            "\tend;",
+            "\t",
+            "\tvar",
+            "\t\t${3:myInt : Integer;}",
+            "}"
+        ],
+        "description": "Snippet: Codeunit"
+    }
+}

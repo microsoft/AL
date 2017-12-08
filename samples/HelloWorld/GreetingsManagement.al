@@ -1,10 +1,10 @@
-// ------------------------------------------------------------------------------------------------
+﻿// ------------------------------------------------------------------------------------------------
 // Copyright (c) Microsoft Corporation. All rights reserved. 
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
 // Codeunit for creating random greetings
-codeunit 70051100 GreetingsManagement
+codeunit 50110 GreetingsManagement
 {
     // Get a translated 'Hello World' string.
     // Thanks to https://www.bing.com/translator/
@@ -44,6 +44,9 @@ codeunit 70051100 GreetingsManagement
             31: exit('Tamil: வணக்கம்');
             32: exit('Sinhalese: ආයුබෝවන්');
             33: exit('Swahili: Salamu, Dunia');
+            34: exit('Catalan: Hola món');
+            35: exit('Icelandic: Halló heimur');
+            36: exit('Gaeilge: Dia duit an domhan');
         else
             exit('Hello, World'); // Default to the good old one.
         end;
@@ -53,6 +56,6 @@ codeunit 70051100 GreetingsManagement
     procedure GetRandomGreeting() : Text;
     begin
         Randomize;
-        exit(GetHelloWorldText(Random(34)));
+        exit(GetHelloWorldText(Random(37)));
     end;
 }

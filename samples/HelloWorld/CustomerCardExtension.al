@@ -3,7 +3,7 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-pageextension 70000021 CustomerCardExtension extends "Customer Card"
+pageextension 50112 CustomerCardExtension extends "Customer Card"
 {
 
     layout
@@ -22,6 +22,7 @@ pageextension 70000021 CustomerCardExtension extends "Customer Card"
                 Image = CheckDuplicates;
                 PromotedCategory = Category8;
                 Promoted = true;
+                ApplicationArea = All; 
             }
         }
     }    

@@ -1,0 +1,103 @@
+{
+    "Page of type card": {
+        "prefix": "tpage",
+        "body": [
+            "page ${1:Id} ${2:PageName}",
+            "{",
+            "\tPageType = ${3:Card};",
+            "\tSourceTable = ${4:TableName};",
+            "",
+            "\tlayout",
+            "\t{",
+            "\t\tarea(content)",
+            "\t\t{",
+            "\t\t\tgroup(${5:GroupName})",
+            "\t\t\t{",
+            "\t\t\t\tfield(${6:Name};${7})",
+            "\t\t\t\t{",
+            "\t\t\t\t\t",
+            "\t\t\t\t}",
+            "\t\t\t}",
+            "\t\t}",
+            "\t}",
+            "",
+            "\tactions",
+            "\t{",
+            "\t\tarea(${8:processing})",
+            "\t\t{",
+            "\t\t\taction(${9:ActionName})",
+            "\t\t\t{",
+            "\t\t\t\ttrigger OnAction();",
+            "\t\t\t\tbegin",
+            "\t\t\t\tend;",
+            "\t\t\t}",
+            "\t\t}",
+            "\t}",
+            "\t",
+            "\tvar",
+            "\t\t${10:myInt : Integer;}",
+            "}"
+        ]
+    },
+    "Snippet: Page Field": {
+        "prefix": "tfieldpage",
+        "body": [
+            "field(${1:MyField};${2})",
+            "{",
+            "\t${3:FieldPropertyName} = ${4:FieldPropertyValue};",
+            "}"
+        ],
+        "description": "Snippet: Page Field"
+    },
+    "Snippet: Action": {
+        "prefix": "taction",
+        "body": [
+            "action(${1:ActionName})",
+            "{",
+            "\ttrigger OnAction();",
+            "\tbegin",
+            "\tend;",
+            "}"
+        ]
+    },
+    "Page of type list": {
+        "prefix": "tpage",
+        "body": [
+            "page ${1:Id} ${2:PageName}",
+            "{",
+            "\tPageType = ${3:List};",
+            "\tSourceTable = ${4:TableName};",
+            "",
+            "\tlayout",
+            "\t{",
+            "\t\tarea(content)",
+            "\t\t{",
+            "\t\t\trepeater(${5:Group})",
+            "\t\t\t{",
+            "\t\t\t\tfield(${6:Name};${7:NameSource})",
+            "\t\t\t\t{",
+            "\t\t\t\t\t",
+            "\t\t\t\t}",
+            "\t\t\t}",
+            "\t\t}",
+            "\t\tarea(factboxes)",
+            "\t\t{",
+            "\t\t}",
+            "\t}",
+            "",
+            "\tactions",
+            "\t{",
+            "\t\tarea(${8:processing})",
+            "\t\t{",
+            "\t\t\taction(${9:ActionName})",
+            "\t\t\t{",
+            "\t\t\t\ttrigger OnAction();",
+            "\t\t\t\tbegin",
+            "\t\t\t\tend;",
+            "\t\t\t}",
+            "\t\t}",
+            "\t}",
+            "}"
+        ]
+    }
+}

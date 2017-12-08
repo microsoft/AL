@@ -1,0 +1,9 @@
+Before logging a new issue please make sure to:
+1) Read the [FAQ](https://github.com/Microsoft/AL/wiki/Frequently-Asked-Questions)
+2) Search if there is an existing issue for what you want to log. If it's closed you can reopen it and add your comments.
+3) Use the latest Developer Preview release both the server part and the AL Language extension in VS Code (listed on the [repository home page](https://github.com/Microsoft/AL))
+4) If you're not using the latest released version (or are using a private build drop that is newer) please provide the version number in the issue
+
+To help us reproduce the issue and find the root please try to:
+A) Attach a minimal set of AL code that causes the issue
+B) If the error occurs on the server - copy/paste the server stack trace from the Event Viewer
