@@ -24,18 +24,26 @@ page 50103 Addresses
             {
                 Caption = 'General';
 
-                field(Address;Address) { 
+                field(Address;Address) 
+                { 
                     Caption = 'Address';
-                    ApplicationArea = All; }
-                field(Locality;Locality) { 
+                    ApplicationArea = All; 
+                }
+                field(Locality;Locality) 
+                { 
                     Caption = 'Locality';
-                    ApplicationArea = All; }
-                field("Town/City";"Town/City") { 
+                    ApplicationArea = All; 
+                }
+                field("Town/City";"Town/City") 
+                { 
                     Caption = 'Town/City';
-                    ApplicationArea = All; }
-                field(County;County) { 
+                    ApplicationArea = All; 
+                }
+                field(County;County) 
+                { 
                     Caption = 'Country';
-                    ApplicationArea = All; }
+                    ApplicationArea = All; 
+                }
             }
         }
     }

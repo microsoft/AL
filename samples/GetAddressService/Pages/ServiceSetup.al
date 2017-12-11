@@ -22,12 +22,16 @@ page 50104 "Service Setup"
             {
                 Caption = 'General';
 
-                field("Service URL";"Service URL") { 
+                field("Service URL";"Service URL") 
+                { 
                     Caption = 'Serivce URL';
-                    ApplicationArea = All; }
-                field("API Key";"API Key") { 
+                    ApplicationArea = All; 
+                }
+                field("API Key";"API Key") 
+                { 
                     Caption = 'API Key';
-                    ApplicationArea = All; }
+                    ApplicationArea = All; 
+                }
             }
         }
     }
