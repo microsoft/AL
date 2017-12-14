@@ -60,6 +60,18 @@
             "}"
         ]
     },
+    "Snippet: User Control": {
+        "prefix": "tusercontrol",
+        "body": [
+            "usercontrol(${1:ControlName};${2:AddInName})",
+            "{",
+            "\ttrigger ${3:MyTrigger()}\r",
+            "\tbegin",
+            "\tend;",
+            "}"
+        ],
+        "description": "Inserts User Control Code to Page"
+    }
     "Page of type list": {
         "prefix": "tpage",
         "body": [
