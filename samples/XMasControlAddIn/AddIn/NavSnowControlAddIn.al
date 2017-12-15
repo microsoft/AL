@@ -7,11 +7,11 @@ controladdin NavSnowControlAddIn
     HorizontalStretch = true;
     HorizontalShrink = true;
     Scripts =         
-        'AddIn/jquery.min.js',
-        'AddIn/main.js';
+        'js/jquery.min.js',
+        'js/main.js';
     StyleSheets =
-        'AddIn/main.css';
-    StartupScript = 'AddIn/create.js';
+        'css/main.css';
+    StartupScript = 'js/create.js';
     event OnControlAddInReady();
     procedure CreateUi(text : Text);
     procedure UpdateText(text : Text);

@@ -1,4 +1,4 @@
-page 50101 "X-mas Greeting Part"
+page 50101 XmasGreetingPart
 {
     PageType = CardPart;
     SourceTable = Customer;
