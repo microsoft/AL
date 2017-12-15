@@ -7,7 +7,7 @@ controladdin NavSnowControlAddIn
     HorizontalStretch = true;
     HorizontalShrink = true;
     Scripts =         
-        'js/jquery.min.js',
+        'http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js',
         'js/main.js';
     StyleSheets =
         'css/main.css';
