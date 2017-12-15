@@ -23,9 +23,10 @@
             "\tRecreateScript = '${5:script1.js}';",
             "\tRefreshScript = '${5:script1.js}';",
             "\tevent ${8:MyEvent()};",
+            "\t",
             "\tprocedure ${9:MyProcedure()};",
             "}"
         ],
-        "description": "Snippet to create Control Add-In object"
+        "description": "Snippet: Control Add-In"
     }
 }

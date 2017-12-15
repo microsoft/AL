@@ -65,12 +65,12 @@
         "body": [
             "usercontrol(${1:ControlName};${2:AddInName})",
             "{",
-            "\ttrigger ${3:MyTrigger()}\r",
+            "\ttrigger ${3:MyTrigger()}",
             "\tbegin",
             "\tend;",
             "}"
         ],
-        "description": "Inserts User Control Code to Page"
+        "description": "Snippet: Page User Control"
     }
     "Page of type list": {
         "prefix": "tpage",
