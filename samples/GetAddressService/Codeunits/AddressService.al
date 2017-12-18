@@ -6,10 +6,10 @@
 codeunit 50102 "Address Service"
 {
     var
-        AddressesWhereFoundMsg : TextConst ENU='Would you like to look for addresses on this post code online?';
-        NoaddressesFoundMsg : TextConst ENU='No addresses were found.';
-        YesPleaseTxt : TextConst ENU='Yes, please';
-        PostCodeValidationRegExTxt : TextConst ENU='(GIR 0AA)|((([A-Z-[QVX]][0-9][0-9]?)|(([A-Z-[QVX]][A-Z-[IJZ]][0-9][0-9]?)|(([A-Z-[QVX]][0-9][A-HJKSTUW])|([A-Z-[QVX]][A-Z-[IJZ]][0-9][ABEHMNPRVWXY])))) [0-9][A-Z-[CIKMOV]]{2})';
+        AddressesWhereFoundMsg : Label 'Would you like to look for addresses on this post code online?';
+        NoaddressesFoundMsg : Label 'No addresses were found.';
+        YesPleaseTxt : Label 'Yes, please';
+        PostCodeValidationRegExTxt : Label '(GIR 0AA)|((([A-Z-[QVX]][0-9][0-9]?)|(([A-Z-[QVX]][A-Z-[IJZ]][0-9][0-9]?)|(([A-Z-[QVX]][0-9][A-HJKSTUW])|([A-Z-[QVX]][A-Z-[IJZ]][0-9][ABEHMNPRVWXY])))) [0-9][A-Z-[CIKMOV]]{2})';
 
     [EventSubscriber(ObjectType::Table,18,'OnAfterValidateEvent','Post Code',false,false)]
     procedure OnCustomerpostCodeValidate(var Rec : Record customer;var xRec : Record customer;currFieldNo : Integer);
