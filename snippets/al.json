@@ -2,11 +2,11 @@
     "Snippet: Trigger": {
         "prefix": "ttrigger",
         "body": [
-            "trigger ${1:OnWhat(Parameters);}",
+            "trigger ${1:OnWhat}(${2})",
             "var",
-            "\t${2:myInt : Integer;}",
+            "\t${3:myInt}: ${4:Integer};",
             "begin",
-            "\t${3}",
+            "\t$0",
             "end;"
         ],
         "description": "Snippet: Trigger"
@@ -14,11 +14,11 @@
     "Snippet: Procedure": {
         "prefix": "tprocedure",
         "body": [
-            "procedure ${1:MyProcedure}();",
+            "${1:local} procedure ${2:MyProcedure}(${3})",
             "var",
-            "\t${2:myInt : Integer;}",
+            "\t${4:myInt}: ${5:Integer};",
             "begin",
-            "\t${3}",
+            "\t$0",
             "end;"
         ],
         "description": "Snippet: Procedure"
@@ -28,7 +28,7 @@
         "body": [
             "assertError ${1:AssertStatement};",
             "if ${2:getLastErrorText} <> ${3:ErrorText} then",
-            "\terror('${4:Unexpected error: %1}', ${5:getLastErrorText});"
+            "\terror('${4:Unexpected error: %1}', ${0:getLastErrorText});"
         ],
         "description": "Snippet: Assert Error"
     },
@@ -36,7 +36,7 @@
         "prefix": "twithdo",
         "body": [
             "with ${1:RecordName} do begin",
-            "\t${2}",
+            "\t$0",
             "end;"
         ],
         "description": "Snippet: With Do"
@@ -45,7 +45,7 @@
         "prefix": "tif",
         "body": [
             "if ${1:BooleanExpression} then begin",
-            "\t${2:ifStatement}",
+            "\t$0",
             "end;"
         ],
         "description": "Snippet: If"
@@ -56,7 +56,7 @@
             "if ${1:BooleanExpression} then begin",
             "\t${2}",
             "end else begin",
-            "\t${3}",
+            "\t$0",
             "end;"
         ],
         "description": "Snippet: If Else"
@@ -64,11 +64,11 @@
     "Snippet: Case Of": {
         "prefix": "tcaseof",
         "body": [
-            "case ${1:BoolExpression} of",
+            "case ${1:Expression} of",
             "\t${2:ExpressionOrRange}:",
             "\t\t${3}",
             "\t${4:ExpressionOrRange}:",
-            "\t\t${5}",
+            "\t\t$0",
             "end;"
         ],
         "description": "Snippet: Case Of"
@@ -76,13 +76,13 @@
     "Snippet: Case Else": {
         "prefix": "tcaseelse",
         "body": [
-            "case ${1:BoolExpression} of",
+            "case ${1:Expression} of",
             "\t${2:ExpressionOrRange}:",
             "\t\t${3}",
             "\t${4:ExpressionOrRange}:",
             "\t\t${5}",
             "else",
-            "\t${6}",
+            "\t$0",
             "end;"
         ],
         "description": "Snippet: Case Else"
@@ -91,16 +91,25 @@
         "prefix": "tfor",
         "body": [
             "for ${1:ControlVariable} := ${2:StartNumber} to ${3:EndNumber} do begin",
-            "\t${4}",
+            "\t$0",
             "end;"
         ],
         "description": "Snippet: For"
+    },
+    "Snippet: ForEach": {
+        "prefix": "tforeach",
+        "body": [
+            "foreach ${1:Value} in ${2:EnumerableCollection} do begin",
+            "\t$0",
+            "end;"
+        ],
+        "description": "Snippet: ForEach"
     },
     "Snippet: While": {
         "prefix": "twhile",
         "body": [
             "while ${1:BooleanExpression} do begin",
-            "\t${2}",
+            "\t$0",
             "end;"
         ],
         "description": "Snippet: While"
@@ -109,15 +118,19 @@
         "prefix": "trepeat",
         "body": [
             "repeat begin",
-            "\t${1}",
-            "end until ${2:BooleanExpression};"
+            "\t$0",
+            "end until ${1:BooleanExpression};"
         ],
         "description": "Snippet: Repeat Until"
     },
     "Snippet: Event Subscriber": {
         "prefix": "teventsub",
         "body": [
-            "[EventSubscriber(ObjectType::${1:ObjectType}, ${2:ObjectId}, '${3:OnSomeEvent}', '${4:ElementName}', ${5:SkipOnMissingLicense}, ${6:SkipOnMissingPermission})]"
+            "[EventSubscriber(ObjectType::${1:ObjectType}, ${2:ObjectId}, '${3:OnSomeEvent}', '${4:ElementName}', ${5:SkipOnMissingLicense}, ${6:SkipOnMissingPermission})]",
+            "local procedure ${7:MyProcedure}()",
+            "begin",
+            "\t$0",
+            "end;"
         ],
         "description": "Snippet: Event Subscriber"
     },
@@ -125,8 +138,9 @@
         "prefix": "teventint",
         "body": [
             "[IntegrationEvent(${1:IncludeSender},${2:GlobalVarAccess})]",
-            "local procedure ${3:MyProcedure}();",
+            "local procedure ${3:MyProcedure}()",
             "begin",
+            "\t$0",
             "end;"
         ],
         "description": "Snippet: Integration Event"
@@ -135,8 +149,9 @@
         "prefix": "teventbus",
         "body": [
             "[BusinessEvent(${1:IncludeSender})]",
-            "local procedure ${2:MyProcedure}();",
+            "local procedure ${2:MyProcedure}()",
             "begin",
+            "\t$0",
             "end;"
         ],
         "description": "Snippet: Business Event"
@@ -145,15 +160,9 @@
         "prefix": "tcaptionml",
         "body": [
             "CaptionML = ENU = '${1:englishText}',",
-            "\t\t\t${2:languageShortcut} = '${3:languageText}';"
-        ]
-    },
-    "Snippet: Option Caption ML": {
-        "prefix": "toptioncaptionml",
-        "body": [
-            "OptionCaptionML = ENU = '${1:englishText}',",
-            "\t\t\t${2:languageShortcut} = '${3:languageText}';"
-        ]
+            "\t\t\t${2:languageShortcut} = '${0:languageText}';"
+        ],
+        "description": "Snippet: Caption ML"
     },
     "Snippet: If Table Empty Else": {
         "prefix": "tisemptyelse",
@@ -161,7 +170,7 @@
             "if ${1:Rec}.IsEmpty then begin",
             "\t${2}",
             "end else begin",
-            "\t${3}",
+            "\t$0",
             "end;"
         ],
         "description": "Snippet: If Table Empty Else"
@@ -169,8 +178,8 @@
     "Snippet: If Table Empty": {
         "prefix": "tisempty",
         "body": [
-            "if ${1}.IsEmpty then begin",
-            "\t${2}",
+            "if ${1:Rec}.IsEmpty then begin",
+            "\t$0",
             "end;"
         ],
         "description": "Snippet: If Table Empty"
