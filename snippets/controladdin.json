@@ -22,10 +22,13 @@
             "\tStartupScript = '${15:startupScript.js}';",
             "\tRecreateScript = '${16:recreateScript.js}';",
             "\tRefreshScript = '${17:refreshScript.js}';",
+            "\tImages = ",
+            "\t\t'${18:image1.png}',",
+            "\t\t'${19:image2.png}';",
             "\t",
-            "\tevent ${18:MyEvent}(${19})",
+            "\tevent ${20:MyEvent}(${21})",
             "\t",
-            "\tprocedure ${20:MyProcedure}($0)",
+            "\tprocedure ${22:MyProcedure}($0)",
             "}"
         ],
         "description": "Snippet: Control Add-In"
