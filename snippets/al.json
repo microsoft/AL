@@ -164,6 +164,14 @@
         ],
         "description": "Snippet: Caption ML"
     },
+    "Snippet: Option Caption ML": {
+        "prefix": "toptioncaptionml",
+        "body": [
+            "OptionCaptionML = ENU = '${1:englishText}',",
+            "\t\t\t${2:languageShortcut} = '${0:languageText}';"
+        ],
+        "description": "Snippet: Option Caption ML"
+    },
     "Snippet: If Table Empty Else": {
         "prefix": "tisemptyelse",
         "body": [
@@ -174,7 +182,7 @@
             "end;"
         ],
         "description": "Snippet: If Table Empty Else"
-	},
+    },
     "Snippet: If Table Empty": {
         "prefix": "tisempty",
         "body": [
