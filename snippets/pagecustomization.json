@@ -1,0 +1,22 @@
+{
+    "Snippet: Page Customization": {
+        "prefix": "tpagecust",
+        "body": [
+            "pagecustomization ${1:MyCustomization} customizes ${2:MyTargetPage}",
+            "{",
+            "\tlayout",
+            "\t{",
+            "\t\t${3:// Add changes to page layout here}",
+            "\t}",
+            "\t",
+            "\tactions",
+            "\t{",
+            "\t\t${0:// Add changes to page actions here}",
+            "\t}",
+            "\t",
+            "\t//Variables, procedures and triggers are not allowed on Page Customizations",
+            "}"
+        ],
+        "description": "Snippet: Page Customization"
+    }
+}

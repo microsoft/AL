@@ -2,7 +2,7 @@
     "Snippet: Report": {
         "prefix": "treport",
         "body": [
-            "report ${1:id} ${2:MyReport}",
+            "report ${1:Id} ${2:MyReport}",
             "{",
             "\tdataset",
             "\t{",
@@ -10,6 +10,7 @@
             "\t\t{",
             "\t\t\tcolumn(${6:ColumnName}; ${5:SourceFieldName})",
             "\t\t\t{",
+            "\t\t\t\t${7}",
             "\t\t\t}",
             "\t\t}",
             "\t}",
@@ -22,8 +23,9 @@
             "\t\t\t{",
             "\t\t\t\tgroup(${8:GroupName})",
             "\t\t\t\t{",
-            "\t\t\t\t\tfield(${10:Name};${9:SourceExpression})",
+            "\t\t\t\t\tfield(${10:Name}; ${9:SourceExpression})",
             "\t\t\t\t\t{",
+            "\t\t\t\t\t\t${11}",
             "\t\t\t\t\t}",
             "\t\t\t\t}",
             "\t\t\t}",
@@ -31,18 +33,20 @@
             "\t",
             "\t\tactions",
             "\t\t{",
-            "\t\t\tarea(${11:processing})",
+            "\t\t\tarea(${12:processing})",
             "\t\t\t{",
-            "\t\t\t\taction(${12:ActionName})",
+            "\t\t\t\taction(${13:ActionName})",
             "\t\t\t\t{",
+            "\t\t\t\t\t${14}",
             "\t\t\t\t}",
             "\t\t\t}",
             "\t\t}",
             "\t}",
             "\t",
             "\tvar",
-            "\t\t${13:myInt : Integer;}",
+            "\t\t${15:myInt}: ${0:Integer};",
             "}"
-        ]
+        ],
+        "description": "Snippet: Report"
     }
 }

@@ -4,41 +4,46 @@
         "body": [
             "table ${1:id} ${2:MyTable}",
             "{",
-            "",
+            "\t",
             "\tfields",
             "\t{",
-            "\t\tfield(1;${3:MyField};${4:Integer})",
+            "\t\tfield(1;${3:MyField}; ${4:Integer})",
             "\t\t{",
+            "\t\t\t$5",
             "\t\t}",
             "\t}",
-            "",
+            "\t",
             "\tkeys",
             "\t{",
-            "\t\tkey(${5:PK};${3:MyField})",
+            "\t\tkey(${6:PK}; ${3:MyField})",
             "\t\t{",
-            "\t\t\tClustered = true;",
+            "\t\t\tClustered = ${7|true,false|};",
             "\t\t}",
             "\t}",
             "\t",
             "\tvar",
-            "\t\t${8:myInt : Integer;}",
-            "",
-            "\ttrigger OnInsert();",
+            "\t\t${8:myInt}: ${9:Integer};",
+            "\t",
+            "\ttrigger OnInsert()",
             "\tbegin",
+            "\t\t$10",
             "\tend;",
-            "",
-            "\ttrigger OnModify();",
+            "\t",
+            "\ttrigger OnModify()",
             "\tbegin",
+            "\t\t$11",
             "\tend;",
-            "",
-            "\ttrigger OnDelete();",
+            "\t",
+            "\ttrigger OnDelete()",
             "\tbegin",
+            "\t\t$12",
             "\tend;",
-            "",
-            "\ttrigger OnRename();",
+            "\t",
+            "\ttrigger OnRename()",
             "\tbegin",
+            "\t\t$0",
             "\tend;",
-            "",
+            "\t",
             "}"
         ],
         "description": "Snippet: Table"
@@ -46,167 +51,47 @@
     "Snippet: Table Field": {
         "prefix": "tfield",
         "body": [
-            "field(${1:id};${2:MyField};${3:Type})",
+            "field(${1:id}; ${2:MyField}; ${3|Blob,BigInteger,Boolean,Code[50],Date,DateFormula,Decimal,Duration,Integer,Guid,Media,MediaSet,Option,RecordID,TableFilter,Text[50],Time|})",
             "{",
-            "\t${4:FieldPropertyName} = ${5:FieldPropertyValue};",
+            "\t${4:FieldPropertyName} = ${0:FieldPropertyValue};",
             "}"
         ],
         "description": "Snippet: Table Field"
     },
-    "Snippet: Table Field BLOB": {
-        "prefix": "tfieldblob",
+    "Snippet: Table Field Option": {
+        "prefix": "tfieldoption",
         "body": [
-            "field(${1:id};${2:MyField};Blob)",
+            "field(${1:id}; ${2:MyField}; Option)",
             "{",
-            "\t$0",
+            "\tOptionMembers = ${0:Default};",
             "}"
         ],
-        "description": "Snippet: Table Field BLOB"
-    },
-    "Snippet: Table Field BigInteger": {
-        "prefix": "tfieldbiginteger",
-        "body": [
-            "field(${1:id};${2:MyField};BigInteger)",
-            "{",
-            "\t$0",
-            "}"
-        ],
-        "description": "Snippet: Table Field BigInteger"
-    },
-    "Snippet: Table Field Boolean": {
-        "prefix": "tfieldboolean",
-        "body": [
-            "field(${1:id};${2:MyField};Boolean)",
-            "{",
-            "\t$0",
-            "}"
-        ],
-        "description": "Snippet: Table Field Boolean"
+        "description": "Snippet: Table Field Option"
     },
     "Snippet: Table Field Code": {
         "prefix": "tfieldcode",
         "body": [
-            "field(${1:id};${2:MyField};Code[${3:Length}])",
+            "field(${1:id}; ${2:MyField}; Code[${3:Length}])",
             "{",
             "\t$0",
             "}"
         ],
         "description": "Snippet: Table Field Code"
     },
-    "Snippet: Table Field Date": {
-        "prefix": "tfielddate",
-        "body": [
-            "field(${1:id};${2:MyField};Date)",
-            "{",
-            "\t$0",
-            "}"
-        ],
-        "description": "Snippet: Table Field Date"
-    },
-    "Snippet: Table Field DateFormula": {
-        "prefix": "tfielddateformula",
-        "body": [
-            "field(${1:id};${2:MyField};Dateformula)",
-            "{",
-            "\t$0",
-            "}"
-        ],
-        "description": "Snippet: Table Field Dateformula"
-    },
-    "Snippet: Table Field DateTime": {
-        "prefix": "tfielddatetime",
-        "body": [
-            "field(${1:id};${2:MyField};Datetime)",
-            "{",
-            "\t$0",
-            "}"
-        ],
-        "description": "Snippet: Table Field Datetime"
-    },
-    "Snippet: Table Field Decimal": {
-        "prefix": "tfielddecimal",
-        "body": [
-            "field(${1:id};${2:MyField};Decimal)",
-            "{",
-            "\t$0",
-            "}"
-        ],
-        "description": "Snippet: Table Field Decimal"
-    },
-    "Snippet: Table Field Duration": {
-        "prefix": "tfieldduration",
-        "body": [
-            "field(${1:id};${2:MyField};Duration)",
-            "{",
-            "\t$0",
-            "}"
-        ],
-        "description": "Snippet: Table Field Duration"
-    },
-    "Snippet: Table Field GUID": {
-        "prefix": "tfieldguid",
-        "body": [
-            "field(${1:id};${2:MyField};GUID)",
-            "{",
-            "\t$0",
-            "}"
-        ],
-        "description": "Snippet: Table Field GUID"
-    },
-    "Snippet: Table Field Integer": {
-        "prefix": "tfieldinteger",
-        "body": [
-            "field(${1:id};${2:MyField};Integer)",
-            "{",
-            "\t$0",
-            "}"
-        ],
-        "description": "Snippet: Table Field Integer"
-    },
-    "Snippet: Table Field Option": {
-        "prefix": "tfieldoption",
-        "body": [
-            "field(${1:id};${2:MyField};Option)",
-            "{",
-            "\tOptionMembers = ${3};",
-            "}"
-        ],
-        "description": "Snippet: Table Field option"
-    },
-    "Snippet: Table Field RecordID": {
-        "prefix": "tfieldrecordid",
-        "body": [
-            "field(${1:id};${2:MyField};RecordID)",
-            "{",
-            "\t$0",
-            "}"
-        ],
-        "description": "Snippet: Table Field RecordID"
-    },
     "Snippet: Table Field Text": {
         "prefix": "tfieldtext",
         "body": [
-            "field(${1:id};${2:MyField};Text[${3:Length}])",
+            "field(${1:id}; ${2:MyField}; Text[${3:Length}])",
             "{",
             "\t$0",
             "}"
         ],
         "description": "Snippet: Table Field Text"
     },
-    "Snippet: Table Field Time": {
-        "prefix": "tfieldtime",
-        "body": [
-            "field(${1:id};${2:MyField};Time",
-            "{",
-            "\t$0",
-            "}"
-        ],
-        "description": "Snippet: Table Field Time"
-    },
     "Snippet: Table Key": {
         "prefix": "tkey",
         "body": [
-            "key(${1:MyKey};${2:MyField})",
+            "key(${1:MyKey}; ${2:MyField})",
             "{",
             "\t$0",
             "}"
