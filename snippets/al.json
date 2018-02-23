@@ -126,7 +126,7 @@
     "Snippet: Event Subscriber": {
         "prefix": "teventsub",
         "body": [
-            "[EventSubscriber(ObjectType::${1:ObjectType}, ${2:ObjectId}, '${3:OnSomeEvent}', '${4:ElementName}', ${5:SkipOnMissingLicense}, ${6:SkipOnMissingPermission})]",
+            "[EventSubscriber(ObjectType::${1:ObjectType}, ${2:ObjectId}, ${3:'OnSomeEvent'}, '${4:ElementName}', ${5:SkipOnMissingLicense}, ${6:SkipOnMissingPermission})]",
             "local procedure ${7:MyProcedure}()",
             "begin",
             "\t$0",
