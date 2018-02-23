@@ -1,0 +1,19 @@
+{
+"Snippet: Tenant Web Service XML": {
+		"prefix": "twebservice",
+		"body": [
+			"<?xml version=\"1.0\" encoding=\"utf-8\"?>",
+			"<ExportedData>",
+			"\t<TenantWebServiceCollection>",
+			"\t\t<TenantWebService>",
+			"\t\t\t<ObjectType>${1|CodeUnit,Page,Query|}</ObjectType>",
+			"\t\t\t<ServiceName>${2:ServiceName}</ServiceName>",
+			"\t\t\t<ObjectID>${3:ObjectID}</ObjectID>",
+			"\t\t\t<Published>${4|true,false|}</Published>",
+			"\t\t</TenantWebService>",
+			"\t</TenantWebServiceCollection>",
+			"</ExportedData>"
+		],
+		"description": "Tenant Web Service"
+	}
+}
