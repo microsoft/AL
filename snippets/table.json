@@ -97,5 +97,16 @@
             "}"
         ],
         "description": "Snippet: Table Key"
+    },
+    "Snippet: Table PK Key": {
+        "prefix": "tkey",
+        "body": [
+            "key(PK; ${2:MyField})",
+            "{",
+            "\tClustered = true;",
+            "}",
+            "$0"
+        ],
+        "description": "Snippet: Table Key"
     }
 }
