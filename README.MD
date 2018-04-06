@@ -17,7 +17,7 @@ For documentation about extending Dynamics 365 Business Central, get started wit
 •	[Developer Reference](https://docs.microsoft.com/en-us/dynamics-nav/)  
 
 ## Get the AL developer experience
-To develop and deploy code created in AL, you must have the latest [Developer Preview](https://aka.ms/navdeveloperpreview).
+To develop and deploy code created in AL, you must have the latest [Developer Preview](http://aka.ms/bcsandbox).
 
 ## FAQ
 Our answers to frequently asked questions can be found in our [Wiki](https://github.com/Microsoft/AL/wiki/Frequently-Asked-Questions).
