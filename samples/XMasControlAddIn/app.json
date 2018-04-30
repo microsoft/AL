@@ -1,0 +1,24 @@
+{
+  "id": "0ea2c80b-03ec-4964-a888-c0f4e87a398e",
+  "name": "XMasControlAddIn",
+  "publisher": "Default Publisher",
+  "brief": "X-Mas greeting from customer list",
+  "description": "Custom add-in that displays pretty X-Mas greeting from customer list",
+  "version": "1.0.0.0",
+  "compatibilityId": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "11.0.0.0",
+  "application": "11.0.0.0",
+  "idRange": {
+    "from": 50100,
+    "to": 50149
+  },
+  "features": "TranslationFile"  
+}
