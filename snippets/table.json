@@ -108,5 +108,15 @@
             "$0"
         ],
         "description": "Snippet: Table Key"
+    },
+    "Snippet: Table Field Groups": {
+        "prefix": "tfieldgroups",
+        "body": [
+            "fieldgroups {",
+            "\tfieldgroup(DropDown; ${1:MyField}) {}",
+            "\tfieldgroup(Brick; ${1:MyField}) {}",
+            "}",
+            "$0"
+        ]
     }
 }
