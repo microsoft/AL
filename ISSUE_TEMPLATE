@@ -9,10 +9,10 @@ A) Attach a minimal set of AL code that causes the issue
 B) If the error occurs on the server - copy/paste the server stack trace from the Event Viewer
 -->
 
-<!—- Go to Visual Studio Code → Extensions panel → AL Language -->
-AL Extension Version: 
+<!-- Go to Visual Studio Code → Extensions panel → AL Language -->
+- AL Extension Version: 
 
-<!—- In the client search for: System Information -->
-Server Version: 
+<!-- In the client search for: System Information -->
+- Server Version: 
 
 <!-- AL code sample that triggers the issue -->
