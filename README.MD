@@ -1,7 +1,6 @@
 ﻿
 # AL Development for Dynamics 365 Business Central
- <!-- [![Released version](https://img.shields.io/badge/Release_version-0.12.15355-green.svg?style=flat-square)](https://mbs.microsoft.com/partnersource/global/deployment/downloads/product-releases/msdnav2018download) -->
- [![current preview version 0.15.18771](https://img.shields.io/badge/Current_Preview_Version-0.15.18771-orange.svg?style=flat-square)](https://github.com/Microsoft/AL/milestone/15) [![next preview update May 2018](https://img.shields.io/badge/Next_Preview_Update-May_2018-blue.svg?style=flat-square)](https://github.com/Microsoft/AL/milestone/16)
+  [![current preview version 0.17.32492](https://img.shields.io/badge/Current_Preview_Version-0.17.32492-orange.svg?style=flat-square)](https://github.com/Microsoft/AL/milestone/18) [![next preview update August 2018](https://img.shields.io/badge/Next_Preview_Update-August_2018-blue.svg?style=flat-square)](https://github.com/Microsoft/AL/milestone/19)
 
 ---
 
