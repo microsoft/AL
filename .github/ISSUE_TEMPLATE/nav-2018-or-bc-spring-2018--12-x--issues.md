@@ -1,6 +1,6 @@
 ---
 name: NAV 2018 or BC Spring 2018 (12.X) Issues
-about: "\U0001F53BPlease contact customer support\U0001F53B"
+about: "\U0001F6D1\U0001F6D1\U0001F6D1Please contact customer support\U0001F6D1\U0001F6D1\U0001F6D1"
 
 ---
 

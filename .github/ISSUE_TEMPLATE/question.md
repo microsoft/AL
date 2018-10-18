@@ -1,6 +1,6 @@
 ---
 name: Question
-about: "\U0001F53BThis repo no longer handles general questions\U0001F53B"
+about: "\U0001F6D1\U0001F6D1\U0001F6D1This repo no longer handles general questions\U0001F6D1\U0001F6D1\U0001F6D1"
 
 ---
 
