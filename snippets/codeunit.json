@@ -2,7 +2,7 @@
     "Snippet: Codeunit": {
         "prefix": "tcodeunit",
         "body": [
-            "codeunit ${1:Id} ${2:MyCodeunit}",
+            "codeunit ${1:Id} ${2:MyPrefix MyCodeunit}",
             "{",
             "\ttrigger OnRun()",
             "\tbegin",

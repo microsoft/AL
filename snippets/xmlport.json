@@ -2,7 +2,7 @@
     "Snippet: XmlPort":{
         "prefix": "txmlport",
         "body": [
-            "xmlport ${1:Id} ${2:MyXmlport}",
+            "xmlport ${1:Id} ${2:MyPrefix MyXmlport}",
             "{",
             "\tschema",
             "\t{",

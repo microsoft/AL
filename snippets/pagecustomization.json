@@ -2,7 +2,7 @@
     "Snippet: Page Customization": {
         "prefix": "tpagecust",
         "body": [
-            "pagecustomization ${1:MyCustomization} customizes ${2:MyTargetPage}",
+            "pagecustomization ${1:MyPrefix MyCustomization} customizes ${2:MyTargetPage}",
             "{",
             "\tlayout",
             "\t{",

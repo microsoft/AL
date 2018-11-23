@@ -2,7 +2,7 @@
     "Snippet: Report": {
         "prefix": "treport",
         "body": [
-            "report ${1:Id} ${2:MyReport}",
+            "report ${1:Id} ${2:MyPrefix MyReport}",
             "{",
             "\tdataset",
             "\t{",

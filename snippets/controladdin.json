@@ -2,7 +2,7 @@
     "Snippet: Control Add-In": {
         "prefix": "tcontroladdin",
         "body": [
-            "controladdin ${1:MyControlAddIn}",
+            "controladdin ${1:MyPrefix MyControlAddIn}",
             "{",
             "\tRequestedHeight = ${2:300};",
             "\tMinimumHeight = ${3:300};",

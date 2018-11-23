@@ -2,7 +2,7 @@
     "Snippet: Table Extension": {
         "prefix": "ttableext",
         "body": [
-            "tableextension ${1:Id} ${2:MyExtension} extends ${3:MyTargetTable}",
+            "tableextension ${1:Id} ${2:MyPrefix MyExtension} extends ${3:MyTargetTable}",
             "{",
             "\tfields",
             "\t{",

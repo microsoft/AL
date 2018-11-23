@@ -2,7 +2,7 @@
     "Snippet: Query": {
         "prefix": "tquery",
         "body": [
-            "query ${1:Id} ${2:MyQuery}",
+            "query ${1:Id} ${2:MyPrefix MyQuery}",
             "{",
             "\tQueryType = ${3|Normal,API|};",
             "\t",

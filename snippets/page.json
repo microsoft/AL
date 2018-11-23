@@ -2,7 +2,7 @@
     "Page": {
         "prefix": "tpage",
         "body": [
-            "page ${1:Id} ${2:PageName}",
+            "page ${1:Id} ${2:MyPrefix PageName}",
             "{",
             "\tPageType = ${3|Card,List,RoleCenter,CardPart,ListPart,Document,Worksheet,ListPlus,ConfirmationDialog,NavigatePage,StandardDialog,API,ReportPreview,ReportProcessingOnly,XmlPort|};",
             "\tSourceTable = ${4:TableName};",

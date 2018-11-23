@@ -2,7 +2,7 @@
     "Snippet: Profile": {
         "prefix": "tprofile",
         "body": [
-            "profile ${1:MyNewProfile} ",
+            "profile ${1:MyPrefix MyNewProfile} ",
             "{",
             "\tDescription = ${2:'My Description'};",
             "\tRoleCenter = ${3:RoleCenter};",

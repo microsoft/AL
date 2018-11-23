@@ -2,7 +2,7 @@
     "Snippet: Table": {
         "prefix": "ttable",
         "body": [
-            "table ${1:id} ${2:MyTable}",
+            "table ${1:id} ${2:MyPrefix MyTable}",
             "{",
             "\t",
             "\tfields",

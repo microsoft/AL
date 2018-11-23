@@ -2,7 +2,7 @@
     "Snippet: Page Extension": {
         "prefix": "tpageext",
         "body": [
-            "pageextension ${1:Id} ${2:MyExtension} extends ${3:MyTargetPage}",
+            "pageextension ${1:Id} ${2:Prefix MyExtension} extends ${3:MyTargetPage}",
             "{",
             "\tlayout",
             "\t{",
