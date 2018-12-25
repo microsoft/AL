@@ -46,7 +46,7 @@
         "body": [
             "field(${1:MyField}; ${2:FieldSource})",
             "{",
-            "\tApplicationArea = ${3|All,Basic,Suite,Advanced};",
+            "\tApplicationArea = ${3|All,Basic,Suite,Advanced|};",
             "\t${4:FieldPropertyName} = ${0:FieldPropertyValue};",
             "}"
         ],
