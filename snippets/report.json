@@ -48,5 +48,28 @@
             "}"
         ],
         "description": "Snippet: Report"
+    },
+    "Snippet: Data Item": {
+        "prefix": "tdataitem",
+        "body": [
+            "dataitem(${1:DataItemName}; ${2:SourceTableName})",
+            "{",
+            "\tcolumn(${3:ColumnName}; ${4:SourceFieldName})",
+            "\t{",
+            "\t\t${0}",
+            "\t}",
+            "}"
+        ],
+        "description": "Snippet: Data Item"
+    },
+    "Snippet: Column": {
+        "prefix": "tcolumn",
+        "body": [
+            "column(${1:ColumnName}; ${2:SourceFieldName})",
+            "{",
+            "\t${0}",
+            "}"
+        ],
+        "description": "Snippet: Column"
     }
 }
