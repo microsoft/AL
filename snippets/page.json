@@ -60,7 +60,7 @@
             "\t${0}",
             "}"
         ],
-        "description": "Snippet: Page Field"
+        "description": "Snippet: Part Field"
     },
     "Snippet: Action": {
         "prefix": "taction",
