@@ -1,0 +1,25 @@
+{
+    "Snippet: Enum": {
+        "prefix": "tenum",
+        "body": [
+            "enum ${1:id} ${2:MyEnum}",
+            "{",
+            "\tExtensible = ${3|true,false|};",
+            "\t",
+            "\tvalue(0; ${0:MyValue})",
+            "\t{",
+            "\t}",
+            "}"
+        ],
+        "description": "Snippet: Enum"
+    },
+    "Snippet: Enum Value": {
+        "prefix": "tenumvalue",
+        "body": [
+            "value(${1:ValueId}; ${0:MyValue})",
+            "{",
+            "}"
+        ],
+        "description": "Snippet: Enum Value"
+    }
+}
