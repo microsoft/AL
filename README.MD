@@ -7,7 +7,7 @@
 ## Welcome
 The main purpose of this repository is to track issues for the latest developer preview environment for Dynamics 365 Business Central. In addition, you will find code samples to help you get started writing extensions in AL and get familiar with the new tools. Your feedback is very welcome, submit it directly in this repository.
 
-**Note** that for issues related to ***Dynamics NAV, please use the support channel*** - see [this FAQ entry](https://github.com/Microsoft/AL/wiki/Frequently-Asked-Questions#nav-2018-issues).
+**Note** that for issues related to ***versions of Business Central that are in mainstream support you should use the support channel*** - see [this FAQ entry](https://github.com/Microsoft/AL/wiki/Frequently-Asked-Questions#i-found-an-issue-in-a-version-of-the-product-that-is-not-the-latest-what-do-i-do).
 
 Please read this blog post to get familiar with how Developer Preview releases relate to other versions of Business Central:
 https://blogs.msdn.microsoft.com/nav/2018/05/03/al-developer-previews-multiple-releases-and-github/
