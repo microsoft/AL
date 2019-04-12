@@ -1,5 +1,5 @@
 ---
-name: " Bug"
+name: AL Developer Experience Bug
 about: 'Report a bug in the latest AL compiler / Developer Tools '
 title: ''
 labels: ''

@@ -1,6 +1,9 @@
 ---
 name: Event Request, Function Expose, Application Enhancement
 about: "\U0001F6D1\U0001F6D1\U0001F6D1Please go to https://github.com/Microsoft/ALAppExtensions\U0001F6D1\U0001F6D1\U0001F6D1"
+title: ''
+labels: ''
+assignees: ''
 
 ---
 
