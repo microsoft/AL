@@ -52,6 +52,16 @@
         ],
         "description": "Snippet: Page Field"
     },
+    "Snippet: Part": {
+        "prefix": "tpart",
+        "body": [
+            "part(${1:MyPart}; ${2:PartSource})",
+            "{",
+            "\t${0}",
+            "}"
+        ],
+        "description": "Snippet: Page Part"
+    },
     "Snippet: Action": {
         "prefix": "taction",
         "body": [
