@@ -1,11 +1,11 @@
 ﻿
 # AL Developer Preview for Dynamics 365 Business Central
-  [![current preview version 2.0.52543](https://img.shields.io/badge/Current_Preview_Version-2.0.52543-orange.svg?style=flat-square)](https://github.com/Microsoft/AL/milestone/19) [![next preview update October 2018](https://img.shields.io/badge/Next_Preview_Update-October_2018-blue.svg?style=flat-square)](https://github.com/Microsoft/AL/milestone/20)
+  [![current preview version 3.0.1.52023](https://img.shields.io/badge/Current_Preview_Version-3.0.1.52023-orange.svg?style=flat-square)](https://github.com/Microsoft/AL/milestone/19) [![next preview update October 2018](https://img.shields.io/badge/Next_Preview_Update-May_2019-blue.svg?style=flat-square)](https://github.com/Microsoft/AL/milestone/23)
 
 ---
 
 ## Welcome
-The main purpose of this repo is to track issues for the latest developer preview environment for Dynamics 365 Business Central. In addition, you will find code samples to help you get started writing extensions in AL and get familiar with the new tools. Your feedback is very welcome, submit it directly in this repo.
+The main purpose of this repository is to track issues for the latest developer preview environment for Dynamics 365 Business Central. In addition, you will find code samples to help you get started writing extensions in AL and get familiar with the new tools. Your feedback is very welcome, submit it directly in this repository.
 
 **Note** that for issues related to ***Dynamics NAV, please use the support channel*** - see [this FAQ entry](https://github.com/Microsoft/AL/wiki/Frequently-Asked-Questions#nav-2018-issues).
 
