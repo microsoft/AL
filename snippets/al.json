@@ -126,8 +126,8 @@
     "Snippet: Event Subscriber": {
         "prefix": "teventsub",
         "body": [
-            "[EventSubscriber(ObjectType::${1:ObjectType}, ${2:ObjectId}, ${3:'OnSomeEvent'}, '${4:ElementName}', ${5:SkipOnMissingLicense}, ${6:SkipOnMissingPermission})]",
-            "local procedure ${7:MyProcedure}()",
+            "[EventSubscriber(ObjectType::${1|Codeunit,Page,Query,Report,Table,XmlPort|}, ${2|Codeunit::,Database::,Page::,Query::,Report::,XmlPort::|}, ${3:'OnSomeEvent'}, ${4:'ElementName'}, ${5:SkipOnMissingLicense}, ${6:SkipOnMissingPermission})]",
+            "local procedure ${7:MyProcedure}(${8})",
             "begin",
             "\t$0",
             "end;"
@@ -137,10 +137,9 @@
     "Snippet: Integration Event": {
         "prefix": "teventint",
         "body": [
-            "[IntegrationEvent(${1:IncludeSender},${2:GlobalVarAccess})]",
-            "local procedure ${3:MyProcedure}()",
+            "[IntegrationEvent(${1:IncludeSender}, false)]",
+            "local procedure ${0:MyProcedure}()",
             "begin",
-            "\t$0",
             "end;"
         ],
         "description": "Snippet: Integration Event"
@@ -149,9 +148,8 @@
         "prefix": "teventbus",
         "body": [
             "[BusinessEvent(${1:IncludeSender})]",
-            "local procedure ${2:MyProcedure}()",
+            "local procedure ${0:MyProcedure}()",
             "begin",
-            "\t$0",
             "end;"
         ],
         "description": "Snippet: Business Event"
@@ -182,7 +180,7 @@
             "end;"
         ],
         "description": "Snippet: If Table Empty Else"
-    },
+	},
     "Snippet: If Table Empty": {
         "prefix": "tisempty",
         "body": [

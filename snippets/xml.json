@@ -1,0 +1,70 @@
+{
+    "Snippet: WebService": {
+        "prefix": "twebservice",
+        "body": [
+            "<TenantWebService>",
+            "\t<ObjectType>${1|Page,CodeUnit,Query|}</ObjectType>",
+            "\t<ServiceName>${2:serviceName}</ServiceName>",
+            "\t<ObjectID>${3:objectId}</ObjectID>",
+            "\t<Published>${4|false,true|}</Published>",
+            "</TenantWebService>"
+        ],
+        "description": "Snippet: Web Service"
+    },
+    "Snippet: WebServices": {
+        "prefix": "twebservices",
+        "body": [
+            "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+            "<ExportedData>",
+            "\t<TenantWebServiceCollection>",
+            "\t\t<TenantWebService>",
+            "\t\t\t<ObjectType>${1|Page,CodeUnit,Query|}</ObjectType>",
+            "\t\t\t<ServiceName>${2:serviceName}</ServiceName>",
+            "\t\t\t<ObjectID>${3:objectId}</ObjectID>",
+            "\t\t\t<Published>${4|false,true|}</Published>",
+            "\t\t</TenantWebService>",
+            "\t</TenantWebServiceCollection>",
+            "</ExportedData>"
+        ],
+        "description": "Snippet: Web Services File"
+    },
+    "Snippet: PermissionSet": {
+        "prefix": "tpermset",
+        "body": [
+            "<PermissionSet RoleID=\"${1:roleId}\" RoleName=\"${2:roleName}\">",
+            "\t<Permission>",
+            "\t\t<ObjectType>${3|0,1,2,3,4,5,6,7,8,9,10,11|}</ObjectType>",
+            "\t\t<ObjectID>${4:objectId}</ObjectID>",
+            "\t\t<ReadPermission>${5|0,1|}</ReadPermission>",
+            "\t\t<InsertPermission>${6|0,1|}</InsertPermission>",
+            "\t\t<ModifyPermission>${7|0,1|}</ModifyPermission>",
+            "\t\t<DeletePermission>${8|0,1|}</DeletePermission>",
+            "\t\t<ExecutePermission>${9|0,1|}</ExecutePermission>",
+            "\t\t<SecurityFilter />",
+            "\t</Permission>",
+            "</PermissionSet>"
+        ],
+        "description": "Snippet: Permission Set"
+    },
+    "Snippet: PermissionSets": {
+        "prefix": "tpermsets",
+        "body": [
+            "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>",
+            "<PermissionSets>",
+            "\t<PermissionSet RoleID=\"${1:roleId}\" RoleName=\"${2:roleName}\">",
+            "\t\t<Permission>",
+            "\t\t\t<ObjectType>${3|0,1,2,3,4,5,6,7,8,9,10,11|}</ObjectType>",
+            "\t\t\t<ObjectID>${4:objectId}</ObjectID>",
+            "\t\t\t<ReadPermission>${5|0,1|}</ReadPermission>",
+            "\t\t\t<InsertPermission>${6|0,1|}</InsertPermission>",
+            "\t\t\t<ModifyPermission>${7|0,1|}</ModifyPermission>",
+            "\t\t\t<DeletePermission>${8|0,1|}</DeletePermission>",
+            "\t\t\t<ExecutePermission>${9|0,1|}</ExecutePermission>",
+            "\t\t\t<SecurityFilter />",
+            "\t\t</Permission>",
+            "\t</PermissionSet>",
+            "</PermissionSets>"
+        ],
+        "description": "Snippet: Permission Sets File"
+    }
+}

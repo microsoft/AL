@@ -1,0 +1,30 @@
+{
+    "Snippet: RuleSet": {
+        "prefix": "truleset",
+        "body": [
+            "{",
+            "\t\"name\": \"${1:Name}\",",
+            "\t\"description\": \"${2:Description}\",",
+            "\t\"rules\": [",
+            "\t\t{",
+            "\t\t\t\"id\": \"${3:DiagnosticId}\",",
+            "\t\t\t\"action\": \"${4|Error,Warning,Info,Hidden,None|}\",",
+            "\t\t\t\"justification\": \"${0:Justification}\"",
+            "\t\t}",
+            "\t]",
+            "}"
+        ],
+        "description": "Snippet: RuleSet"
+    },
+    "Snippet: Rule": {
+        "prefix": "trule",
+        "body": [
+            "{",
+            "\t\"id\": \"${1:DiagnosticId}\",",
+            "\t\"action\": \"${2|Error,Warning,Info,Hidden,None|}\",",
+            "\t\"justification\": \"${0:Justification}\"",
+            "}"
+        ],
+        "description": "Snippet: RuleSet"
+    }
+}
