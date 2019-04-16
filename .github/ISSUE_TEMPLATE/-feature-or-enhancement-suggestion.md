@@ -2,7 +2,7 @@
 name: " Feature or enhancement suggestion"
 about: "\U0001F6D1\U0001F6D1\U0001F6D1Please go to https://aka.ms/BusinessCentralideas\U0001F6D1\U0001F6D1\U0001F6D1"
 title: ''
-labels: ''
+labels: suggestion
 assignees: ''
 
 ---

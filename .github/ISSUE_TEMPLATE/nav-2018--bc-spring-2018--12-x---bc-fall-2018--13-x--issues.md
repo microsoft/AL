@@ -2,7 +2,7 @@
 name: NAV 2018, BC Spring 2018 (12.X), BC Fall 2018 (13.X) Issues
 about: "\U0001F6D1\U0001F6D1\U0001F6D1Please contact customer support\U0001F6D1\U0001F6D1\U0001F6D1"
 title: ''
-labels: ''
+labels: customer-support
 assignees: ''
 
 ---
