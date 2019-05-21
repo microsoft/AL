@@ -5,7 +5,7 @@
 ---
 
 ## Welcome
-The main purpose of this repository is to track issues for the latest developer preview environment for Dynamics 365 Business Central. In addition, you will find code samples to help you get started writing extensions in AL and get familiar with the new tools. Your feedback is very welcome, submit it directly in this repository.
+The main purpose of this repository is to track issues regarding the AL compiler and the Developer Tools for the latest developer preview environment for Dynamics 365 Business Central. In addition, you will find code samples to help you get started writing extensions in AL and get familiar with the new tools. Your feedback is very welcome, submit it directly in this repository.
 
 **Note** that for issues related to ***versions of Business Central that are in mainstream support you should use the support channel*** - see [this FAQ entry](https://github.com/Microsoft/AL/wiki/Frequently-Asked-Questions#i-found-an-issue-in-a-version-of-the-product-that-is-not-the-latest-what-do-i-do).
 
