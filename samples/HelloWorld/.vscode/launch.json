@@ -4,10 +4,12 @@
         {
             "type": "al",
             "request": "launch",
-            "name": "Publish",
-            "server": "https://<vmname>.<azureregion>.cloudapp.azure.com",
-            "serverInstance": "NAV",
-            "authentication": "UserPassword"
+            "name": "Microsoft cloud sandbox",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "authentication": "AAD"
         }
     ]
 }
