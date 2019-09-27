@@ -7,6 +7,12 @@ assignees: ''
 
 ---
 
+<!--
+Please follow this template in order for our developers to investigate your issue efficiently.
+
+Do not edit or remove the titles; e.g. "Descibe the bug".
+-->
+
 **Describe the bug**
 A clear and concise description of what the bug is. 
 
@@ -22,7 +28,7 @@ A clear and concise description of what you expected to happen.
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
 
-**Versions:**
+**5. Versions:**
 <!-- Go to Visual Studio Code → Extensions panel → AL Language -->
  - AL Language: 
 <!-- In the client search for: System Information -->
