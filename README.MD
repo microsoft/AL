@@ -1,6 +1,6 @@
 ﻿
 # AL Developer Preview for Dynamics 365 Business Central
-  [![current preview version 3.0.152816](https://img.shields.io/badge/Current_Preview_Version-3.0.152816-orange.svg?style=flat-square)](https://github.com/Microsoft/AL/milestone/19) [![next preview update October 2019](https://img.shields.io/badge/Next_Preview_Update-August_2019-blue.svg?style=flat-square)](https://github.com/Microsoft/AL/milestone/23)
+  [![current preview version 4.0.182565](https://img.shields.io/badge/Current_Preview_Version-4.0.182565-orange.svg?style=flat-square)](https://github.com/Microsoft/AL/milestone/25) [![next preview update November 2019](https://img.shields.io/badge/Next_Preview_Update-November_2019-blue.svg?style=flat-square)](https://github.com/Microsoft/AL/milestone/25)
 
 ---
 
