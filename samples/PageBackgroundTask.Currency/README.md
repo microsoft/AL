@@ -7,7 +7,7 @@ A page background task can run a codeunit (without a UI) in a read-only child se
 If the page is closed before the task completes or the page record ID changed, the task is canceled.
 
 # Requirement
-Business Central Fall Release 2019 (Also known as version 15)
+Business Central 2019 wave 2 release (Also known as version 15)
 
 # How to run
 Clone the repository, build the extension and publish it to your sandbox.
