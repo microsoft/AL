@@ -31,11 +31,6 @@ pageextension 50101 "Currencies PageExt" extends Currencies
         CurrenciesToRetrieve: Text;
         DemoAlCurrencySetup: Record "PBT Currency Sample Setup";
     begin
-        if (PbtTaskId <> 0) then begin
-            // Reseting PbtTaskId to 0, to make sure that the completion trigger will not display data for the wrong record.
-            PbtTaskId := 0;
-        end;
-
         CurrPage."Latest rates repeater".Page.ResetTempTable(Code);
         if (Code = '') then
             exit;
@@ -57,7 +52,6 @@ pageextension 50101 "Currencies PageExt" extends Currencies
         // Testability
         OnBeforePageBackgroundTaskSchedule(PbtParameters);
 
-        // Default timeout is 2min, max is 10min.
         CurrPage.EnqueueBackgroundTask(PbtTaskId, Codeunit::CurrencyRetriever, PbtParameters, 100000, PageBackgroundTaskErrorLevel::Warning);
     end;
 

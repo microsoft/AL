@@ -54,7 +54,6 @@ pageextension 50100 "O365 Activities Ext Currency" extends "O365 Activities"
             // Testability
             OnBeforePageBackgroundTaskSchedule(PbtParameters);
 
-            // Default timeout is 2min, max is 10min.
             CurrPage.EnqueueBackgroundTask(PbtTaskId, Codeunit::CurrencyRetriever, PbtParameters, 100000, PageBackgroundTaskErrorLevel::Warning);
         end;
     end;

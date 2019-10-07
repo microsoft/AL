@@ -62,7 +62,6 @@ page 50104 "Latest Rates Factbox"
         // Testability
         OnBeforePageBackgroundTaskSchedule(PbtParameters);
 
-        // Default timeout is 2min, max is 10min.
         CurrPage.EnqueueBackgroundTask(PbtTaskId, Codeunit::CurrencyRetriever, PbtParameters, 100000, PageBackgroundTaskErrorLevel::Warning);
     end;
 
