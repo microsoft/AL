@@ -3,7 +3,7 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-page 50103 "Latest Currency Rate Factbox"
+page 50103 "Latest Rates Factbox wRepeater"
 {
     SourceTable = "Latest Currency Rate";
     SourceTableTemporary = true;
@@ -14,8 +14,7 @@ page 50103 "Latest Currency Rate Factbox"
     LinksAllowed = false;
     Editable = false;
     RefreshOnActivate = false;
-
-    Caption = 'Latest currency rates';
+    Caption = 'Latest currency rates repeater';
 
     layout
     {
@@ -23,7 +22,6 @@ page 50103 "Latest Currency Rate Factbox"
         {
             repeater(Rates)
             {
-                Caption = 'Latest rates';
                 field(Code; Code)
                 {
                     ApplicationArea = Basic, Suite;

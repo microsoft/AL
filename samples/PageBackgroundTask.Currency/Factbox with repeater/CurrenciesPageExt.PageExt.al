@@ -9,26 +9,34 @@ pageextension 50101 "Currencies PageExt" extends Currencies
     {
         addlast(factboxes)
         {
-            part("Latest rates"; "Latest Currency Rate Factbox")
+            part("Latest rates"; "Latest Rates Factbox")
+            {
+                ApplicationArea = Basic, Suite;
+                SubPageLink = Code = FIELD(Code);
+            }
+
+            part("Latest rates repeater"; "Latest Rates Factbox wRepeater")
             {
                 ApplicationArea = Basic, Suite;
             }
         }
     }
 
+    // For a factbox with a repeater, we must update it's content on the main page.
+    // For the factbox without a repeater, the content is updated inside the factbox.
     trigger OnAfterGetCurrRecord()
     var
         PbtParameters: Dictionary of [Text, Text];
         Currency: Record Currency;
         CurrenciesToRetrieve: Text;
-        DemoAlCurrencySetup: Record "Demo AL Currency Setup";
+        DemoAlCurrencySetup: Record "PBT Currency Sample Setup";
     begin
         if (PbtTaskId <> 0) then begin
             // Reseting PbtTaskId to 0, to make sure that the completion trigger will not display data for the wrong record.
             PbtTaskId := 0;
         end;
 
-        CurrPage."Latest rates".Page.ResetTempTable(Code);
+        CurrPage."Latest rates repeater".Page.ResetTempTable(Code);
         if (Code = '') then
             exit;
 
@@ -44,7 +52,7 @@ pageextension 50101 "Currencies PageExt" extends Currencies
         PbtParameters.Set('CurrencyBase', Code);
         PbtParameters.Set('Currencies', CurrenciesToRetrieve);
         DemoAlCurrencySetup.Get('SETUP');
-        PbtParameters.Set('SleepSimulation', Format(DemoAlCurrencySetup.SleepDurationFactbox)); // Delay to simulate a slow HTTP call
+        PbtParameters.Set('SleepSimulation', Format(DemoAlCurrencySetup.SleepDurationFactboxRepeater)); // Delay to simulate a slow HTTP call
 
         // Testability
         OnBeforePageBackgroundTaskSchedule(PbtParameters);
@@ -58,7 +66,7 @@ pageextension 50101 "Currencies PageExt" extends Currencies
         if (TaskId = PbtTaskId) then begin
             // Adding the current currency as 0 (so it looks better)
             Results.Set(Code, '1.0');
-            CurrPage."Latest rates".Page.InitTempTable(Results);
+            CurrPage."Latest rates repeater".Page.InitTempTable(Results);
         end;
     end;
 

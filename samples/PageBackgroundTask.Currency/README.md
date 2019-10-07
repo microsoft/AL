@@ -32,5 +32,7 @@ The important concept to understand is the "link" between the page current recor
 
 In "O365 Activities Ext Currency", the PBT is enqueued on OnAfterGetCurrRecord(), and therefor is linked to the current page record. ("Activities Cue" record)
 
-In "Currencies PageExt", the PBT is enqueued on OnAfterGetCurrRecord(), and therefor is linked to the currently selected record of the list. Changing the record in the list will cancel the page background task automatically.
+In "Latest Rates Factbox",  the PBT is enqueued on OnAfterGetCurrRecord(), and therefor is linked to the current page record, which is set to the parent page record by the SubPageLink property on the "Currencies PageExt" list.
+
+In "Latest Rates Factbox wRepeater", the PBT is enqueued on OnAfterGetCurrRecord() of "Currencies PageExt" list. The reason is that the factbox doesn't have a single record (due to the repeater), and therefor the PBT cannot be instantiated from the factbox. The PBT is linked to the currently selected record in the list.
 

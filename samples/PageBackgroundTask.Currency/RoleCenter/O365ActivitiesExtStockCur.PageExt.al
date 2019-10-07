@@ -42,7 +42,7 @@ pageextension 50100 "O365 Activities Ext Currency" extends "O365 Activities"
     trigger OnAfterGetCurrRecord()
     var
         PbtParameters: Dictionary of [Text, Text];
-        DemoAlCurrencySetup: Record "Demo AL Currency Setup";
+        DemoAlCurrencySetup: Record "PBT Currency Sample Setup";
     begin
         if (PbtTaskId = 0) then begin
             PbtParameters.Set('Date', 'latest');

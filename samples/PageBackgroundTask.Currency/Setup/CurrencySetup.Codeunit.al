@@ -10,7 +10,7 @@ codeunit 50101 CurrencySetup
     trigger OnInstallAppPerCompany()
     var
         Currency: Record Currency;
-        DemoAlCurrencySetup: Record "Demo AL Currency Setup";
+        DemoAlCurrencySetup: Record "PBT Currency Sample Setup";
         ExchangeRate: Record "Currency Exchange Rate";
     begin
         if not Currency.Get('DKK') then begin
@@ -47,6 +47,7 @@ codeunit 50101 CurrencySetup
             DemoAlCurrencySetup.Init();
             DemoAlCurrencySetup."Primary Key" := 'SETUP';
             DemoAlCurrencySetup.SleepDurationFactbox := 2000;
+            DemoAlCurrencySetup.SleepDurationFactboxRepeater := 1;
             DemoAlCurrencySetup.SleepDurationRoleCenter := 2000;
             DemoAlCurrencySetup.Insert();
         end;

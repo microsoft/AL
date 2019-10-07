@@ -3,12 +3,13 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-page 50100 "Demo AL Currency Setup"
+page 50100 "PBT Currency Sample Setup"
 {
     PageType = Card;
     ApplicationArea = All;
     UsageCategory = Administration;
-    SourceTable = "Demo AL Currency Setup";
+    SourceTable = "PBT Currency Sample Setup";
+    Caption = 'Page Background Task Sample currency setup';
 
     layout
     {
@@ -20,6 +21,12 @@ page 50100 "Demo AL Currency Setup"
                 {
                     ApplicationArea = All;
                     Caption = 'Factbox sleep duration in MS';
+                }
+
+                field(SleepDurationFactboxRepeater; SleepDurationFactboxRepeater)
+                {
+                    ApplicationArea = All;
+                    Caption = 'Factbox with Repeater sleep duration in MS';
                 }
 
                 field(SleepDurationRoleCenter; SleepDurationRoleCenter)

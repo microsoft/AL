@@ -3,7 +3,7 @@
 // Licensed under the MIT License. See License.txt in the project root for license information. 
 // ------------------------------------------------------------------------------------------------
 
-table 50101 "Demo AL Currency Setup"
+table 50101 "PBT Currency Sample Setup"
 {
     DataClassification = SystemMetadata;
     DataPerCompany = false;
@@ -21,6 +21,11 @@ table 50101 "Demo AL Currency Setup"
         }
 
         field(3; SleepDurationFactbox; Integer)
+        {
+            DataClassification = SystemMetadata;
+        }
+
+        field(4; SleepDurationFactboxRepeater; Integer)
         {
             DataClassification = SystemMetadata;
         }
