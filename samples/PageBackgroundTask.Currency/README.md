@@ -16,11 +16,12 @@ Clone the repository, build the extension and publish it to your sandbox.
 * EUR/DKK - Latest
 * EUR/USD - Latest
 
-**In the "Currencies" list page, a factbox will appear:**
+**In the "Currencies" list page, two factboxes will appear:**
 * "Latest currency rates"
+* "Latest currency rates repeater"
 
 **A setup page:**
-* "Demo AL Currency Setup" : To setup the delays for demo purposes
+* "Page Background Task Sample currency setup" : To setup the delays for demo purposes
 
 # Design
 
@@ -28,7 +29,7 @@ The code unit "CurrencyRetriever" is running in a child session of the parent se
 The parent session continues to run, not affected by  the child session (if it blocks for example, performing an extensive operation/waiting for IO).
 
 The important concept to understand is the "link" between the page current record, and the page background task.
-**If CurrPage.Rec primary key changes, the PBT is automatically cancelled.**
+**If CurrPage.Rec changes, the PBT is automatically cancelled.**
 
 In "O365 Activities Ext Currency", the PBT is enqueued on OnAfterGetCurrRecord(), and therefor is linked to the current page record. ("Activities Cue" record)
 
