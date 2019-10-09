@@ -14,9 +14,9 @@ https://blogs.msdn.microsoft.com/nav/2018/05/03/al-developer-previews-multiple-r
 
 For documentation about extending Dynamics 365 Business Central, get started with some of our topics on Docs: 
 
-•	[Getting Started](https://docs.microsoft.com/en-us/dynamics-nav/developer/devenv-get-started)   
-•	[Building Your First Sample Extension](https://docs.microsoft.com/en-us/dynamics-nav/developer/devenv-extension-example)  
-•	[Developer Reference](https://docs.microsoft.com/en-us/dynamics-nav/)  
+•	[Getting Started](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-get-started)   
+•	[Building Your First Sample Extension](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-extension-example)  
+•	[Developer Reference](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)  
 
 ## AL Developer Preview builds
 To get access to the AL Developer Preview builds you need to be part of the Ready2Go program. Detailed instructions can be found at https://aka.ms/ready2go.
