@@ -138,10 +138,18 @@ function ParseTxtLine {
     $translationObject["KeyPart"] = $keyPart
     $translationObject["Key"] = GetLegacyTranslationKey $keyPart
 
-    if(-not ($keyPart -match 'A(\d+)')) {
+    [int]$LCID = 0
+    $components = $keyPart -split "-"
+    foreach($component in $components) {
+        if($component.StartsWith("A")) {
+            if([int32]::TryParse($component.SubString(1) , [ref]$LCID )) {
+                break;
+            }
+        }
+    }
+    if($LCID -eq 0) {
         return $null
     }
-    [int]$LCID = $Matches[1]
     $CultureInfo = GetCultureInfo $LCID
     if(!$CultureInfo) {
         return $null
