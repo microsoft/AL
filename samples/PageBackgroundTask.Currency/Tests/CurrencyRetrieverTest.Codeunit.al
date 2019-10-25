@@ -18,7 +18,7 @@ codeunit 50130 CurrencyRetrieverTest
         Err: Label 'Expected \%1, Actual: \%2';
     begin
         // Arrange
-        // TestPage.RunPageBackgroundTask requires the page to be opened today (Bug reported to MSFT)
+        // TestPage.RunPageBackgroundTask requires a page to be opened.
         PbtTestPage.OpenView();
 
         PbtParameters.Set('Date', '2019-09-04');
