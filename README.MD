@@ -1,13 +1,30 @@
-﻿
+﻿<!--
 # AL Developer Preview for Dynamics 365 Business Central
   [![current preview version 4.0.182565](https://img.shields.io/badge/Current_Preview_Version-4.0.182565-orange.svg?style=flat-square)](https://github.com/Microsoft/AL/milestone/25) [![next preview update November 2019](https://img.shields.io/badge/Next_Preview_Update-November_2019-blue.svg?style=flat-square)](https://github.com/Microsoft/AL/milestone/25)
+-->
+# Visual Studio Code AL Language extension for Dynamics 365 Business Central
 
 ---
 
 ## Welcome
-The main purpose of this repository is to track issues regarding the AL compiler and the Developer Tools for the latest developer preview environment for Dynamics 365 Business Central. In addition, you will find code samples to help you get started writing extensions in AL and get familiar with the new tools. Your feedback is very welcome, submit it directly in this repository.
+The main purpose of this repository is to track issues regarding the AL compiler and the Developer Tools for the latest developer preview environment for Dynamics 365 Business Central. In addition, you will find code samples to help you get started writing extensions in AL and get familiar with the new tools. Your feedback is very welcome; submit it directly in this repository.
 
-**Note** that for issues related to ***versions of Business Central that are in mainstream support you should use the support channel*** - see [this FAQ entry](https://github.com/Microsoft/AL/wiki/Frequently-Asked-Questions#i-found-an-issue-in-a-version-of-the-product-that-is-not-the-latest-what-do-i-do).
+<!--
+**Note** that for issues related to ***versions of Business Central that are in mainstream support you should use the support channel*** - see [this FAQ entry](https://github.com/Microsoft/AL/wiki/Frequently-Asked-Questions#i-found-an-issue-in-a-version-of-the-product-that-is-not-the-latest-what-do-i-do). -->
+
+**Note** that for issues related to 
+
+- **versions of Business Central that are in mainstream support you should use the support channel** - see [this FAQ entry](https://github.com/Microsoft/AL/wiki/requently-Asked-Questions#i-found-an-issue-in-a-version-of-the-product-that-is-not-the-latest-what-do-i-do).
+
+- For issues related to **bugs on AL Language VSIX** in Visual Studio Code (aka ModernDev), use the current [GitHub repo](https://github.com/microsoft/al).
+
+- For suggestions and discussions on **code cop rules**, use the current [GitHub repo](https://github.com/microsoft/al).
+
+- For suggestions on **new features** in AL/Visual Studio Code language and tools, as well as Business Central in general, use [Ideas](https://aka.ms/bcideas) to allow voting, as we get more requests than we have time and need to prioritize by demand/impact.
+
+- For **collaboration on system and base applications** as well as **event requests**, use [ALAppExtensions](https://github.com/Microsoft/ALAppExtensions).
+
+<br>
 
 Please read this blog post to get familiar with how Developer Preview releases relate to other versions of Business Central:
 https://blogs.msdn.microsoft.com/nav/2018/05/03/al-developer-previews-multiple-releases-and-github/
