@@ -12,7 +12,7 @@ The main purpose of this repository is to track issues regarding the AL compiler
 <!--
 **Note** that for issues related to ***versions of Business Central that are in mainstream support you should use the support channel*** - see [this FAQ entry](https://github.com/Microsoft/AL/wiki/Frequently-Asked-Questions#i-found-an-issue-in-a-version-of-the-product-that-is-not-the-latest-what-do-i-do). -->
 
-**Note** that for issues related to 
+**Note** that for issues related to: 
 
 - **versions of Business Central that are in mainstream support you should use the support channel** - see [this FAQ entry](https://github.com/Microsoft/AL/wiki/requently-Asked-Questions#i-found-an-issue-in-a-version-of-the-product-that-is-not-the-latest-what-do-i-do).
 
