@@ -1,0 +1,21 @@
+{
+  "id": "e8cd0536-d5ea-4917-b07b-472c69417ed9",
+  "name": "Control add-in sample",
+  "publisher": "Microsoft",
+  "brief": "",
+  "description": "",
+  "version": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "logo.png",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "11.0.0.0",
+  "application": "11.0.0.0",
+  "idRanges": [{
+    "from": 50300,
+    "to": 50399
+  }]
+}

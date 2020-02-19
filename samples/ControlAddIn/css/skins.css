@@ -1,0 +1,22 @@
+body {
+    font-family: Consolas;
+}
+
+.bg {
+    background: bisque;
+}
+
+img {
+    display: block;
+}
+
+.cb, .bg {
+    height: 30px;
+}
+
+.div-with-image {
+    height: 50px;
+    background-image: url('../images/logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,21 @@
+{
+  "id": "0042a65b-857f-4540-bd6f-972a72e13297",
+  "name": "DotNetReplace",
+  "publisher": "Microsoft",
+  "brief": "",
+  "description": "",
+  "version": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "11.0.0.0",
+  "application": "11.0.0.0",  
+  "idRanges": [{
+    "from": 50100,
+    "to": 50149
+  }]
+}
