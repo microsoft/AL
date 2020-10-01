@@ -20,7 +20,9 @@ A clear and concise description of what the bug is.
 Steps and to reproduce the behavior:
 1. Go to '...'
 
-``` AL Code to reproduce the issue ```
+```AL
+AL Code to reproduce the issue 
+```
 
 **Expected behavior**
 A clear and concise description of what you expected to happen.

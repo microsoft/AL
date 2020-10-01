@@ -25,12 +25,16 @@ Description of why this rule is important.
 **Bad code sample**
 Example of what bad code the rule should catch:
 
-``` Example of bad code ```
+```AL
+Example of bad code
+```
 
 **Good code sample**
 Example of what code should look like:
 
-``` Example of good code ```
+```AL
+Example of good code
+```
 
 **Good and bad practices for fixing the rule**
 Description of good and bad solution to fixing this warning (only add this section if you have additional information besides the good and bad code samples).
