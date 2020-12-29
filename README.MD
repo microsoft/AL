@@ -1,41 +1,57 @@
 # Visual Studio Code AL Language extension for Dynamics 365 Business Central
 
----
-
 ## Welcome
-The main purpose of this repository is to track issues regarding the AL compiler and the Developer Tools for the latest developer preview environment for Dynamics 365 Business Central. In addition, you will find code samples to help you get started writing extensions in AL and get familiar with the new tools. Your feedback is very welcome; submit it directly in this repository.
 
-<!--
-**Note** that for issues related to ***versions of Business Central that are in mainstream support you should use the support channel*** - see [this FAQ entry](https://github.com/Microsoft/AL/wiki/Frequently-Asked-Questions#i-found-an-issue-in-a-version-of-the-product-that-is-not-the-latest-what-do-i-do). -->
+The main purpose of this repository is to track issues regarding the latest version of the AL compiler and developer tools available in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-dynamics-smb.al) or as part of the [AL Developer Preview builds](#al-developer-preview-builds) for Dynamics 365 Business Central. In addition, you will find code samples to help you get started writing extensions in AL and get familiar with the new tools.
 
-**Note** that for issues related to: 
+## Documentation
 
-- **versions of Business Central that are in mainstream support you should use the support channel** - see [this FAQ entry](https://github.com/Microsoft/AL/wiki/requently-Asked-Questions#i-found-an-issue-in-a-version-of-the-product-that-is-not-the-latest-what-do-i-do).
+For documentation about using the [AL Language extension](https://marketplace.visualstudio.com/items?itemName=ms-dynamics-smb.al)  to extend Dynamics 365 Business Central, read some of our topics on [Microsoft Dynamics 365 Business Central docs](https://docs.microsoft.com/en-us/dynamics365/business-central/):  
+• [Getting Started](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-get-started)  
+• [Building Your First Sample Extension](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-extension-example)  
+• [Developer Reference](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)  
 
-- For issues related to **bugs on AL Language VSIX** in Visual Studio Code (aka ModernDev), use the current [GitHub repo](https://github.com/microsoft/al).
+## Bugs and Feature Requests
 
-- For suggestions and discussions on **code cop rules**, use the current [GitHub repo](https://github.com/microsoft/al).
+If you have encountered a bug or you have a feature request, please first read the [contributing guidelines](CONTRIBUTING.md) and then search for existing and closed issues.  
 
-- For suggestions on **new features** in AL/Visual Studio Code language and tools, as well as Business Central in general, use [Ideas](https://aka.ms/bcideas) to allow voting, as we get more requests than we have time and need to prioritize by demand/impact.
+Bugs pertaining to the AL compiler and the developer tools for the latest version can be filed in this repository. We will respond to these issues on a best-effort basis.  
 
-- For **collaboration on system and base applications** as well as **event requests**, use [ALAppExtensions](https://github.com/Microsoft/ALAppExtensions).
+See the [triage process](https://github.com/Microsoft/AL/wiki/Triage-Process) document for more information on how we handle incoming requests.
 
-<br>
+## Support
 
-Please read this blog post to get familiar with how Developer Preview releases relate to other versions of Business Central:
-https://blogs.msdn.microsoft.com/nav/2018/05/03/al-developer-previews-multiple-releases-and-github/
+If you have encountered an issue in a version of the AL compiler and developer tools that is in mainstream support, or in the application, platform, or another component of Dynamics 365 Business Central, please read the following articles on how to get support for the Dynamics 365 Business Central product:
 
-For documentation about extending Dynamics 365 Business Central, get started with some of our topics on Docs: 
+- [Technical Support for Dynamics 365 Business Central](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/technical-support)
+- [Managing Technical Support](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/manage-technical-support)
 
-•	[Getting Started](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-get-started)   
-•	[Building Your First Sample Extension](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-extension-example)  
-•	[Developer Reference](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)  
+## Community
 
-## AL Developer Preview builds
-To get access to the AL Developer Preview builds you need to be part of the Ready2Go program. Detailed instructions can be found at https://aka.ms/ready2go.
+Our answers to frequently asked questions can be found in our [FAQ](https://github.com/Microsoft/AL/wiki/Frequently-Asked-Questions). To get help from community members please use one of the following resources:
 
-## FAQ
-Our answers to frequently asked questions can be found in our [Wiki](https://github.com/Microsoft/AL/wiki/Frequently-Asked-Questions).
+- [Business Central Community](https://community.dynamics.com/business/f/758)  
+- [mibuso forum](https://forum.mibuso.com/categories/nav-three-tier)  
+- [Dynamics User Group](https://dynamicsuser.net/nav/f/developers)  
 
-## Notice
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact __opencode@microsoft.com__ with any additional questions or comments.
+## Related Projects
+
+The following repositories can provide additional resources depending on the issues that you are facing:
+
+- [Microsoft AL application foundation modules and application add-ons for Microsoft Dynamics 365 Business Central](https://github.com/microsoft/ALAppExtensions)
+- [Microsoft Dynamics 365 Business Central Docs](https://github.com/MicrosoftDocs/dynamics365smb-devitpro-pb)
+- [Official Microsoft repository for NavContainerHelper, a PowerShell module, which makes it easier to work with Nav Containers on Docker.](https://github.com/Microsoft/navcontainerhelper)
+
+## Contributing
+
+Please read through our [contributing guidelines](CONTRIBUTING.md).
+
+## Code of Conduct
+
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+
+## License
+
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+Licensed under the [MIT](LICENSE.txt) license.
