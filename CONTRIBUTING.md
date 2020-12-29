@@ -14,16 +14,16 @@ The active community will be eager to assist you. Your well-worded question will
 
 ## Reporting Issues
 
-Have you identified a reproducible problem in the AL developer tools? Here's how you can make reporting your issue as effective as possible.
+Have you identified a reproducible problem in the AL compiler or developer tools? Here's how you can make reporting your issue as effective as possible.
 
 ### Identify Where to Report
 
-The Dynamics 365 Business Central team accepts feedback through multiple channels and repositories. Try to file the issue through the correct channel.
+The Dynamics 365 Business Central team accepts feedback through multiple channels and repositories. Try to file the issue through the correct channel to ensure that your issue is addressed effectively and efficiently.
 
 - For issues related to extensions authored by Microsoft, such as the `System Application` or the `Base Application` as well as event requests, use the [ALAppExtensions](https://github.com/Microsoft/ALAppExtensions) repository.
-- For issues concerning versions of Business Central that are in mainstream support you should use the [support channel](README.README.MD).
+- For issues concerning versions of Business Central that are in mainstream support you should use the [support channel](#support).
 - For new features in AL/Visual Studio Code language and tools, as well as Business Central in general, use [Business Central Ideas](https://aka.ms/bcideas). This will allow other members of the community to vote on your idea and will allow us to prioritize based accordingly.
-- For issues related to bugs in the latest version of the AL Language extension for Visual Studio Code, use the current [GitHub repository](https://github.com/microsoft/al). You should always use the latest version of the AL Language extension when targetting any version of Business Central. If you are targetting NAV 2018 or older, please use the [support channel](README.README.MD).
+- For issues related to bugs in the latest version of the AL Language extension for Visual Studio Code, use the current [GitHub repository](https://github.com/microsoft/al). You should always use the latest version of the AL Language extension when targetting any version of Business Central. If you are targetting NAV 2018 or older, please use the [support channel](#support).
 - For suggestions and discussions on static analysis rules (code cop), use the current [GitHub repo](https://github.com/microsoft/al).
 
 ### Look For an Existing Issue
@@ -39,7 +39,7 @@ If you find your issue already exists, make relevant comments and add your [reac
 
 If you cannot find an existing issue that describes your bug, create a new issue using the guidelines below.
 
-### Writing Good Bug Reports and Feature Requests
+### Writing Good Bug Reports
 
 File a single issue per problem. Do not enumerate multiple bugs or feature requests in the same issue.
 
