@@ -2,11 +2,11 @@
 
 ## Welcome
 
-The main purpose of this repository is to track issues regarding the latest version of the AL compiler and developer tools available in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-dynamics-smb.al) or as part of the [AL Developer Preview builds](#al-developer-preview-builds) for Dynamics 365 Business Central. In addition, you will find code samples to help you get started writing extensions in AL and get familiar with the new tools.
+The main purpose of this repository is to track issues regarding the latest version of the AL compiler and developer tools available in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-dynamics-smb.al) or as part of the [AL Developer Preview builds](#al-developer-preview-builds) for Dynamics 365 Business Central. In addition, you will find code samples to help you get started writing extensions in AL and get familiar with the tools.
 
 ## Documentation
 
-For documentation about using the [AL Language extension](https://marketplace.visualstudio.com/items?itemName=ms-dynamics-smb.al)  to extend Dynamics 365 Business Central, read some of our topics on [Microsoft Dynamics 365 Business Central docs](https://docs.microsoft.com/en-us/dynamics365/business-central/):  
+For documentation about using the [AL Language](https://marketplace.visualstudio.com/items?itemName=ms-dynamics-smb.al) to extend Dynamics 365 Business Central, read some of our topics on [Microsoft Dynamics 365 Business Central docs](https://docs.microsoft.com/en-us/dynamics365/business-central/):  
 • [Getting Started](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-get-started)  
 • [Building Your First Sample Extension](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-extension-example)  
 • [Developer Reference](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)  
@@ -18,13 +18,6 @@ If you have encountered a bug or you have a feature request, please first read t
 Bugs pertaining to the AL compiler and the developer tools for the latest version can be filed in this repository. We will respond to these issues on a best-effort basis.  
 
 See the [triage process](https://github.com/Microsoft/AL/wiki/Triage-Process) document for more information on how we handle incoming requests.
-
-## Support
-
-If you have encountered an issue in a version of the AL compiler and developer tools that is in mainstream support, or in the application, platform, or another component of Dynamics 365 Business Central, please read the following articles on how to get support for the Dynamics 365 Business Central product:
-
-- [Technical Support for Dynamics 365 Business Central](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/technical-support)
-- [Managing Technical Support](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/manage-technical-support)
 
 ## Community
 
