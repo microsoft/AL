@@ -32,7 +32,7 @@ For documentation about extending Dynamics 365 Business Central, get started wit
 •	[Developer Reference](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)  
 
 ## AL Developer Preview builds
-To get access to the AL Developer Preview builds you need to be part of the Ready2Go program. Detailed instructions can be found at https://aka.ms/ready2go.
+To get access to the AL Developer Preview builds you need to be part of the Ready2Go program. Detailed instructions can be found at https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/readiness/get-started.
 
 ## FAQ
 Our answers to frequently asked questions can be found in our [Wiki](https://github.com/Microsoft/AL/wiki/Frequently-Asked-Questions).
