@@ -20,10 +20,10 @@ Have you identified a reproducible problem in the AL compiler or developer tools
 
 The Dynamics 365 Business Central team accepts feedback through multiple channels and repositories. Try to file the issue through the correct channel to ensure that your issue is addressed effectively and efficiently.
 
-- For issues related to bugs in the latest version of the AL Language extension for Visual Studio Code or any of the static analysis tools that accompany the AL Language extension, use the current [GitHub repository](https://github.com/microsoft/al). You should always use the latest version of the AL Language extension when targeting any version of Business Central. If you are targeting Dynamics NAV 2018 or older, please use the [support channel](#support).
+- For bugs in the latest version of the AL Language extension for Visual Studio Code or any of the static analysis tools that accompany the AL Language extension, use the current [GitHub repository](https://github.com/microsoft/al). You should always use the latest version of the AL Language extension when targeting any version of Business Central. If you are targeting Dynamics NAV 2018 or older, please use the [support channel](#support).
 - For new features in AL/Visual Studio Code language and tools, as well as Business Central in general, use [Business Central Ideas](https://aka.ms/bcideas). This will allow other members of the community to vote on your idea and will allow us to prioritize based accordingly.
 - For suggestions for new static analysis rules or improvements to existing static analysis rules, use [Business Central Ideas](https://aka.ms/bcideas).
-- For issues related to extensions authored by Microsoft, such as the `System Application` or the `Base Application` as well as event requests, use the [ALAppExtensions](https://github.com/Microsoft/ALAppExtensions) repository.
+- For issues related to the extensibility of applications authored by Microsoft, such as the `System Application` or the `Base Application`, use the [ALAppExtensions](https://github.com/Microsoft/ALAppExtensions) repository.
 - For issues concerning versions of Business Central that are in mainstream support you should use the [support channel](#support).
 
 ### Look for an existing issue
