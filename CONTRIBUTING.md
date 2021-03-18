@@ -53,7 +53,7 @@ Please include the following with each issue:
 A clear and concise description of what the bug is. 
 
 **2. To Reproduce**
-Steps and to reproduce the behavior:
+Steps to reproduce the behavior:
 
 1. Go to '...'
 
