@@ -4,13 +4,13 @@ Welcome, and thank you for your interest in contributing to the AL developer too
 
 ## Asking Questions
 
-Have a question? Rather than opening an issue, please ask use one of the following resources:
+Have a question? Rather than opening an issue, please use one of the following resources:
 
 - [Business Central Community](https://community.dynamics.com/business/f/758)  
 - [mibuso forum](https://forum.mibuso.com/categories/nav-three-tier)  
 - [Dynamics User Group](https://dynamicsuser.net/nav/f/developers)  
   
-The active community will be eager to assist you. Your well-worded question will serve as a resource to others searching for help.
+The community will be eager to assist you and your well-worded question will serve as a resource to others searching for help.
 
 ## Reporting Issues
 
@@ -20,11 +20,11 @@ Have you identified a reproducible problem in the AL compiler or developer tools
 
 The Dynamics 365 Business Central team accepts feedback through multiple channels and repositories. Try to file the issue through the correct channel to ensure that your issue is addressed effectively and efficiently.
 
+- For issues related to bugs in the latest version of the AL Language extension for Visual Studio Code or any of the static analysis tools that accompany the AL Language extension, use the current [GitHub repository](https://github.com/microsoft/al). You should always use the latest version of the AL Language extension when targetting any version of Business Central. If you are targetting NAV 2018 or older, please use the [support channel](#support).
+- For new features in AL/Visual Studio Code language and tools, as well as Business Central in general, use [Business Central Ideas](https://aka.ms/bcideas). This will allow other members of the community to vote on your idea and will allow us to prioritize based accordingly.
+- For suggestions for new static analysis rules or improvements to existing static analysis rules, use [Business Central Ideas](https://aka.ms/bcideas).
 - For issues related to extensions authored by Microsoft, such as the `System Application` or the `Base Application` as well as event requests, use the [ALAppExtensions](https://github.com/Microsoft/ALAppExtensions) repository.
 - For issues concerning versions of Business Central that are in mainstream support you should use the [support channel](#support).
-- For new features in AL/Visual Studio Code language and tools, as well as Business Central in general, use [Business Central Ideas](https://aka.ms/bcideas). This will allow other members of the community to vote on your idea and will allow us to prioritize based accordingly.
-- For issues related to bugs in the latest version of the AL Language extension for Visual Studio Code, use the current [GitHub repository](https://github.com/microsoft/al). You should always use the latest version of the AL Language extension when targetting any version of Business Central. If you are targetting NAV 2018 or older, please use the [support channel](#support).
-- For suggestions and discussions on static analysis rules (code cop), use the current [GitHub repo](https://github.com/microsoft/al).
 
 ### Look For an Existing Issue
 
@@ -78,9 +78,9 @@ A clear and concise description of what happened accompanied by images, animatio
 
 Please remember to do the following:
 
-* [ ] Search the issue repository to ensure your report is a new issue
+* [ ] Search the issue repository to ensure you are reporting a new issue
 
-* [ ] Recreate the issue after disabling all extensions except the AL Language extension
+* [ ] Reproduce the issue after disabling all extensions except the AL Language extension
 
 * [ ] Simplify your code around the issue to better isolate the problem
 
@@ -94,10 +94,6 @@ If you have encountered an issue in a version of the AL compiler and developer t
 
 - [Technical Support for Dynamics 365 Business Central](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/technical-support)
 - [Managing Technical Support](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/manage-technical-support)
-
-https://github.com/twbs/bootstrap/blob/main/.github/CONTRIBUTING.md
-
-If your problem or idea is not addressed yet, [please open a new issue](https://github.com/microsoft/AL/issues/new/choose).
 
 ## Contributor License Agreement
 
