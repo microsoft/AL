@@ -2,7 +2,7 @@
 
 Welcome, and thank you for your interest in contributing to the AL developer tools! The goal of this document is to provide a high-level overview of how you can get involved.
 
-## Asking Questions
+## Asking questions
 
 Have a question? Rather than opening an issue, please use one of the following resources:
 
@@ -12,34 +12,34 @@ Have a question? Rather than opening an issue, please use one of the following r
   
 The community will be eager to assist you and your well-worded question will serve as a resource to others searching for help.
 
-## Reporting Issues
+## Reporting issues
 
 Have you identified a reproducible problem in the AL compiler or developer tools? Here's how you can make reporting your issue as effective as possible.
 
-### Identify Where to Report
+### Identify where to report
 
 The Dynamics 365 Business Central team accepts feedback through multiple channels and repositories. Try to file the issue through the correct channel to ensure that your issue is addressed effectively and efficiently.
 
-- For issues related to bugs in the latest version of the AL Language extension for Visual Studio Code or any of the static analysis tools that accompany the AL Language extension, use the current [GitHub repository](https://github.com/microsoft/al). You should always use the latest version of the AL Language extension when targetting any version of Business Central. If you are targetting NAV 2018 or older, please use the [support channel](#support).
+- For issues related to bugs in the latest version of the AL Language extension for Visual Studio Code or any of the static analysis tools that accompany the AL Language extension, use the current [GitHub repository](https://github.com/microsoft/al). You should always use the latest version of the AL Language extension when targeting any version of Business Central. If you are targeting Dynamics NAV 2018 or older, please use the [support channel](#support).
 - For new features in AL/Visual Studio Code language and tools, as well as Business Central in general, use [Business Central Ideas](https://aka.ms/bcideas). This will allow other members of the community to vote on your idea and will allow us to prioritize based accordingly.
 - For suggestions for new static analysis rules or improvements to existing static analysis rules, use [Business Central Ideas](https://aka.ms/bcideas).
 - For issues related to extensions authored by Microsoft, such as the `System Application` or the `Base Application` as well as event requests, use the [ALAppExtensions](https://github.com/Microsoft/ALAppExtensions) repository.
 - For issues concerning versions of Business Central that are in mainstream support you should use the [support channel](#support).
 
-### Look For an Existing Issue
+### Look for an existing issue
 
 Before you create a new issue, please do a search in [open issues](https://github.com/microsoft/AL/issues) to see if the issue or feature request has already been filed.
 
 Be sure to scan through the [most popular](https://github.com/microsoft/AL/issues?q=is%3Aopen+is%3Aissue+sort%3Areactions-%2B1-desc+) issues.
 
-If you find your issue already exists, make relevant comments and add your [reaction](https://github.com/blog/2119-add-reactions-to-pull-requests-issues-and-comments). Use a reaction in place of a "+1" comment:
+If you find that your issue already exists, make relevant comments and add your [reaction](https://github.com/blog/2119-add-reactions-to-pull-requests-issues-and-comments). Use a reaction in place of a "+1" comment:
 
 - 👍 - upvote
 - 👎 - downvote
 
 If you cannot find an existing issue that describes your bug, create a new issue using the guidelines below.
 
-### Writing Good Bug Reports
+### Writing good bug reports
 
 File a single issue per problem. Do not enumerate multiple bugs or feature requests in the same issue.
 
@@ -65,7 +65,7 @@ Steps and to reproduce the behavior:
 A clear and concise description of what you expected to happen.
 
 **4. Actual behavior**
-A clear and concise description of what happened accompanied by images, animations, or a link to a video showing the issue occurring
+A clear and concise description of what happened accompanied by images, animations, or a link to a video showing the issue occurring.
 
 **5. Versions:**
 
@@ -74,19 +74,19 @@ A clear and concise description of what happened accompanied by images, animatio
 - Business Central. In the client search for: System Information
 - List of extensions that you have installed
 
-### Final Checklist
+### Final checklist
 
 Please remember to do the following:
 
 * [ ] Search the issue repository to ensure you are reporting a new issue
 
-* [ ] Reproduce the issue after disabling all extensions except the AL Language extension
+* [ ] Reproduce the issue after switching off all extensions except the AL Language extension
 
 * [ ] Simplify your code around the issue to better isolate the problem
 
-### Follow Your Issue
+### Follow your issue
 
-Once submitted, your report will go into the [issue tracking](https://github.com/microsoft/AL/wiki/Issue-Tracking) workflow. Be sure to understand what will happen next, so you know what to expect, and how to continue to assist throughout the process.
+Once submitted, your report will go into the [issue tracking](https://github.com/microsoft/AL/wiki/Issue-Tracking) workflow. Be sure to understand what will happen next, so that you know what to expect, and how to continue to assist throughout the process.
 
 ## Support
 
