@@ -1,5 +1,5 @@
 ---
-name: AL Static code analysis rule
+name: AL static code analysis rule suggestion
 about: "\U0001F6D1\U0001F6D1\U0001F6D1Please go to http://aka.ms/bcideas\U0001F6D1\U0001F6D1\U0001F6D1"  
 about: "\U0001F6D1\U0001F6D1\U0001F6D1Please go to http://aka.ms/bcideas\U0001F6D1\U0001F6D1\U0001F6D1"  
 labels: static-code-analysis
