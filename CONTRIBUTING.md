@@ -11,6 +11,7 @@ Have a question? Rather than opening an issue, please use one of the following r
 - [Dynamics User Group](https://dynamicsuser.net/nav/f/developers)
 - [Yammer groups for partners](https://aka.ms/BCYammer)
 - [Monthly themed Office Hours](https://aka.ms/BCOfficehours)
+- [Twitter community, using bcalhelp tag](https://twitter.com/hashtag/bcalhelp)
   
 The community will be eager to assist you and your well-worded question will serve as a resource to others searching for help.
 
