@@ -12,9 +12,11 @@ Read the contributing https://github.com/microsoft/AL/blob/master/CONTRIBUTING.M
 
 Please follow this template in order for our developers to investigate your issue efficiently.
 
-Do not edit or remove the titles; e.g. "Descibe the bug".
+Do not edit or remove the titles; e.g. "Describe the bug".
 
 Use the latest version of the AL language extension from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-dynamics-smb.al) or shipped as part of the [AL Developer Preview builds](README.md#al-developer-preview-builds) for Dynamics 365 Business Central.
+
+Disable all extensions except the AL Language extension.
 
 -->
 

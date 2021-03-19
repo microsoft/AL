@@ -26,7 +26,7 @@ The Dynamics 365 Business Central team accepts feedback through multiple channel
 Please follow the instructions in this [document](SECURITY.MD) to ensure that the issue is handled with the highest priority.
 
 #### **Bugs**
-For bugs in the latest version of the AL Language extension for Visual Studio Code or any of the static analysis tools that accompany the AL Language extension, use the current [GitHub repository](https://github.com/microsoft/al). You should always use the latest version of the AL Language extension when targeting any version of Business Central. 
+For bugs in the latest version of the AL language extension from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-dynamics-smb.al) or any of the static analysis tools that accompany the AL Language extension, use the current [GitHub repository](https://github.com/microsoft/al). You should always use the latest version of the AL Language extension when targeting any version of Business Central. 
 
 If you are targeting Dynamics NAV 2018 or older, you must use the AL extension provided in the DVD and use the [support channel](#support) to report issues.
 
@@ -44,7 +44,7 @@ Posting your suggestion on [Business Central Ideas](https://aka.ms/bcideas) will
 
 ### Look for an existing issue
 
-Before you create a new issue, please do a search in [open issues](https://github.com/microsoft/AL/issues) to see if the issue or feature request has already been filed, and add to that instead.
+Before you create a new issue, please do a search in [open issues](https://github.com/microsoft/AL/issues) to see if the issue has already been filed.
 
 Be sure to scan through the [most popular](https://github.com/microsoft/AL/issues?q=is%3Aopen+is%3Aissue+sort%3Areactions-%2B1-desc+) issues, and vote on/add to existing issue if applicable.
 
@@ -61,7 +61,7 @@ File a single issue per problem. Do not enumerate multiple bugs or feature reque
 
 Use the latest version of the AL language extension from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-dynamics-smb.al) or shipped as part of the [AL Developer Preview builds](README.md#al-developer-preview-builds) for Dynamics 365 Business Central.
 
-Switch off all extensions except the AL Language extension.
+Disable all extensions except the AL Language extension.
 
 Do not add your issue as a comment to an existing issue unless it's for the identical input. Many issues look similar, but have different causes.
 
