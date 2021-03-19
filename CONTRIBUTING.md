@@ -8,7 +8,9 @@ Have a question? Rather than opening an issue, please use one of the following r
 
 - [Business Central Community](https://community.dynamics.com/business/f/758)  
 - [mibuso forum](https://forum.mibuso.com/categories/nav-three-tier)  
-- [Dynamics User Group](https://dynamicsuser.net/nav/f/developers)  
+- [Dynamics User Group](https://dynamicsuser.net/nav/f/developers)
+- [Yammer groups for partners](https://aka.ms/BCYammer)
+- [Monthly themed Office Hours](https://aka.ms/BCOfficehours)
   
 The community will be eager to assist you and your well-worded question will serve as a resource to others searching for help.
 
@@ -20,19 +22,33 @@ Have you identified a reproducible problem in the AL compiler or developer tools
 
 The Dynamics 365 Business Central team accepts feedback through multiple channels and repositories. Try to file the issue through the correct channel to ensure that your issue is addressed effectively and efficiently.
 
-- For bugs in the latest version of the AL Language extension for Visual Studio Code or any of the static analysis tools that accompany the AL Language extension, use the current [GitHub repository](https://github.com/microsoft/al). You should always use the latest version of the AL Language extension when targeting any version of Business Central. If you are targeting Dynamics NAV 2018 or older, please use the [support channel](#support).
-- For new features in AL/Visual Studio Code language and tools, as well as Business Central in general, use [Business Central Ideas](https://aka.ms/bcideas). This will allow other members of the community to vote on your idea and will allow us to prioritize based accordingly.
-- For suggestions for new static analysis rules or improvements to existing static analysis rules, use [Business Central Ideas](https://aka.ms/bcideas).
-- For issues related to the extensibility of applications authored by Microsoft, such as the `System Application` or the `Base Application`, use the [ALAppExtensions](https://github.com/Microsoft/ALAppExtensions) repository.
-- For issues concerning versions of Business Central that are in mainstream support you should use the [support channel](#support).
+#### **Security vulnerabilities**
+Please follow the instructions in this [document](SECURITY.MD) to ensure that the issue is handled with the highest priority.
+
+#### **Bugs**
+For bugs in the latest version of the AL Language extension for Visual Studio Code or any of the static analysis tools that accompany the AL Language extension, use the current [GitHub repository](https://github.com/microsoft/al). You should always use the latest version of the AL Language extension when targeting any version of Business Central. 
+
+If you are targeting Dynamics NAV 2018 or older, you must use the AL extension provided in the DVD and use the [support channel](#support) to report issues.
+
+For issues concerning versions of Business Central that are in mainstream support you should use the [support channel](#support).
+
+#### **Extensibility of first-party AL applications**
+For issues related to the extensibility of applications authored by Microsoft, such as the `System Application` or the `Base Application`, use the [ALAppExtensions](https://github.com/Microsoft/ALAppExtensions) repository.
+
+#### **Feature requests and suggestions**
+For new features in AL/Visual Studio Code language and tools, as well as Business Central in general, use [Business Central Ideas](https://aka.ms/bcideas). 
+
+For suggestions for new static analysis rules or improvements to existing static analysis rules, use [Business Central Ideas](https://aka.ms/bcideas).
+
+Posting your suggestion on [Business Central Ideas](https://aka.ms/bcideas) will allow other members of the community to vote on your idea and will allow us to prioritize based accordingly.
 
 ### Look for an existing issue
 
-Before you create a new issue, please do a search in [open issues](https://github.com/microsoft/AL/issues) to see if the issue or feature request has already been filed.
+Before you create a new issue, please do a search in [open issues](https://github.com/microsoft/AL/issues) to see if the issue or feature request has already been filed, and add to that instead.
 
-Be sure to scan through the [most popular](https://github.com/microsoft/AL/issues?q=is%3Aopen+is%3Aissue+sort%3Areactions-%2B1-desc+) issues.
+Be sure to scan through the [most popular](https://github.com/microsoft/AL/issues?q=is%3Aopen+is%3Aissue+sort%3Areactions-%2B1-desc+) issues, and vote on/add to existing issue if applicable.
 
-If you find that your issue already exists, make relevant comments and add your [reaction](https://github.com/blog/2119-add-reactions-to-pull-requests-issues-and-comments). Use a reaction in place of a "+1" comment:
+If you find that your issue already exists in this repository, make relevant comments and add your [reaction](https://github.com/blog/2119-add-reactions-to-pull-requests-issues-and-comments). Use a reaction in place of a "+1" comment:
 
 - 👍 - upvote
 - 👎 - downvote
@@ -42,6 +58,10 @@ If you cannot find an existing issue that describes your bug, create a new issue
 ### Writing good bug reports
 
 File a single issue per problem. Do not enumerate multiple bugs or feature requests in the same issue.
+
+Use the latest version of the AL language extension from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-dynamics-smb.al) or shipped as part of the [AL Developer Preview builds](README.md#al-developer-preview-builds) for Dynamics 365 Business Central.
+
+Switch off all extensions except the AL Language extension.
 
 Do not add your issue as a comment to an existing issue unless it's for the identical input. Many issues look similar, but have different causes.
 
@@ -71,7 +91,7 @@ A clear and concise description of what happened accompanied by images, animatio
 
 - AL Language. Go to Visual Studio Code → Extensions panel → AL Language 
 - Visual Studio Code: Go to Visual Studio Code → Help → About
-- Business Central. In the client search for: System Information
+- Business Central. In the web client, go to Help → Help and Support → Troubleshooting
 - List of extensions that you have installed
 
 ### Final checklist
@@ -86,7 +106,7 @@ Please remember to do the following:
 
 ### Follow your issue
 
-Once submitted, your report will go into the [issue tracking](https://github.com/microsoft/AL/wiki/Issue-Tracking) workflow. Be sure to understand what will happen next, so that you know what to expect, and how to continue to assist throughout the process.
+Once submitted, your issue will through the [issue tracking](https://github.com/microsoft/AL/wiki/Issue-Tracking) workflow. Please read the document to understand what will happen next, so that you know what to expect, and how to continue to assist throughout the process.
 
 ## Support
 

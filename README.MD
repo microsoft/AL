@@ -11,7 +11,7 @@ For documentation about using the [AL Language](https://marketplace.visualstudio
 • [Building Your First Sample Extension](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-extension-example)  
 • [Developer Reference](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)  
 
-## Bugs and Feature Requests
+## Bugs and feature requests
 
 If you have encountered a bug or you have a feature request, please first read the [contributing guidelines](CONTRIBUTING.md) and then search for existing and closed issues.  
 
@@ -24,22 +24,23 @@ See the [triage process](https://github.com/Microsoft/AL/wiki/Triage-Process) do
 Our answers to frequently asked questions can be found in our [FAQ](https://github.com/Microsoft/AL/wiki/Frequently-Asked-Questions). To get help from community members please use one of the following resources:
 
 - [Business Central Community](https://community.dynamics.com/business/f/758)  
-- [mibuso forum](https://forum.mibuso.com/categories/nav-three-tier)  
 - [Dynamics User Group](https://dynamicsuser.net/nav/f/developers)  
+- [Yammer groups for partners](https://aka.ms/BCYammer)
+- [mibuso forum](https://forum.mibuso.com/categories/nav-three-tier)  
 
-## Related Projects
+## Related projects
 
 The following repositories can provide additional resources depending on the issues that you are facing:
 
 - [Microsoft AL application foundation modules and application add-ons for Microsoft Dynamics 365 Business Central](https://github.com/microsoft/ALAppExtensions)
 - [Microsoft Dynamics 365 Business Central Docs](https://github.com/MicrosoftDocs/dynamics365smb-devitpro-pb)
-- [Official Microsoft repository for NavContainerHelper, a PowerShell module, which makes it easier to work with Nav Containers on Docker.](https://github.com/Microsoft/navcontainerhelper)
+- [Official Microsoft repository for BcContainerHelper, a PowerShell module, which makes it easier to work with BC Containers on Docker.](https://github.com/Microsoft/navcontainerhelper)
 
 ## Contributing
 
 Please read through our [contributing guidelines](CONTRIBUTING.md).
 
-## Code of Conduct
+## Code of conduct
 
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
