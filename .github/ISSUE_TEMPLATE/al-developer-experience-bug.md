@@ -45,7 +45,7 @@ A clear and concise description of what happened accompanied by images, animatio
 - AL Language:
 - Visual Studio Code:
 - Business Central:
-- List of extensions that you have installed:
+- List of Visual Studio Code extensions that you have installed:
 
 ### Final Checklist
 
