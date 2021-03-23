@@ -93,7 +93,7 @@ A clear and concise description of what happened accompanied by images, animatio
 - AL Language. Go to Visual Studio Code → Extensions panel → AL Language 
 - Visual Studio Code: Go to Visual Studio Code → Help → About
 - Business Central. In the web client, go to Help → Help and Support → Troubleshooting
-- List of extensions that you have installed
+- List of Visual Studio Code extensions that you have installed. Go to Visual Studio Code → Extensions panel
 
 ### Final checklist
 
