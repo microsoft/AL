@@ -6,6 +6,7 @@
             "{",
             "\tvalue(${4:ValueId}; ${0:MyValue})",
             "\t{",
+            "\t\tCaption = '${0:MyValue}';",
             "\t}",
             "}"
         ],

@@ -4,10 +4,12 @@
         "body": [
             "enum ${1:id} ${2:MyEnum}",
             "{",
+            "\tCaption = '${2:MyEnum}';",
             "\tExtensible = ${3|true,false|};",
             "\t",
             "\tvalue(0; ${0:MyValue})",
-            "\t{",
+            "\t{",			
+            "\t\tCaption = '${0:MyValue}';",
             "\t}",
             "}"
         ],
@@ -18,6 +20,7 @@
         "body": [
             "value(${1:ValueId}; ${0:MyValue})",
             "{",
+            "\tCaption = '${0:MyValue}';",
             "}"
         ],
         "description": "Snippet: Enum Value"

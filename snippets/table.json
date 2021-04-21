@@ -4,6 +4,7 @@
         "body": [
             "table ${1:id} ${2:MyTable}",
             "{",
+            "\tCaption = '${2:MyTable}';",
             "\tDataClassification = ${3|ToBeClassified,CustomerContent,EndUserIdentifiableInformation,AccountData,EndUserPseudonymousIdentifiers,OrganizationIdentifiableInformation,SystemMetadata|};",
             "\t",
             "\tfields",
@@ -55,6 +56,7 @@
         "body": [
             "field(${1:id}; ${2:MyField}; ${3|Blob,BigInteger,Boolean,Code[50],Date,DateFormula,Decimal,Duration,Integer,Guid,Media,MediaSet,Option,RecordID,TableFilter,Text[50],Time|})",
             "{",
+            "\tCaption = '${2:MyField}';",
             "\tDataClassification = ${4|ToBeClassified,CustomerContent,EndUserIdentifiableInformation,AccountData,EndUserPseudonymousIdentifiers,OrganizationIdentifiableInformation,SystemMetadata|};",
             "\t${5:FieldPropertyName} = ${0:FieldPropertyValue};",
             "}"
@@ -66,6 +68,7 @@
         "body": [
             "field(${1:id}; ${2:MyField}; Option)",
             "{",
+            "\tCaption = '${2:MyField}';",
             "\tDataClassification = ${3|ToBeClassified,CustomerContent,EndUserIdentifiableInformation,AccountData,EndUserPseudonymousIdentifiers,OrganizationIdentifiableInformation,SystemMetadata|};",
             "\tOptionMembers = ${0:Default};",
             "}"
@@ -77,6 +80,7 @@
         "body": [
             "field(${1:id}; ${2:MyField}; Code[${3:Length}])",
             "{",
+            "\tCaption = '${2:MyField}';",
             "\tDataClassification = ${4|ToBeClassified,CustomerContent,EndUserIdentifiableInformation,AccountData,EndUserPseudonymousIdentifiers,OrganizationIdentifiableInformation,SystemMetadata|};",
             "\t$0",
             "}"
@@ -88,6 +92,7 @@
         "body": [
             "field(${1:id}; ${2:MyField}; Text[${3:Length}])",
             "{",
+            "\tCaption = '${2:MyField}';",
             "\tDataClassification = ${4|ToBeClassified,CustomerContent,EndUserIdentifiableInformation,AccountData,EndUserPseudonymousIdentifiers,OrganizationIdentifiableInformation,SystemMetadata|};",
             "\t$0",
             "}"

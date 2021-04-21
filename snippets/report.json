@@ -4,6 +4,7 @@
         "body": [
             "report ${1:Id} ${2:MyReport}",
             "{",
+            "\tCaption = '${2:MyReport}';",
             "\tUsageCategory = ${3|Administration,Documents,History,Lists,None,ReportsAndAnalysis,Tasks|};",
             "\tApplicationArea = ${4|All,Basic,Suite,Advanced|};",
             "\t",

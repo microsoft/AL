@@ -4,6 +4,7 @@
         "body": [
             "xmlport ${1:Id} ${2:MyXmlport}",
             "{",
+            "\tCaption = '${2:MyXmlport}';",
             "\tschema",
             "\t{",
             "\t\ttextelement(${3:NodeName1})",

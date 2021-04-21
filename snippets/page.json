@@ -4,6 +4,7 @@
         "body": [
             "page ${1:Id} ${2:MyPage}",
             "{",
+            "\tCaption = '${2:MyPage}';",
             "\tPageType = ${3|Card,List,RoleCenter,CardPart,ListPart,Document,Worksheet,ListPlus,ConfirmationDialog,NavigatePage,StandardDialog,API,ReportPreview,ReportProcessingOnly,XmlPort|};",
             "\tApplicationArea = ${4|All,Basic,Suite,Advanced|};",
             "\tUsageCategory = ${5|Administration,Documents,History,Lists,None,ReportsAndAnalysis,Tasks|};",
@@ -52,6 +53,7 @@
             "field(${1:MyField}; ${2:FieldSource})",
             "{",
             "\tApplicationArea = ${3|All,Basic,Suite,Advanced|};",
+            "\tCaption = '${2:FieldSource}';",
             "\t${4:FieldPropertyName} = ${0:FieldPropertyValue};",
             "}"
         ],
@@ -63,6 +65,7 @@
             "action(${1:ActionName})",
             "{",
             "\tApplicationArea = ${2|All,Basic,Suite,Advanced|};",
+            "\tCaption = '${1:ActionName}';",
             "\t",
             "\ttrigger OnAction()",
             "\tbegin",
@@ -117,6 +120,7 @@
         "body": [
             "page ${1:Id} ${2:PageName}",
             "{",
+            "\tCaption = '${2:PageName}';",
             "\tPageType = List;",
             "\tApplicationArea = ${3|All,Basic,Suite,Advanced|};",
             "\tUsageCategory = Lists;",
