@@ -1,43 +1,11 @@
 ---
-name: AL Static code analysis rule
-about: 'Suggesting a new Static code analysis rule for the AL compiler'
-title: ''
+name: AL static code analysis rule suggestion
+about: "\U0001F6D1\U0001F6D1\U0001F6D1Please go to http://aka.ms/bcideas\U0001F6D1\U0001F6D1\U0001F6D1"  
+about: "\U0001F6D1\U0001F6D1\U0001F6D1Please go to http://aka.ms/bcideas\U0001F6D1\U0001F6D1\U0001F6D1"  
 labels: static-code-analysis
 assignees: ''
-
 ---
 
-<!--
-Please follow this template in order for us to properly evaluate the suggested rule.
+For suggestions for new static analysis rules or improvements to existing static analysis rules, use [Business Central Ideas](https://aka.ms/bcideas)
 
-Do not edit or remove the titles; e.g. "Describe the bug".
--->
-
-**Title**
-Brief, descriptive string, explaining the overall problem. 
-
-**Description**
-Longer, descriptive string, elaborating on the problem.
-
-**Reason for the rule**
-Description of why this rule is important.
-
-**Bad code sample**
-Example of what bad code the rule should catch:
-
-```AL
-Example of bad code
-```
-
-**Good code sample**
-Example of what code should look like:
-
-```AL
-Example of good code
-```
-
-**Good and bad practices for fixing the rule**
-Description of good and bad solution to fixing this warning (only add this section if you have additional information besides the good and bad code samples).
-
-**Remarks**
-​Add additional comments to the rule in this section.
+For issues related to bugs in the latest version of the AL Language extension for Visual Studio Code or any of the static analysis tools that accompany the AL Language extension, use the current [GitHub repository](https://github.com/microsoft/al). You should always use the latest version of the AL Language extension when targetting any version of Business Central.
