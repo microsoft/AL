@@ -30,7 +30,9 @@ Steps to reproduce the behavior:
 
 1. Go to '...'
 
-``` AL code snippet that demonstrates the issue or a link to a code repository the developers can easily pull down to recreate the issue locally ```
+``` AL
+AL code snippet that demonstrates the issue or a link to a code repository the developers can easily pull down to recreate the issue locally.
+```
 
 **Note:** Because the developers need to copy and paste the code snippet, including a code snippet as a media file (i.e. .gif) is not sufficient.
 
