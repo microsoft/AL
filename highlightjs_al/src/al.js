@@ -55,6 +55,7 @@ export default function(hljs) {
   var METADATA_KEYWORDS = [
     'action',
     'actions|10',
+    'add',
     'addafter',
     'addbefore',
     'addfirst',
@@ -222,9 +223,12 @@ export default function(hljs) {
     'enumextension|10',
     'page',
     'pageextension|10',
+    'permissionset',
+    'permissionsetextension|10',
     'profile',
     'query',
     'report',
+    'reportextension',
     'table',
     'tableextension|10',
     'xmlport|10'
@@ -234,6 +238,7 @@ export default function(hljs) {
     'dotnet',
     'controladdin|10',
     'interface',
+    'entitlement',
     'assembly'
   ]
   var LITERAL_KEYWORDS = [
