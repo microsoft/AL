@@ -22,11 +22,7 @@
     "url": "https://github.com/Microsoft/AL/issues"
   },
   "homepage": "https://github.com/Microsoft/AL/highlightjs-al#readme",
-  "devDependencies": {
-    "highlightjs": "^9.10.0",
-    "mocha": "^8.1.3",
-    "should": "^13.2.3"
-  },
+  "devDependencies": {},
   "dependencies": {
     "minimist": "^1.2.5"
   }
