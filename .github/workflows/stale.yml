@@ -31,7 +31,7 @@ jobs:
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         close-issue-message: ${{ github.event.inputs.message }}
-        only-labels: "stale,${{ github.event.inputs.tags }}"
+        only-labels: "stale,${{ github.event.inputs.labels }}"
         days-before-close: 0
         debug-only: ${{ github.event.inputs.debug }}
         days-before-pr-close: -1
