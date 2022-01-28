@@ -1,0 +1,38 @@
+# This workflow warns and then closes issues and PRs that have had no activity for a specified amount of time.
+#
+# You can adjust the behavior by modifying this file.
+# For more information, see:
+# https://github.com/actions/stale
+name: Close issues matching specific labels
+
+on:
+  workflow_dispatch:
+    inputs:
+      debug:
+        type: boolean
+        description: 'Dry run'
+        default: 'true'
+      message:
+        required: true
+      labels:
+        required: true
+        description: 'Comma separated list of labels. E.g: bug,in-progress,runtime'
+
+jobs:
+  stale:
+
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+
+    steps:
+    - uses: actions/stale@v3
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        close-issue-message: ${{ github.events.inputs.message }}
+        only-labels: ${{ github.events.inputs.labels }}
+        days-before-close: 0
+        debug-only: ${{ github.events.input.debug }}
+        days-before-pr-close: -1
+        
