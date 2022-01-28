@@ -36,4 +36,5 @@ jobs:
         debug-only: ${{ github.event.inputs.debug }}
         days-before-pr-close: -1
         days-before-stale: -1
+        operations-per-run: 1000
         
