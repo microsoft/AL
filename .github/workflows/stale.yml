@@ -35,4 +35,5 @@ jobs:
         days-before-close: 0
         debug-only: ${{ github.events.input.debug }}
         days-before-pr-close: -1
+        days-before-stale: -1
         
