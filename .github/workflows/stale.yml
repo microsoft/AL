@@ -10,31 +10,30 @@ on:
     inputs:
       debug:
         type: boolean
-        description: 'Dry run'
+        description: 'Dry run. If checked, no issues will actually be modified.'
         default: 'true'
       message:
         required: true
+        description: 'Message to post onto the issue before closing. Use markdown. For line breaks, you can use <br/>'
       labels:
         required: true
         description: 'Comma separated list of labels. E.g: bug,in-progress,runtime'
 
 jobs:
   stale:
-
     runs-on: ubuntu-latest
     permissions:
       issues: write
       pull-requests: write
-
     steps:
-    - run: echo "Closing issues that match ${{ github.events.inputs.labels }}"
+    - run: echo "Closing issues that have labels [${{ github.event.inputs.labels }}]. Is this a dry run? ${{ github.event.inputs.debug }}"
     - uses: actions/stale@v3
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        close-issue-message: '${{ github.events.inputs.message }}'
-        only-labels: '${{ github.events.inputs.labels }}'
+        close-issue-message: ${{ github.event.inputs.message }}
+        only-labels: ${{ github.event.inputs.tags }}
         days-before-close: 0
-        debug-only: true
+        debug-only: ${{ github.event.inputs.debug }}
         days-before-pr-close: -1
         days-before-stale: -1
         
