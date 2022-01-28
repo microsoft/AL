@@ -33,7 +33,7 @@ jobs:
         close-issue-message: ${{ github.events.inputs.message }}
         only-labels: ${{ github.events.inputs.labels }}
         days-before-close: 0
-        debug-only: ${{ github.events.input.debug }}
+        debug-only: true
         days-before-pr-close: -1
         days-before-stale: -1
         
