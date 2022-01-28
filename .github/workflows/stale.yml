@@ -27,11 +27,12 @@ jobs:
       pull-requests: write
 
     steps:
+    - run: echo "Closing issues that match ${{ github.events.inputs.labels }}"
     - uses: actions/stale@v3
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        close-issue-message: ${{ github.events.inputs.message }}
-        only-labels: ${{ github.events.inputs.labels }}
+        close-issue-message: '${{ github.events.inputs.message }}'
+        only-labels: '${{ github.events.inputs.labels }}'
         days-before-close: 0
         debug-only: true
         days-before-pr-close: -1
