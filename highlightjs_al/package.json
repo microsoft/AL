@@ -24,6 +24,6 @@
   "homepage": "https://github.com/Microsoft/AL/highlightjs-al#readme",
   "devDependencies": {},
   "dependencies": {
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.6"
   }
 }
