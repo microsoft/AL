@@ -8,7 +8,6 @@ Have a question? Rather than opening an issue, please use one of the following r
 
 - [Business Central Community](https://community.dynamics.com/business/f/758)  
 - [mibuso forum](https://forum.mibuso.com/categories/nav-three-tier)  
-- [Dynamics User Group](https://dynamicsuser.net/nav/f/developers)
 - [Yammer groups for partners](https://aka.ms/BCYammer)
 - [Monthly themed Office Hours](https://aka.ms/BCOfficehours)
 - [Twitter community, using #bcalhelp tag](https://twitter.com/hashtag/bcalhelp)
