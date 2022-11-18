@@ -23,8 +23,7 @@ See the [triage process](https://github.com/Microsoft/AL/wiki/Triage-Process) do
 
 Our answers to frequently asked questions can be found in our [FAQ](https://github.com/Microsoft/AL/wiki/Frequently-Asked-Questions). To get help from community members please use one of the following resources:
 
-- [Business Central Community](https://community.dynamics.com/business/f/758)  
-- [Dynamics User Group](https://dynamicsuser.net/nav/f/developers)  
+- [Business Central Community](https://community.dynamics.com/business/f/758)
 - [Yammer groups for partners](https://aka.ms/BCYammer)
 - [mibuso forum](https://forum.mibuso.com/categories/nav-three-tier)  
 
