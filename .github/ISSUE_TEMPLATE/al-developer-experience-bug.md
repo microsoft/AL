@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 <!--
-Read the contributing https://github.com/microsoft/AL/blob/master/CONTRIBUTING.MD guide before proceeding
+Read the contributing https://github.com/microsoft/AL/blob/master/CONTRIBUTING.md guide before proceeding
 
 Please follow this template in order for our developers to investigate your issue efficiently.
 
