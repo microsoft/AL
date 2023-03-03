@@ -1,4 +1,4 @@
-# Visual Studio Code AL Language extension for Dynamics 365 Business Central
+# Visual Studio Code AL Language extension for Microsoft Dynamics 365 Business Central
 
 ## Welcome
 
