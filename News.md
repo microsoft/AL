@@ -1,4 +1,4 @@
-### 2023-04-03 Welcome to the AL Home and AL Explorer 😃😃👏👏
+# 2023-04-03 Welcome to the AL Home and AL Explorer 😃😃👏👏
 
 You're reading this in one of the two new views added to the AL Language extension for Microsoft Dynamics 365 Business Central, namely AL Home and AL Explorer.
 
