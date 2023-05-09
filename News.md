@@ -1,3 +1,16 @@
+# 2023-05-09 AL debugger and snapshot capture doesn't work in Visual Studio Code v1.78
+
+The Visual Studio Code v1.78 update contained a change that has impacted debugging for multiple different Visual Studio Code extensions, including AL.
+
+The impact of this is that the debugger stops at the first breakpoint and then hangs.
+
+On the AL side, the issue is tracked by [microsoft/AL/issues/7388](https://github.com/microsoft/AL/issues/7388).
+
+Visual Studio Code is currently in the process of reverting the cause, tracked by [microsoft/vscode/issues/181485](https://github.com/microsoft/vscode/issues/181485). They expect that the change will be in the Insider build on Wednesday May 10th, and that there will be a fixed v1.78.1 by the end of the week.
+
+In the meantime, the Visual Studio Code team recommends that you downgrade to [Visual Studio Code v1.77.3](https://code.visualstudio.com/updates/v1_77) and turn off automatic upgrades for Visual Studio Code, by adding "update.mode": "manual" (or none) to your settings.
+
+
 # 2023-04-03 Welcome to the AL Home and AL Explorer 😃😃👏👏
 
 You're reading this in one of the two new views added to the AL Language extension for Microsoft Dynamics 365 Business Central, namely AL Home and AL Explorer.
