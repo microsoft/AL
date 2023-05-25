@@ -1,3 +1,11 @@
+# 2023-05-25 Enable telemetry for your apps/extensions
+
+To send telemetry data to Azure Application Insights, you must have an Application Insights resource in Azure. Once you have the Azure Application Insights resource, you can start to configure your apps/extensions to send telemetry data to it by setting the telemetry connection string in your app.json configuration file. See [Sending App/Extension Telemetry to Azure Application Insights](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-application-insights-for-extensions) for details.
+
+On the overview page [Telemetry by area](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-available-telemetry#telemetry-by-area), you can see what type of data you can expect to get for your app/extension. Note that you get this data for all customers across the install base of the app/extension.
+
+What does it cost to have telemetry enabled? It depends on how much data you ingest. Please review the article [Controlling Telemetry Cost](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-control-cost) to learn about cost of your telemetry and strategies for controlling it.
+
 # 2023-05-09 AL debugger and snapshot capture doesn't work in Visual Studio Code v1.78
 
 Update: Fix will be available in v1.78.2.
