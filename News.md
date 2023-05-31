@@ -1,4 +1,4 @@
-# 2023-05-31 Pattern - Use built-in data structures
+# 2023-05-31 Performance pattern - Use built-in data structures
 
 AL comes with built-in data structures that have been optimized for performance and server resource consumption. Make sure that you're familiar with them to make your AL code as efficient as possible. 
 
