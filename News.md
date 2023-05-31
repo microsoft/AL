@@ -1,10 +1,25 @@
+# 2023-05-31 Performance pattern - Use built-in data structures
+
+AL comes with built-in data structures that have been optimized for performance and server resource consumption. Make sure that you're familiar with them to make your AL code as efficient as possible. 
+
+When working with strings, make sure to use the `TextBuilder` data type and not repeated use of the `+=` operator on a `Text` variable. General guidance is to use a `Text` data type if you concatenate fewer than five strings (here the internal allocation of a `TextBuilder` and the final `ToText` invocation is more expensive). If you need to concatenate five strings or more or concatenate strings in a loop, then `TextBuilder` is faster. Also, use a `TextBuilder` data type instead of BigText when possible. For more information, see [TextBuilder Data Type](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/textbuilder/textbuilder-data-type?wt.mc_id=d365bc_inproduct_alextension). 
+
+If you need a key-value data structure that is optimized for fast lookups, use a `Dictionary` data type. For more information, see [Dictionary Data Type](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/dictionary/dictionary-data-type?wt.mc_id=d365bc_inproduct_alextension). 
+
+Use a `List` data type if you need an unbound "array" (where you would previously create a temporary table object). For more information, see [List Data Type](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/list/list-data-type?wt.mc_id=d365bc_inproduct_alextension). 
+
+Use the `Media` or `MediaSet` data types instead of the `Blob` data type. The `Media` and `MediaSet` data types have a couple advantages over the `Blob` data type when working with images. First of all, a thumbnail version of the image is generated when you save the data. You can use the thumbnail when loading a page and then load the larger image asynchronously using a page background task. Second, data for `Media` and `MediaSet` data types is cached on the client. Data for the Blob data type is never cached on the server. It's always fetched from the database. 
+
+For more information about performance tips and tricks for developers, see [Performance Articles For Developers](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/performance/performance-developer?wt.mc_id=d365bc_inproduct_alextension).
+
+
 # 2023-05-25 Enable telemetry for your apps/extensions
 
-To send telemetry data to Azure Application Insights, you must have an Application Insights resource in Azure. Once you have the Azure Application Insights resource, you can start to configure your apps/extensions to send telemetry data to it by setting the telemetry connection string in your app.json configuration file. See [Sending App/Extension Telemetry to Azure Application Insights](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-application-insights-for-extensions) for details.
+To send telemetry data to Azure Application Insights, you must have an Application Insights resource in Azure. Once you have the Azure Application Insights resource, you can start to configure your apps/extensions to send telemetry data to it by setting the telemetry connection string in your app.json configuration file. See [Sending App/Extension Telemetry to Azure Application Insights](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-application-insights-for-extensions?wt.mc_id=d365bc_inproduct_alextension) for details.
 
-On the overview page [Telemetry by area](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-available-telemetry#telemetry-by-area), you can see what type of data you can expect to get for your app/extension. Note that you get this data for all customers across the install base of the app/extension.
+On the overview page [Telemetry by area](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-available-telemetry#telemetry-by-area?wt.mc_id=d365bc_inproduct_alextension), you can see what type of data you can expect to get for your app/extension. Note that you get this data for all customers across the install base of the app/extension.
 
-What does it cost to have telemetry enabled? It depends on how much data you ingest. Please review the article [Controlling Telemetry Cost](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-control-cost) to learn about cost of your telemetry and strategies for controlling it.
+What does it cost to have telemetry enabled? It depends on how much data you ingest. Please review the article [Controlling Telemetry Cost](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-control-cost?wt.mc_id=d365bc_inproduct_alextension) to learn about cost of your telemetry and strategies for controlling it.
 
 # 2023-05-09 AL debugger and snapshot capture doesn't work in Visual Studio Code v1.78
 
