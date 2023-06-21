@@ -3,7 +3,7 @@
 Let's bootstrap your AI journey with Azure OpenAI! We've shared some sample code as an extension that enables you to explore the possibilities of large-scale language models (LLM). This code is designed to simplify the process of setting up and running LLM experiments, starting with easily configuring and testing your connection to the Azure OpenAI service. After that, you can extend your AL logic to do more exciting things with this code.
 The sample code uses Azure OpenAI to suggest an item category based on the item description field.
 
-![Sample code using Azure OpenAI to make suggestions](https://raw.githubusercontent.com/microsoft/AL/master/resources/AI_code.png)
+![Sample code using Azure OpenAI to make suggestions](resources/AI_code.png)
 
 The extension's source code is available at the Business Central BCTech repository on GitHub. You can get to it directly at [https://aka.ms/BCStartCodingWithAI](https://aka.ms/BCStartCodingWithAI). You can either download or install the sample extension to your sandbox environment or clone the source code for your own projects.  
 
