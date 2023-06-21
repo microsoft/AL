@@ -1,3 +1,17 @@
+# 2023-06-21 Get started with developing generative AI features for Business Central
+
+Let's bootstrap your AI journey with Azure OpenAI! We've shared some sample code as an extension that enables you to explore the possibilities of large-scale language models (LLM). This code is designed to simplify the process of setting up and running LLM experiments, starting with easily configuring and testing your connection to the Azure OpenAI service. After that, you can extend your AL logic to do more exciting things with this code.
+The sample code uses Azure OpenAI to suggest an item category based on the item description field.
+
+![Sample code using Azure OpenAI to make suggestions](https://raw.githubusercontent.com/microsoft/AL/master/resources/AI_code.png)
+
+The extension's source code is available at the Business Central BCTech repository on GitHub. You can get to it directly at [https://aka.ms/BCStartCodingWithAI](https://aka.ms/BCStartCodingWithAI). You can either download or install the sample extension to your sandbox environment or clone the source code for your own projects.  
+
+The product team is eager to hear your feedback on how we can support your use cases and help you design, build, and deliver AI solutions quickly and responsibly in the AI era: community partners are invited to join us at the Copilot and AI Innovation group on our Yammer development network. 
+
+Happy experimentation!
+The Business Central product team
+
 # 2023-05-31 Performance pattern - Use built-in data structures
 
 AL comes with built-in data structures that have been optimized for performance and server resource consumption. Make sure that you're familiar with them to make your AL code as efficient as possible. 
