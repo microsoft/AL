@@ -9,7 +9,7 @@ The extension's source code is available at the Business Central BCTech reposito
 
 The product team is eager to hear your feedback on how we can support your use cases and help you design, build, and deliver AI solutions quickly and responsibly in the AI era: community partners are invited to join us at the Copilot and AI Innovation group on our Yammer development network. 
 
-Happy experimentation!
+Happy experimentation!<br>
 The Business Central product team
 
 # 2023-05-31 Performance pattern - Use built-in data structures
