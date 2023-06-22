@@ -7,7 +7,7 @@ The sample code uses Azure OpenAI to suggest an item category based on the item 
 
 The extension's source code is available at the Business Central BCTech repository on GitHub. You can get to it directly at [https://aka.ms/BCStartCodingWithAI](https://aka.ms/BCStartCodingWithAI). You can either download or install the sample extension to your sandbox environment or clone the source code for your own projects.  
 
-The product team is eager to hear your feedback on how we can support your use cases and help you design, build, and deliver AI solutions quickly and responsibly in the AI era: community partners are invited to join us at the Copilot and AI Innovation group on our Yammer development network. 
+The product team is eager to hear your feedback on how we can support your use cases and help you design, build, and deliver AI solutions quickly and responsibly in the AI era: community partners are invited to join us at the [Copilot and AI Innovation group](https://go.microsoft.com/fwlink/?linkid=2229283) on our Yammer development network. 
 
 Happy experimentation!
 
