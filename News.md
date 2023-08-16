@@ -1,3 +1,15 @@
+# 2023-08-16 Get AL VSIX preview versions on Visual Studio Code Marketplace
+
+AL VSIX prerelease versions are now available through the existing Visual Studio Code mechanism for getting notified about and installing prerelease versions. To learn more about this mechanism, visit [Publishing Extensions](https://code.visualstudio.com/api/working-with-extensions/publishing-extension#prerelease-extensions) in the Visual Studio Code documentation.
+
+To install the preview version, use the **Switch to Pre-Release Version** option in Visual Studio Code extension management page for the AL Language extension. **Note** that you can't install the prerelease directly from the Visual Studio Code Marketplace, you must install the public version first.
+
+![Switch to prerelease version](https://raw.githubusercontent.com/microsoft/AL/master/resources/al_release.png)
+
+When you have switched to the prerelease version, the Visual Studio Code extension management page for the AL Language extension will display that the prerelease is used, and offer the option to switch back to the release version.
+
+![Switch to release version](https://raw.githubusercontent.com/microsoft/AL/master/resources/al_prerelease.png)
+
 # 2023-06-21 Get started with developing generative AI features for Business Central
 
 Let's bootstrap your AI journey with Azure OpenAI! We've shared some sample code as an extension that enables you to explore the possibilities of large-scale language models (LLM). This code is designed to simplify the process of setting up and running LLM experiments, starting with easily configuring and testing your connection to the Azure OpenAI service. After that, you can extend your AL logic to do more exciting things with this code.
