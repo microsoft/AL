@@ -1,12 +1,12 @@
 # 2023-08-16 Get the AL Language extension in a preview version on Visual Studio Code Marketplace
 
-The AL Language extension for Microsoft Dynamics 365 Business Central versions are now available through the existing Visual Studio Code mechanism for getting notified about and installing prerelease versions. To learn more about this mechanism, visit [Publishing Extensions](https://code.visualstudio.com/api/working-with-extensions/publishing-extension#prerelease-extensions) in the Visual Studio Code documentation.
+The AL Language extension Pre-Release versions are now available through the existing Visual Studio Code mechanism for getting notified about and installing Pre-Release versions. To learn more about this mechanism, visit [Publishing Extensions](https://code.visualstudio.com/api/working-with-extensions/publishing-extension#prerelease-extensions) in the Visual Studio Code documentation.
 
-To install the prerelease version, use the **Switch to Pre-Release Version** option in Visual Studio Code extension management page for the AL Language extension. **Note** that you can't install the prerelease directly from the Visual Studio Code Marketplace, you must install the public version first.
+To install the Pre-Release Version, use the drop-down to select **Install Pre-Release Version**, or if already installed, use the **Switch to Pre-Release Version** option in the Visual Studio Code extension management page for the AL Language extension.
 
 ![Switch to prerelease version](https://raw.githubusercontent.com/microsoft/AL/master/resources/al_release.png)
 
-When you have switched to the prerelease version, the Visual Studio Code extension management page for the AL Language extension will display that the prerelease is used, and offer the option to switch back to the release version.
+When you have switched to the Pre-Release version, the Visual Studio Code extension management page for the AL Language extension will display that the Pre-Release is used, and offer the option to switch back to the Release Version.
 
 ![Switch to release version](https://raw.githubusercontent.com/microsoft/AL/master/resources/al_prerelease.png)
 
