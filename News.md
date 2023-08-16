@@ -1,4 +1,4 @@
-# 2023-08-16 Get the AL Language extension in a preview version on Visual Studio Code Marketplace
+# 2023-08-16 Get the AL Language extension in pre-release versions on Visual Studio Code Marketplace
 
 The AL Language extension Pre-Release versions are now available through the existing Visual Studio Code mechanism for getting notified about and installing Pre-Release versions. To learn more about this mechanism, visit [Prerelease Extensions](https://code.visualstudio.com/updates/v1_63#_pre-release-extensions) in the Visual Studio Code documentation.
 
