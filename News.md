@@ -1,14 +1,14 @@
 # 2023-08-16 Get the AL Language extension in a preview version on Visual Studio Code Marketplace
 
-The AL Language extension Pre-Release versions are now available through the existing Visual Studio Code mechanism for getting notified about and installing Pre-Release versions. To learn more about this mechanism, visit [Publishing Extensions](https://code.visualstudio.com/api/working-with-extensions/publishing-extension#prerelease-extensions) in the Visual Studio Code documentation.
+The AL Language extension Pre-Release versions are now available through the existing Visual Studio Code mechanism for getting notified about and installing Pre-Release versions. To learn more about this mechanism, visit [Prerelease Extensions](https://code.visualstudio.com/updates/v1_63#_pre-release-extensions) in the Visual Studio Code documentation.
 
 To install the Pre-Release Version, use the drop-down to select **Install Pre-Release Version**, or if already installed, use the **Switch to Pre-Release Version** option in the Visual Studio Code extension management page for the AL Language extension.
 
-![Switch to prerelease version](https://raw.githubusercontent.com/microsoft/AL/master/resources/al_release.png)
+![Switch to Pre-Release Version](https://raw.githubusercontent.com/microsoft/AL/master/resources/al_release.png)
 
 When you have switched to the Pre-Release version, the Visual Studio Code extension management page for the AL Language extension will display that the Pre-Release is used, and offer the option to switch back to the Release Version.
 
-![Switch to release version](https://raw.githubusercontent.com/microsoft/AL/master/resources/al_prerelease.png)
+![Switch to Release Version](https://raw.githubusercontent.com/microsoft/AL/master/resources/al_prerelease.png)
 
 # 2023-06-21 Get started with developing generative AI features for Business Central
 
