@@ -1,4 +1,4 @@
-# 2023-08-18 Introducing ALDoc (pre-release): a new command line tool for generating reference documentation for AL extensions 
+# 2023-08-18 Introducing ALDoc: a new command line tool for generating reference documentation for AL extensions 
 It’s our pleasure to announce that with the latest **Pre-Release** update of the AL Language extension for Microsoft Dynamics 365 Business Central, we have included the ALDoc tool for partners. The ALDoc tool generates documentation from symbolic and syntactical information, code comments, and overall application structure based on input .app file(s). Use it to generate internally or externally facing reference documentation for your solution. The tool also generates a help site with the reference articles, sorted by the application structure, based on the provided template. 
 
 ![Generated documentation](https://raw.githubusercontent.com/microsoft/AL/master/resources/aldoc.gif)
