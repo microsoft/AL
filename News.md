@@ -1,3 +1,12 @@
+# 2023-08-18 Introducing ALDoc: a new command line tool for generating reference documentation for AL extensions 
+It’s our pleasure to announce that with the latest **Pre-Release** update of the AL Language extension for Microsoft Dynamics 365 Business Central, we have included the ALDoc tool for partners. The ALDoc tool generates documentation from symbolic and syntactical information, code comments, and overall application structure based on input .app file(s). Use it to generate internally or externally facing reference documentation for your solution. The tool also generates a help site with the reference articles, sorted by the application structure, based on the provided template. 
+
+![Generated documentation](https://raw.githubusercontent.com/microsoft/AL/master/resources/aldoc.gif)
+
+Read more about the tool in our docs [Generating help with the ALDoc tool](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/help/help-aldoc-generate-help?wt.mc_id=d365bc_inproduct_alextension)
+
+We’d love to hear what you think, use [https://github.com/microsoft/AL/issues](https://github.com/microsoft/AL/issues) for tool feedback.
+
 # 2023-08-16 Get the AL Language extension in pre-release versions on Visual Studio Code Marketplace
 
 The AL Language extension Pre-Release versions are now available through the existing Visual Studio Code mechanism for getting notified about and installing Pre-Release versions. To learn more about this mechanism, visit [Prerelease Extensions](https://code.visualstudio.com/updates/v1_63#_pre-release-extensions) in the Visual Studio Code documentation.
