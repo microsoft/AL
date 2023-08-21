@@ -1,3 +1,38 @@
+# 2023-08-21 Enhancements to the HttpClient datatype documentation
+
+Over the last months, we've worked on improving the developer documentation for how to use the HttpClient datatype to do outgoing web service calls from AL in Dynamics 365 Business Central.
+
+First of all, we made the topic a first class citizen in the developer docs, by adding a new section in the table of contents (TOC) under **AL Platform** plus a new overview article, where we did the following:
+
+- Explain high-level details on how to set up an external call (including how to use request and content headers), run it, and parse the result from the service. All three sections come with sample AL code that also tries to showcase how to write AL code, which is resilient towards failures.
+- Document the supported HTTP methods (and this information is reused in relevant other pages).
+- Explain HTTP status codes and include a troubleshooting guide on common HTTP status codes for client errors (4xx).
+- Show how you can use certificates in your requests.
+- Explain how to troubleshoot outgoing web service calls with telemetry.
+- Give guidance on performance impact for UI sessions of outgoing calls.
+
+For more information, read more in [Call external services with the HttpClient data type](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-httpclient).
+
+Second, we updated the existing overview article for the HttpClient datatype with a new section on how HttpClient calls can fail and why it's important to react to return values of the methods HttpClient.Delete, HttpClient.Get, HttpClient.Post, HttpClient.Put, or HttpClient.Send. We also highlight how the gotcha AllowHttpClientRequests works in online sandboxes. Read more [here](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/methods-auto/httpclient/httpclient-data-type#ways-that-httpclient-calls-can-fail).
+
+
+Third, the existing article on the HttpContent datatype got a new section on content headers, including the gotcha that we always have a default content header for `Content-Type`, namely `text/plain; charset=utf-8`. Read more on the [HttpContent datatype](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/methods-auto/httpcontent/httpcontent-data-type#content-headers).
+
+Fourth, each of the existing articles on the methods HttpClient.Delete, HttpClient.Get, HttpClient.Post, HttpClient.Put, and HttpClient.Send methods got two new sections:
+
+- Ways that HttpClient.XXX calls can fail
+- Example sample AL code
+
+The only two exceptions are the articles for HttpClient.Send and for HttpClient.Post:
+
+- For HttpClient.Send, the generic examples shows how to do HTTP `PATCH` requests as this HTTP method currently doesn't yet have its own wrapper method. For more information on Httpclient.Send, see [here](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/methods-auto/httpclient/httpclient-send-method#example-http-patch).
+- For HttpClient.Post, we threw in examples on how to use multipart/form-data in two examples on how to upload/stream files (either text or binary files). For more information on Httpclient.Post, see [here](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/methods-auto/httpclient/httpclient-post-method#example-how-to-upload-a-file-using-multipartform-data).
+
+
+That's all for now, folks!
+
+Most of these suggestions we added because you gave us feedback on things you would like to see in this part of docs. Keep the feedback coming, together we can make docs a really useful tool for AL developers.
+
 # 2023-08-18 Introducing ALDoc: a new command line tool for generating reference documentation for AL extensions 
 It’s our pleasure to announce that with the latest **Pre-Release** update of the AL Language extension for Microsoft Dynamics 365 Business Central, we have included the ALDoc tool for partners. The ALDoc tool generates documentation from symbolic and syntactical information, code comments, and overall application structure based on input .app file(s). Use it to generate internally or externally facing reference documentation for your solution. The tool also generates a help site with the reference articles, sorted by the application structure, based on the provided template. 
 
