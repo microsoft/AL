@@ -13,10 +13,10 @@ First of all, we made the topic a first class citizen in the developer docs, by 
 
 For more information, read more in [Call external services with the HttpClient data type](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-httpclient).
 
-Second, we updated the existing overview article for the HttpClient datatype with a new section on how HttpClient calls can fail and why it's important to react to return values of the methods HttpClient.Delete, HttpClient.Get, HttpClient.Post, HttpClient.Put, or HttpClient.Send. We also highlight how the gotcha AllowHttpClientRequests works in online sandboxes. Read more [here](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/methods-auto/httpclient/httpclient-data-type#ways-that-httpclient-calls-can-fail).
+Second, we updated the existing overview article for the HttpClient datatype with a new section on how HttpClient calls can fail and why it's important to react to return values of the methods HttpClient.Delete, HttpClient.Get, HttpClient.Post, HttpClient.Put, or HttpClient.Send. We also highlight how AllowHttpClientRequests works in online sandboxes. Read more [here](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/methods-auto/httpclient/httpclient-data-type#ways-that-httpclient-calls-can-fail).
 
 
-Third, the existing article on the HttpContent datatype got a new section on content headers, including the gotcha that we always have a default content header for `Content-Type`, namely `text/plain; charset=utf-8`. Read more on the [HttpContent datatype](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/methods-auto/httpcontent/httpcontent-data-type#content-headers).
+Third, the existing article on the HttpContent datatype got a new section on content headers, including the information that we always have a default content header for `Content-Type`, namely `text/plain; charset=utf-8`. Read more on the [HttpContent datatype](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/methods-auto/httpcontent/httpcontent-data-type#content-headers).
 
 Fourth, each of the existing articles on the methods HttpClient.Delete, HttpClient.Get, HttpClient.Post, HttpClient.Put, and HttpClient.Send methods got two new sections:
 
