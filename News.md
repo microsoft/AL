@@ -1,3 +1,36 @@
+# 2023-08-22 Business Central 2023 release wave 1 launch event content for developers
+ 
+In April 2023, Business Central 2023 release wave 1 launch event went live with videos on the latest innovations for Business Central to you via an all-access digital experience. High-quality content presented by product leaders to enable you to learn how to take Business Central to the next level as a developer. And it's all for free. All you need to do is to sign up and login at the event site [aka.ms/bcle](https://aka.ms/bcle) and then set aside time to learn and digest. There's a lot of content, so maybe set aside 20 minutes every morning before you open your email. We guarantee you that it will be worth the time.
+
+These are the sessions that we think are most relevant for you as a developer and where you should start your learning journey:
+
+- [What's new in VS Code and AL](https://app.hopin.com/events/business-central-launch-event-4eb37891-3940-40a3-a49d-b48c6350c82d/replay/TGl2ZXN0cmVhbVJlY29yZGluZzo4MDcwMDc=)
+- [What's new in Server and Database](https://app.hopin.com/events/business-central-launch-event-4eb37891-3940-40a3-a49d-b48c6350c82d/replay/TGl2ZXN0cmVhbVJlY29yZGluZzo4MDY5Mjg=)
+- [What's new in telemetry](https://app.hopin.com/events/business-central-launch-event-4eb37891-3940-40a3-a49d-b48c6350c82d/replay/TGl2ZXN0cmVhbVJlY29yZGluZzo4MDY5NTE=)
+- [What's new in AL-Go for GitHub](https://app.hopin.com/events/business-central-launch-event-4eb37891-3940-40a3-a49d-b48c6350c82d/replay/TGl2ZXN0cmVhbVJlY29yZGluZzo4MDY5NTQ=)
+- [Introducing AppSource transactability for Business Central apps](https://app.hopin.com/events/business-central-launch-event-4eb37891-3940-40a3-a49d-b48c6350c82d/replay/TGl2ZXN0cmVhbVJlY29yZGluZzo4MDY5Nzk=)
+
+After you have seen/browsed those sessions, consider spending some time in the **Application and user experience** track. We think that these sessions are particularly useful for developers:
+
+- [What's new: Work more productively with actions](https://app.hopin.com/events/business-central-launch-event-4eb37891-3940-40a3-a49d-b48c6350c82d/replay/TGl2ZXN0cmVhbVJlY29yZGluZzo4MDcwNzA=)
+- [Introducing data analysis](https://app.hopin.com/events/business-central-launch-event-4eb37891-3940-40a3-a49d-b48c6350c82d/replay/TGl2ZXN0cmVhbVJlY29yZGluZzo4MDY4OTQ=)
+- [What's new in the web client](https://app.hopin.com/events/business-central-launch-event-4eb37891-3940-40a3-a49d-b48c6350c82d/replay/TGl2ZXN0cmVhbVJlY29yZGluZzo4MDczODk=)
+
+If you want to dive more into ways to integrate Business central with Microsoft Power Platform and Microsoft 365, then check out these sessions:
+- [Introducing: Best practices for building Power Apps based solutions for Business Central](https://app.hopin.com/events/business-central-launch-event-4eb37891-3940-40a3-a49d-b48c6350c82d/replay/TGl2ZXN0cmVhbVJlY29yZGluZzo4MDc2MDA=)
+- [What's new in Power Platform integrations](https://app.hopin.com/events/business-central-launch-event-4eb37891-3940-40a3-a49d-b48c6350c82d/replay/TGl2ZXN0cmVhbVJlY29yZGluZzo4MDY5NzE=)
+- [What's new in Virtual Table for Microsoft Dataverse](https://app.hopin.com/events/business-central-launch-event-4eb37891-3940-40a3-a49d-b48c6350c82d/replay/TGl2ZXN0cmVhbVJlY29yZGluZzo4MDcxMzQ=)
+- [What's new in Power Automate and approval workflows](https://app.hopin.com/events/business-central-launch-event-4eb37891-3940-40a3-a49d-b48c6350c82d/replay/TGl2ZXN0cmVhbVJlY29yZGluZzo4MDcwMDQ=)
+- [What's new in Teams integration](https://app.hopin.com/events/business-central-launch-event-4eb37891-3940-40a3-a49d-b48c6350c82d/replay/TGl2ZXN0cmVhbVJlY29yZGluZzo4MDY5ODQ=)
+
+And if you also work with tenant administration, go check out these videos related to Governance and administration:
+
+- [What's new in administration](https://app.hopin.com/events/business-central-launch-event-4eb37891-3940-40a3-a49d-b48c6350c82d/replay/TGl2ZXN0cmVhbVJlY29yZGluZzo4MDY4OTg=)
+- [What's new in cloud migration](https://app.hopin.com/events/business-central-launch-event-4eb37891-3940-40a3-a49d-b48c6350c82d/replay/TGl2ZXN0cmVhbVJlY29yZGluZzo4MDY5MTM=)
+- [Get data-driven with telemetry](https://app.hopin.com/events/business-central-launch-event-4eb37891-3940-40a3-a49d-b48c6350c82d/replay/TGl2ZXN0cmVhbVJlY29yZGluZzo4MDY5ODA=)
+
+That's all folks! Go learn. Get smart. Be awesome. Help customers.
+
 # 2023-08-18 Introducing ALDoc: a new command line tool for generating reference documentation for AL extensions 
 It’s our pleasure to announce that with the latest **Pre-Release** update of the AL Language extension for Microsoft Dynamics 365 Business Central, we have included the ALDoc tool for partners. The ALDoc tool generates documentation from symbolic and syntactical information, code comments, and overall application structure based on input .app file(s). Use it to generate internally or externally facing reference documentation for your solution. The tool also generates a help site with the reference articles, sorted by the application structure, based on the provided template. 
 
