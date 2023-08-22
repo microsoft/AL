@@ -10,7 +10,7 @@ These are the sessions that we think are most relevant for you as a developer an
 - [What's new in AL-Go for GitHub](https://app.hopin.com/events/business-central-launch-event-4eb37891-3940-40a3-a49d-b48c6350c82d/replay/TGl2ZXN0cmVhbVJlY29yZGluZzo4MDY5NTQ=)
 - [Introducing AppSource transactability for Business Central apps](https://app.hopin.com/events/business-central-launch-event-4eb37891-3940-40a3-a49d-b48c6350c82d/replay/TGl2ZXN0cmVhbVJlY29yZGluZzo4MDY5Nzk=)
 
-After you have seen/browsed those sessions, consider spending some time in the *Application and user experience* track. We think that these sessions are particularly useful for developers:
+After you have seen/browsed those sessions, consider spending some time in the **Application and user experience** track. We think that these sessions are particularly useful for developers:
 
 - [What's new: Work more productively with actions](https://app.hopin.com/events/business-central-launch-event-4eb37891-3940-40a3-a49d-b48c6350c82d/replay/TGl2ZXN0cmVhbVJlY29yZGluZzo4MDcwNzA=)
 - [Introducing data analysis](https://app.hopin.com/events/business-central-launch-event-4eb37891-3940-40a3-a49d-b48c6350c82d/replay/TGl2ZXN0cmVhbVJlY29yZGluZzo4MDY4OTQ=)
