@@ -1,6 +1,6 @@
 # 2023-08-29 Enhancements to the HttpClient datatype documentation
 
-Over the last months, we've worked on improving the developer documentation for how to use the HttpClient datatype to do outgoing web service calls from AL in Dynamics 365 Business Central.
+Over the last months, we've worked on improving the developer documentation for how to use the HttpClient datatype to do outgoing web calls from AL in Dynamics 365 Business Central.
 
 First of all, we made the topic a first class citizen in the developer docs, by adding a new section in the table of contents (TOC) under **AL Platform** plus a new overview article, where we did the following:
 
