@@ -1,6 +1,6 @@
-# 2023-08-29 Enhancements to the HttpClient datatype documentation
+# 2023-08-29 Enhancements to the HttpClient data type documentation
 
-Over the last months, we've worked on improving the developer documentation for how to use the HttpClient datatype to do outgoing web calls from AL in Dynamics 365 Business Central.
+Over the last months, we've worked on improving the developer documentation for how to use the HttpClient data type to do outgoing web calls from AL in Dynamics 365 Business Central.
 
 First of all, we made the topic a first class citizen in the developer docs, by adding a new section in the table of contents (TOC) under **AL Platform** plus a new overview article, where we did the following:
 
@@ -8,15 +8,15 @@ First of all, we made the topic a first class citizen in the developer docs, by 
 - Document the supported HTTP methods (and this information is reused in relevant other pages).
 - Explain HTTP status codes and include a troubleshooting guide on common HTTP status codes for client errors (4xx).
 - Show how you can use certificates in your requests.
-- Explain how to troubleshoot outgoing web service calls with telemetry.
+- Explain how to troubleshoot outgoing web calls with telemetry.
 - Give guidance on performance impact for UI sessions of outgoing calls.
 
 For more information, read more in [Call external services with the HttpClient data type](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-httpclient?wt.mc_id=d365bc_inproduct_alextension).
 
-Second, we updated the existing overview article for the HttpClient datatype with a new section on how HttpClient calls can fail and why it's important to react to return values of the methods HttpClient.Delete, HttpClient.Get, HttpClient.Post, HttpClient.Put, or HttpClient.Send. We also highlight how AllowHttpClientRequests works in online sandboxes. Read more [here](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/methods-auto/httpclient/httpclient-data-type#ways-that-httpclient-calls-can-fail?wt.mc_id=d365bc_inproduct_alextension).
+Second, we updated the existing overview article for the HttpClient data type with a new section on how HttpClient calls can fail and why it's important to react to return values of the methods HttpClient.Delete, HttpClient.Get, HttpClient.Post, HttpClient.Put, or HttpClient.Send. We also highlight how AllowHttpClientRequests works in online sandboxes. Read more [here](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/methods-auto/httpclient/httpclient-data-type#ways-that-httpclient-calls-can-fail?wt.mc_id=d365bc_inproduct_alextension).
 
 
-Third, the existing article on the HttpContent datatype got a new section on content headers, including the information that we always have a default content header for `Content-Type`, namely `text/plain; charset=utf-8`. Read more on the [HttpContent datatype](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/methods-auto/httpcontent/httpcontent-data-type#content-headers?wt.mc_id=d365bc_inproduct_alextension).
+Third, the existing article on the HttpContent data type got a new section on content headers, including the information that we always have a default content header for `Content-Type`, namely `text/plain; charset=utf-8`. Read more on the [HttpContent data type](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/methods-auto/httpcontent/httpcontent-data-type#content-headers?wt.mc_id=d365bc_inproduct_alextension).
 
 Fourth, each of the existing articles on the methods HttpClient.Delete, HttpClient.Get, HttpClient.Post, HttpClient.Put, and HttpClient.Send methods got two new sections:
 
@@ -27,7 +27,6 @@ The only two exceptions are the articles for HttpClient.Send and for HttpClient.
 
 - For HttpClient.Send, the generic examples shows how to do HTTP `PATCH` requests as this HTTP method currently doesn't yet have its own wrapper method. For more information on Httpclient.Send, see [here](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/methods-auto/httpclient/httpclient-send-method#example-http-patch?wt.mc_id=d365bc_inproduct_alextension).
 - For HttpClient.Post, we threw in examples on how to use multipart/form-data in two examples on how to upload/stream files (either text or binary files). For more information on Httpclient.Post, see [here](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/methods-auto/httpclient/httpclient-post-method#example-how-to-upload-a-file-using-multipartform-data?wt.mc_id=d365bc_inproduct_alextension).
-
 
 That's all for now, folks!
 
