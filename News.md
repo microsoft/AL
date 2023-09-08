@@ -1,3 +1,51 @@
+# 2023-09-07 Business Central 2023 release Wave 2 release notes for developers
+
+We just updated the release notes for Business Central 2023 release Wave 2, and with the preview coming out soon, this is a perfect time to get updated on the development additions, try them out and provide feedback.
+
+First, you can now very easily get the latest build of the AL Language for Microsoft Dynamics 365 Business Central, directly from the Visual Studio Code Marketplace, by simply just switching between public and pre-release versions.   
+[Get the AL Language extension in pre-release versions on Visual Studio Code Marketplace](https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/get-al-vsix-preview-versions-visual-studio-code-marketplace)
+
+Namespaces have finally arrived, and will make it easier to structure apps, create better object names, and avoid identifier clashes. First party apps have uptaken namespaces, and the AL Explorer allows filtering to view objects by namespace.  
+[Segment AL code and reduce naming conflicts with namespaces](https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/segment-al-code-reduce-naming-conflicts-namespaces)
+
+We know it can be challenging and tedious to set up Visual Studio Code for an environment to investigate or troubleshoot. With this release, developers and consultants can now easily provision a matching Visual Studio Code for a production or sandbox environment directly from within the web client.  
+[Open Visual Studio Code from web client to investigate or troubleshoot extensions](https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/open-visual-studio-code-web-client-investigate-or-troubleshoot-extensions)
+
+Our built-in rich text editor supports all media fields in Business Central, and developers can also customize rich text capabilities for their extensions and applications.  
+[Use the built-in rich text editor to enter data](https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/use-built-in-rich-text-editor-enter-data)
+
+Field group extensibility is one of our larger and highly voted gaps, and in this release we have added the ability to define field groups in table extensions for tables not originally having a field group.  
+[Add a new FieldGroup to an existing table](https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/add-new-fieldgroup-existing-table)
+
+To help you protect specific variable data so that other parties can't access it during debugging, we have introduced a SecureText type.
+[Use SecretText type to protect credentials and sensitive textual values from being revealed in debug sessions](https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/new-securetext-string-type-store-variable-secrets-that-should-not-be-debugged)
+
+We have also added a number of IntelliSense additions and project features to help your everyday productivity.  
+- [Get inlay hints in source editor for AL method parameters and return types](https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/get-inlay-hints-source-editor-al-method-parameters-return-types)  
+- [Hover over label variable to see text string value](https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/hover-over-label-variable-see-text-string-value)  
+- [Get IntelliSense for adding variables in Visual Studio Code AL debugger console](https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/get-intellisense-adding-variables-visual-studio-code-al-debugger-console)  
+- [Get smarter method signature recommendations in IntelliSense](https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/get-smarter-method-signature-recommendations-intellisense)  
+- [Show list of keys while working on AL code](https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/show-list-keys-while-working-al-code)  
+- [Set new output folder setting for storing app files at AL project build](https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/set-new-output-folder-setting-storing-app-files-at-al-project-build)  
+
+
+When it comes to data analysis and reporting, we give you have more control, you can now turn off Analysis Mode on pages and specify how to embed content from Power BI.  
+[Turn off data analysis mode on pages and queries](https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/turn-off-data-analysis-mode-pages-queries)
+
+For AppSource, the first wave of transact support with per-user licensing and credit card purchase in the AppSource Marketplace will release to public. Later this fall we are enabling ISVs to organize a preview for their AppSource apps for a controlled audience of their customers.  
+- [Sell Business Central apps through AppSource](https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/sell-business-central-apps-through-appsource)  
+- [AppSource ISV publishers can preview their AppSource apps with select customers](https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/appsource-isv-publishers-preview-their-appsource-apps-select-customers)
+
+That is already a comprehensive list, but wait, there is even more! Next round of release notes will include entries for the following: 
+- AL Extension for Linux in preview - in fact this is already out, just install the extension from [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-dynamics-smb.al) in your Visual Studio Code installation on Linux.  
+- ALDoc preview for partners, read more about that here [Generating help with the ALDoc tool](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/help/help-aldoc-generate-help).
+- AL syntax highlighting for DevOps.
+- Teaching tooltips on report request pages.
+- Set the default folder location for new AL projects.
+- Track source and build metadata from DevOps pipelines in extension app.json.
+- Choose between more sampling intervals for snapshot and in-client profiling.
+- Use **Find all references** for triggers, system methods, and trigger events on page fields, table fields, page actions, and table methods/triggers/events.
+
 # 2023-08-29 Enhancements to the HttpClient data type documentation
 
 Over the last months, we've worked on improving the developer documentation for how to use the HttpClient data type to do outgoing web calls from AL in Dynamics 365 Business Central.
