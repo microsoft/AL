@@ -3,7 +3,7 @@
 We just updated the release notes for Business Central 2023 release Wave 2, and with the preview coming out soon, this is a perfect time to get updated on the development additions, try them out and provide feedback.
 
 First, you can now very easily get the latest build of the AL Language for Microsoft Dynamics 365 Business Central, directly from the Visual Studio Code Marketplace, by simply just switching between public and pre-release versions.   
-[Get the AL Language extension in prerelease versions on Visual Studio Code Marketplace](https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/get-al-vsix-preview-versions-visual-studio-code-marketplace)
+[Get the AL Language extension in pre-release versions on Visual Studio Code Marketplace](https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/get-al-vsix-preview-versions-visual-studio-code-marketplace)
 
 Namespaces have finally come, and will make it easier to structure apps, create better object names, and avoid identifier clashes. First party apps have uptaken namespaces, and the AL Explorer allows filtering to view objects by namespace.  
 [Segment AL code and reduce naming conflicts with namespaces](https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/segment-al-code-reduce-naming-conflicts-namespaces)
