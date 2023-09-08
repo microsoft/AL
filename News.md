@@ -18,7 +18,7 @@ Field group extensibility is one of our larger and highly voted gaps, and in thi
 [Add a new FieldGroup to an existing table](https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/add-new-fieldgroup-existing-table)
 
 To help you protect specific variable data so that other parties can't access it during debugging, we have introduced a SecureText type.
-[Use SecretText type to protect credentials and sensitive textual values from being revealed](https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/new-securetext-string-type-store-variable-secrets-that-should-not-be-debugged)
+[Use SecretText type to protect credentials and sensitive textual values from being revealed in debug sessions](https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/new-securetext-string-type-store-variable-secrets-that-should-not-be-debugged)
 
 We have also added a number of IntelliSense additions and project features to help your everyday productivity.  
 - [Get inlay hints in source editor for AL method parameters and return types](https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/get-inlay-hints-source-editor-al-method-parameters-return-types)  
