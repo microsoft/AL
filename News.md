@@ -1,11 +1,11 @@
-# 2023-09-07 Business Central 2023 release Wave 2 release notes for developers
+# 2023-09-07 Business Central 2023 release wave 2 release notes for developers
 
-We just updated the release notes for Business Central 2023 release Wave 2, and with the preview coming out soon, this is a perfect time to get updated on the development additions, try them out and provide feedback.
+We just updated the release notes for Business Central 2023 release wave 2, and with the preview coming out soon, this is a perfect time to get updated on the development additions, try them out and provide feedback.
 
 First, you can now very easily get the latest build of the AL Language for Microsoft Dynamics 365 Business Central, directly from the Visual Studio Code Marketplace, by simply just switching between public and pre-release versions.   
 [Get the AL Language extension in pre-release versions on Visual Studio Code Marketplace](https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/get-al-vsix-preview-versions-visual-studio-code-marketplace)
 
-Namespaces have finally arrived, and will make it easier to structure apps, create better object names, and avoid identifier clashes. First party apps have uptaken namespaces, and the AL Explorer allows filtering to view objects by namespace.  
+Namespaces have finally arrived, and will make it easier to structure apps, create better object names, and avoid identifier clashes, and eventually in a later release allow moving away from affixes. First party apps have uptaken namespaces, and the AL Explorer allows filtering to view objects by namespace.  
 [Segment AL code and reduce naming conflicts with namespaces](https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/segment-al-code-reduce-naming-conflicts-namespaces)
 
 We know it can be challenging and tedious to set up Visual Studio Code for an environment to investigate or troubleshoot. With this release, developers and consultants can now easily provision a matching Visual Studio Code for a production or sandbox environment directly from within the web client.  
