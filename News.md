@@ -1,3 +1,23 @@
+# 2023-10-04 Business Central 2023 release wave 2 launch event content for developers
+
+Join the product team on October 10-12th, 2023 to see what’s new in Dynamics 365 Business Central 2023 release wave 2 at the Business Central Launch Event; a free virtual event for everyone from reselling partners to consultants, and ISV partners. 
+ 
+We're hosting live Q&As on these topics that might interest you as a developer:
+
+- What's new in developer tools 
+- What's new in AL-Go for GitHub
+- What's new: Performance testing before go-live with Performance Toolkit
+- What's new: Power BI and reporting (for developers)
+- Creating customer-centric onboarding experiences
+- Add an existing field
+- What's new in server and database
+- What's new in resource governance for Dynamics 365 Business Central online
+- What's new in telemetry
+- What's new in Dataverse and Dynamics 365 app integration - Part 1
+- What's new in Dataverse and Dynamics 365 app integration - Part 2
+ 
+Join us! Register today at [aka.ms/BCLE](https:/aka.ms/BCLE).
+
 # 2023-09-07 Business Central 2023 release wave 2 release notes for developers
 
 We just updated the release notes for Business Central 2023 release wave 2, and with the preview coming out soon, this is a perfect time to get updated on the development additions, try them out and provide feedback.
