@@ -1,3 +1,35 @@
+# Business Central 2023 release wave 2 launch event content for developers
+ 
+In October 2023, Business Central 2023 release wave 2 launch event went live with videos on the latest innovations for Business Central to you via an all-access digital experience. They contain high-quality content presented by product leaders to enable you to learn how to take Business Central to the next level as a developer. All 100% free. All you need to do is to sign up and log in at the event site [aka.ms/bcle](https://aka.ms/bcle) and then set aside time to learn and digest. There's a lot of content, so maybe set aside 20 minutes every morning before you open your email. We guarantee you that it will be worth the time.
+
+These are the sessions that we think are most relevant for you as a developer and where you should start your learning journey
+- [What's new in Developer Tools](https://app.hopin.com/events/business-central-launch-event-3502b259-fc5c-44f8-9448-1e07e075819e/replay/UmVjb3JkaW5nVXBsb2FkOjU2MDc=)
+- [What's new in AL-Go for GitHub](https://app.hopin.com/events/business-central-launch-event-3502b259-fc5c-44f8-9448-1e07e075819e/replay/UmVjb3JkaW5nVXBsb2FkOjU2MDA=)
+- [What's new: Performance testing before go-live with Performance Toolkit](https://app.hopin.com/events/business-central-launch-event-3502b259-fc5c-44f8-9448-1e07e075819e/replay/UmVjb3JkaW5nVXBsb2FkOjU2MDU=)
+- [What's new: Power BI and reporting (for developers)](https://app.hopin.com/events/business-central-launch-event-3502b259-fc5c-44f8-9448-1e07e075819e/replay/UmVjb3JkaW5nVXBsb2FkOjU2MDM=)
+
+You might also want to dive deeper into the Business Central platform, and learn about the server, database, resource governance (in the online version of Business Central), and troubleshooting with telemetry
+- [What's new in Server and Database - a faster runtime](https://app.hopin.com/events/business-central-launch-event-3502b259-fc5c-44f8-9448-1e07e075819e/replay/UmVjb3JkaW5nVXBsb2FkOjU1ODU=)
+- [What's new in Server and Database - a faster data stack](https://app.hopin.com/events/business-central-launch-event-3502b259-fc5c-44f8-9448-1e07e075819e/replay/UmVjb3JkaW5nVXBsb2FkOjU1ODc=)
+- [What's new in Server and Database - more stable web services](https://app.hopin.com/events/business-central-launch-event-3502b259-fc5c-44f8-9448-1e07e075819e/replay/UmVjb3JkaW5nVXBsb2FkOjU1OTM=)
+- [What's new in Server and Database - new reporting capabilities](https://app.hopin.com/events/business-central-launch-event-3502b259-fc5c-44f8-9448-1e07e075819e/replay/UmVjb3JkaW5nVXBsb2FkOjU1OTA=)
+- [What's new in resource governance for Dynamics 365 Business Central online](https://app.hopin.com/events/business-central-launch-event-3502b259-fc5c-44f8-9448-1e07e075819e/replay/UmVjb3JkaW5nVXBsb2FkOjU1OTU=)
+- [What's new in telemetry](https://app.hopin.com/events/business-central-launch-event-3502b259-fc5c-44f8-9448-1e07e075819e/replay/UmVjb3JkaW5nVXBsb2FkOjU1ODQ=)
+
+After you've seen/browsed those sessions, consider spending some time in the *Application* and *Onboarding and user experience* tracks. We think that these sessions are particularly useful for developers
+- [Creating customer centric onboarding experiences](https://app.hopin.com/events/business-central-launch-event-3502b259-fc5c-44f8-9448-1e07e075819e/replay/UmVjb3JkaW5nVXBsb2FkOjU2MDI=)
+- [What's new: Add existing field in pages](https://app.hopin.com/events/business-central-launch-event-3502b259-fc5c-44f8-9448-1e07e075819e/replay/UmVjb3JkaW5nVXBsb2FkOjU2MTI=)
+- [What's new: Productivity features in the web client](https://app.hopin.com/events/business-central-launch-event-3502b259-fc5c-44f8-9448-1e07e075819e/replay/UmVjb3JkaW5nVXBsb2FkOjU2MTQ=)
+- [Introducing Analyze data on lists on queries](https://app.hopin.com/events/business-central-launch-event-3502b259-fc5c-44f8-9448-1e07e075819e/replay/UmVjb3JkaW5nVXBsb2FkOjU2MDk=)
+
+If you want to dive more into ways to integrate Business central with Microsoft Power Platform, Power BI, and Microsoft 365, then check out these sessions
+- [What's new: Business central integration with Power Platform](https://app.hopin.com/events/business-central-launch-event-3502b259-fc5c-44f8-9448-1e07e075819e/replay/UmVjb3JkaW5nVXBsb2FkOjU1OTY=)
+- [What's new in Dataverse and Dynamics 365 app integration - Part 1](https://app.hopin.com/events/business-central-launch-event-3502b259-fc5c-44f8-9448-1e07e075819e/replay/UmVjb3JkaW5nVXBsb2FkOjU1OTk=)
+- [What's new in Dataverse and Dynamics 365 app integration - Part 2](https://app.hopin.com/events/business-central-launch-event-3502b259-fc5c-44f8-9448-1e07e075819e/replay/UmVjb3JkaW5nVXBsb2FkOjU2MDE=)
+- [What's new: Power BI and reporting (for developers)](https://app.hopin.com/events/business-central-launch-event-3502b259-fc5c-44f8-9448-1e07e075819e/replay/UmVjb3JkaW5nVXBsb2FkOjU2MDM=)
+
+That's all folks! Go learn. Get smart. Be awesome. Help customers.
+
 # 2023-10-04 Business Central 2023 release wave 2 launch event content for developers
 
 Join the product team on October 10-12th, 2023 to see what’s new in Dynamics 365 Business Central 2023 release wave 2 at the Business Central Launch Event; a free virtual event for everyone from reselling partners to consultants, and ISV partners. 
