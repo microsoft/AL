@@ -1,3 +1,9 @@
+# 2023-11-09 Refresh of the system and base application reference
+
+We've just refreshed the system and base application reference documentation for Business Central version 23. (Base application version 23.0.12034.12416, system application version 23.0.12034.12416).
+
+This refresh includes namespaces and the system app level as well. To browse the reference library, go to [System and Base Application Reference for Dynamics 365 Business Central](https://learn.microsoft.com/dynamics365/business-central/application/?wt.mc_id=d365bc_inproduct_alextension).
+
 # Business Central 2023 release wave 2 launch event content for developers
  
 In October 2023, Business Central 2023 release wave 2 launch event went live with videos on the latest innovations for Business Central to you via an all-access digital experience. They contain high-quality content presented by product leaders to enable you to learn how to take Business Central to the next level as a developer. All 100% free. All you need to do is to sign up and log in at the event site [aka.ms/bcle](https://aka.ms/bcle) and then set aside time to learn and digest. There's a lot of content, so maybe set aside 20 minutes every morning before you open your email. We guarantee you that it will be worth the time.
