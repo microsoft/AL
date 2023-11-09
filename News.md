@@ -2,7 +2,7 @@
 
 We've just refreshed the system and base application reference documentation for Business Central version 23, (base application version 23.0.12034.12416, system application version 23.0.12034.12416).
 
-This refresh includes namespaces and the system app level as well. To browse the reference library, go to [System and Base Application Reference for Dynamics 365 Business Central](https://learn.microsoft.com/dynamics365/business-central/application/?wt.mc_id=d365bc_inproduct_alextension).
+This refresh includes namespaces and the system level as well. To browse the reference library, go to [System and Base Application Reference for Dynamics 365 Business Central](https://learn.microsoft.com/dynamics365/business-central/application/?wt.mc_id=d365bc_inproduct_alextension).
 
 # Business Central 2023 release wave 2 launch event content for developers
  
