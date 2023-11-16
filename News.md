@@ -1,3 +1,15 @@
+# 2023-11-16 Are you looking into creating generative AI solutions for Business Central? 
+
+Then read on here. As you move forward with exploring generative AI, we’ve published a couple of articles to get you started. There's a new article for the [PromptDialog page type](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-type-promptdialog?wt.mc_id=d365bc_inproduct_alextension) and we've also updated the reference documentation for the following properties:<br> [PromptMode](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-promptmode-property?wt.mc_id=d365bc_inproduct_alextension) <br>[IsPreview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-ispreview-property?wt.mc_id=d365bc_inproduct_alextension)<br>[PageType](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-pagetype-property?wt.mc_id=d365bc_inproduct_alextension)<br>[Image](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-image-property?wt.mc_id=d365bc_inproduct_alextension)
+
+This serves as a starting point for other documentation that we’ll be shipping on how to get started developing a generative AI solution with Business Central.
+
+Remember that you can go to the [aka.ms/BCTech](https://www.github.com/BCTech/samples/AzureOpenAI) repo to discover more and maybe get inspired.
+
+At Directions EMEA 2023, the keynote presentations demonstrated how Business Central has integrated AI to enhance productivity. Check these recordings out [here](https://dynamicspartners.transform.microsoft.com/products/dynamics-365-business-central).
+
+Stay tuned!
+
 # 2023-11-09 Refresh of the system and base application reference
 
 We've just refreshed the system and base application reference documentation for Business Central version 23, (base application version 23.0.12034.12416, system application version 23.0.12034.12416).
