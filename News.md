@@ -6,7 +6,7 @@ Then read on here. As you move forward with exploring generative AI, we’ve pub
 
 [IsPreview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-ispreview-property?wt.mc_id=d365bc_inproduct_alextension)
 
-[PageType](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-pagetype-property?wt.mc_id=d365bc_inproduct_alextension).
+[PageType](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-pagetype-property?wt.mc_id=d365bc_inproduct_alextension)
 
 This serves as a starting point for other documentation that we’ll be shipping on how to get started developing a generative AI solution with Business Central.
 
