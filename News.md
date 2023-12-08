@@ -1,3 +1,26 @@
+# 2023-12-08 Reporting documentation just got better!
+
+Over the last months, we've worked on improving the developer documentation for *reporting* in Dynamics 365 Business Central.
+
+You find the all the reporting content in the developer docs in the table of contents (TOC) under Development, choose AL Language, and then Developing reports. 
+
+So what did we do? Well, quite a lot...
+
+1. All articles related to reporting (that we're aware of) are now present under Developing reports in the TOC
+1. All articles about reports (that we're aware of) have been updated to reflect latest language features and to include AL example code
+1. New content on how to format report data (both TOC entry and a new article)
+1. The Report layouts section in the TOC now also include all layout articles from the user part of the Business Central documentation
+1. New content on report discoverability (both a new TOC entry and a new article)
+1. New article on report troubleshooting
+1. All articles from the AL Language reference (related to reports) are present from the TOC and all reference articles have been updated to reflect latest language features and to include examples of robust coding practices.
+
+Want to check it out? Then visit [Reports overview](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-reports?wt.mc_id=d365bc_inproduct_alextension). And don't miss the latest blog post on LinkedIn on [reporting](https://www.linkedin.com/pulse/world-changing-business-central-reporting-kennie-nybo-pontoppidan-rd0wf/?trackingId=UcbBit2mQ0yDdfedNP4Z3w%3D%3D).
+
+That's all for now, folks!
+
+Most of these suggestions we added because you gave us feedback on things you would like to see in this part of docs. Keep the feedback coming, together we can make docs a really useful tool for AL developers.
+
+
 # 2023-11-16 Are you looking into creating generative AI solutions for Business Central? 
 
 Then read on here. As you move forward with exploring generative AI, we’ve published a couple of articles to get you started. There's a new article for the [PromptDialog page type](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-type-promptdialog?wt.mc_id=d365bc_inproduct_alextension) and we've also updated the reference documentation for the following properties:<br> [PromptMode](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-promptmode-property?wt.mc_id=d365bc_inproduct_alextension) <br>[IsPreview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-ispreview-property?wt.mc_id=d365bc_inproduct_alextension)<br>[PageType](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-pagetype-property?wt.mc_id=d365bc_inproduct_alextension)
