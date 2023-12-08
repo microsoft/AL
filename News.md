@@ -2,7 +2,7 @@
 
 Over the last months, we've worked on improving the developer documentation for *reporting* in Dynamics 365 Business Central.
 
-You find the all the reporting content in the developer docs in the table of contents (TOC) under Development, choose AL Language, and then Developing reports. 
+You find the all the reporting content in the developer docs in the table of contents (TOC) under **Development**, choose **AL Language**, and then **Developing reports**. 
 
 So what did we do? Well, quite a lot...
 
