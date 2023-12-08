@@ -6,13 +6,13 @@ You find the all the reporting content in the developer docs in the table of con
 
 So what did we do? Well, quite a lot...
 
-1. All articles related to reporting (that we're aware of) are now present under Developing reports in the TOC
-1. All articles about reports (that we're aware of) have been updated to reflect latest language features and to include AL example code
-1. New content on how to format report data (both TOC entry and a new article)
-1. The Report layouts section in the TOC now also include all layout articles from the user part of the Business Central documentation
-1. New content on report discoverability (both a new TOC entry and a new article)
-1. New article on report troubleshooting
-1. All articles from the AL Language reference (related to reports) are present from the TOC and all reference articles have been updated to reflect latest language features and to include examples of robust coding practices.
+1. All articles related to reporting (that we're aware of) are now present under Developing reports in the TOC.
+1. All articles about reports (that we're aware of) have been updated to reflect latest language features and to include AL example code.
+1. New content on how to format report data (both TOC entry and a new article).
+1. The Report layouts section in the TOC now also includes all layout articles from the user part of the Business Central documentation.
+1. New content on report discoverability added (both a new TOC entry and a new article).
+1. New article on report troubleshooting added.
+1. All articles from the AL Language reference (related to reports) are present in the TOC and all reference articles have been updated to reflect latest language features and to include examples of robust coding practices.
 
 Want to check it out? Then visit [Reports overview](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-reports?wt.mc_id=d365bc_inproduct_alextension). And don't miss the latest blog post on LinkedIn on [reporting](https://www.linkedin.com/pulse/world-changing-business-central-reporting-kennie-nybo-pontoppidan-rd0wf/?trackingId=UcbBit2mQ0yDdfedNP4Z3w%3D%3D).
 
