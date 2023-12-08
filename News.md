@@ -14,11 +14,11 @@ So what did we do? Well, quite a lot...
 1. New article on report troubleshooting added.
 1. All articles from the AL Language reference (related to reports) are present in the TOC and all reference articles have been updated to reflect latest language features and to include examples of robust coding practices.
 
-Want to check it out? Then visit [Reports overview](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-reports?wt.mc_id=d365bc_inproduct_alextension). And don't miss the latest blog post on LinkedIn on [reporting](https://www.linkedin.com/pulse/world-changing-business-central-reporting-kennie-nybo-pontoppidan-rd0wf/?trackingId=UcbBit2mQ0yDdfedNP4Z3w%3D%3D).
+Want to check it out? Then visit the [Reports overview](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-reports?wt.mc_id=d365bc_inproduct_alextension). And don't miss the latest blog post on LinkedIn about [The world is changing (in Business Central reporting)](https://www.linkedin.com/pulse/world-changing-business-central-reporting-kennie-nybo-pontoppidan-rd0wf/?trackingId=UcbBit2mQ0yDdfedNP4Z3w%3D%3D).
 
 That's all for now, folks!
 
-Most of these suggestions we added because you gave us feedback on things you would like to see in this part of docs. Keep the feedback coming, together we can make docs a really useful tool for AL developers.
+Most of these suggestions we added because you gave us feedback on things you'd like to see in this part of docs. Keep the feedback coming, together we can make docs a really useful tool for AL developers.
 
 
 # 2023-11-16 Are you looking into creating generative AI solutions for Business Central? 
