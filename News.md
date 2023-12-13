@@ -1,3 +1,11 @@
+# 2023-12-13 Curious about integrating AI using developer tools for copilot?
+
+With the latest refresh of the documentation, we've added content on how to build a copilot user experience for Business Central. Read about the developer tools, how to get set up with Azure OpenAI service, and how to build the copilot capability and experience in Business Central.
+
+Get started with the [Integrating AI using Developer Tools for Copilot](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-integration-landing-page?wt.mc_id=d365bc_inproduct_alextension) landing page. And check out the refreshed [System application](https://learn.microsoft.com/dynamics365/business-central/application/system-application/codeunit/system.ai.aoai-chat-completion-params?wt.mc_id=d365bc_inproduct_alextension) documentation.
+
+We hope you'll find this useful. If you have any feedback, please let us know.
+
 # 2023-12-08 Reporting documentation just got better!
 
 Over the last months, we've worked on improving the developer documentation for *reporting* in Dynamics 365 Business Central.
