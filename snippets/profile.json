@@ -4,8 +4,21 @@
         "body": [
             "profile ${1:MyProfile} ",
             "{",
-            "\tDescription = ${2:'Profile Display Name'};",
+            "\tDescription = '${2:Profile Display Name}';",
             "\tRoleCenter = ${3:RoleCenter};",
+            "\tCustomizations = ${0:Customizations};",
+            "}"
+        ],
+        "description": "Snippet: Profile"
+    },
+    "Snippet: Profile (4.0)": {
+        "prefix": "tprofile",
+        "body": [
+            "profile ${1:MyProfile} ",
+            "{",
+            "\tCaption = '${2:Profile Display Name}';",
+            "\tRoleCenter = ${3:RoleCenter};",
+            "\tProfileDescription = '${4:Profile Description}';",
             "\tCustomizations = ${0:Customizations};",
             "}"
         ],

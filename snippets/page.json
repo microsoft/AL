@@ -57,6 +57,16 @@
         ],
         "description": "Snippet: Page Field"
     },
+    "Snippet: Group": {
+        "prefix": "tgroup",
+        "body": [
+            "group(${1:GroupName})",
+            "{",
+            "\t$0",
+            "}"
+        ],
+        "description": "Snippet: Page Group"
+    },
     "Snippet: Action": {
         "prefix": "taction",
         "body": [
@@ -71,6 +81,55 @@
             "}"
         ],
         "description": "Snippet: Page Action"
+    },
+    "Snippet: Selection-Aware Action": {
+        "prefix": "tactionselectionaware",
+        "body": [
+            "action(${1:ActionName})",
+            "{",
+            "\tScope = ${2|PageFilter,RepeaterRow,RepeaterSelection|};",
+            "\t",
+            "\ttrigger OnAction()",
+            "\tbegin",
+            "\t\t$0",
+            "\tend;",
+            "}"
+        ],
+        "description": "Snippet: Selection-Aware Action"
+    },
+    "Snippet: Action Ref": {
+        "prefix": "tactionref",
+        "body": [
+            "actionref(${1:ActionRefName}; ${2:ActionName})",
+            "{",
+            "\t$0",
+            "}"
+        ],
+        "description": "Snippet: Page Action Ref"
+    },
+    "Snippet: Custom Action": {
+        "prefix": "tcustomaction",
+        "body": [
+            "customaction(${1:CustomActionName})",
+            "{",
+            "\tApplicationArea = ${2|All,Basic,Suite,Advanced|};",
+            "\t$0",
+            "}"
+        ],
+        "description": "Snippet: Page Custom Action"
+    },
+    "Snippet: System Action": {
+        "prefix": "tsystemaction",
+        "body": [
+            "systemaction(${1|Generate,Attach,Cancel,Ok,Regenerate|})",
+            "{",
+            "\ttrigger OnAction()",
+            "\tbegin",
+            "\t\t$0",
+            "\tend;",
+            "}"
+        ],
+        "description": "Snippet: Page Custom Action"
     },
     "Snippet: User Control": {
         "prefix": "tusercontrol",
@@ -87,12 +146,25 @@
         ],
         "description": "Snippet: Page User Control"
     },
-    "Snippet: View": {
+    "Snippet: View Shared Layout": {
         "prefix": "tview",
         "body": [
             "view(${1:ViewName})",
             "{",
             "\tCaption = '${2:ViewCaption}';",
+            "\tFilters = where(${3:TableFieldName} = filter(${0:FilterValue}));",
+            "}"
+        ],
+        "description": "Snippet: Page View without layout changes"
+    },
+    "Snippet: View Detached Layout": {
+        "prefix": "tview",
+        "body": [
+            "view(${1:ViewName})",
+            "{",
+            "\tCaption = '${2:ViewCaption}';",
+            "\tFilters = where(${3:TableFieldName} = filter(${4:FilterValue}));",
+            "\tSharedLayout = false;",
             "\t",
             "\tlayout",
             "\t{",
@@ -100,19 +172,20 @@
             "\t}",
             "}"
         ],
-        "description": "Snippet: Page View"
+        "description": "Snippet: Page View with layout changes"
     },
     "Snippet: Part": {
         "prefix": "tpart",
         "body": [
             "part(${1:PartName}; ${2:PartSource})",
             "{",
+            "\tApplicationArea = ${3|All,Basic,Suite,Advanced|};",
             "\t${0}",
             "}"
         ],
         "description": "Snippet: Page Part"
     },
-    "Page of type list": {
+    "Page of type List": {
         "prefix": "tpage",
         "body": [
             "page ${1:Id} ${2:PageName}",
@@ -149,7 +222,7 @@
             "\t\t\t{",
             "\t\t\t\tApplicationArea = ${3};",
             "\t\t\t\t",
-            "\t\t\t\ttrigger OnAction();",
+            "\t\t\t\ttrigger OnAction()",
             "\t\t\t\tbegin",
             "\t\t\t\t\t$0",
             "\t\t\t\tend;",
@@ -192,5 +265,97 @@
             "}"
         ],
         "description": "Snippet: Page of type API"
+    },
+    "Page of type Role Center": {
+        "prefix": "tpage",
+        "body": [
+            "page ${1:Id} ${2:RoleCenterName}",
+            "{",
+            "\tPageType = RoleCenter;",
+            "\t",
+            "\tlayout",
+            "\t{",
+            "\t\tarea(RoleCenter)",
+            "\t\t{",
+            "\t\t\t$0",
+            "\t\t}",
+            "\t}",
+            "\t",
+            "\tactions",
+            "\t{",
+            "\t\tarea(Creation)",
+            "\t\t{",
+            "\t\t\taction(${3:ActionBarAction})",
+            "\t\t\t{",
+            "\t\t\t\tRunObject = ${4|Page,Report,XmlPort,Codeunit|} ${5:ObjectName};",
+            "\t\t\t}",
+            "\t\t}",
+            "\t\tarea(Sections)",
+            "\t\t{",
+            "\t\t\tgroup(${6:SectionsGroupName})",
+            "\t\t\t{",
+            "\t\t\t\taction(${7:SectionsAction})",
+            "\t\t\t\t{",
+            "\t\t\t\t\tRunObject = ${8|Page,Report,XmlPort,Codeunit|} ${9:ObjectName};",
+            "\t\t\t\t}",
+            "\t\t\t}",
+            "\t\t}",
+            "\t\tarea(Embedding)",
+            "\t\t{",
+            "\t\t\taction(${10:EmbeddingAction})",
+            "\t\t\t{",
+            "\t\t\t\tRunObject = ${11|Page,Report,XmlPort,Codeunit|} ${12:ObjectName};",
+            "\t\t\t}",
+            "\t\t}",
+            "\t}",
+            "}"
+        ],
+        "description": "Snippet: Page of type Role Center"
+    },
+    "Page of type PromptDialog": {
+        "prefix": "tpage",
+      "body": [
+        "page ${1:Id} ${2:PageName}",
+        "{",
+        "\tPageType = PromptDialog;",
+        "\tCaption = '{3:Draft with Copilot}';",
+        "\tPromptMode = ${4|Prompt,Generate,Content|};",
+        "\tExtensible = false;",
+        "\tSourceTable = ${5:TableName};",
+        "\tSourceTableTemporary = true;",
+        "\t",
+        "\tlayout",
+        "\t{",
+        "\t\tarea(Prompt)",
+        "\t\t{",
+        "\t\t\t$6",
+        "\t\t}",
+        "\t\tarea(PromptOptions)",
+        "\t\t{",
+        "\t\t\t$7",
+        "\t\t}",
+        "\t\tarea(Content)",
+        "\t\t{",
+        "\t\t\t$8",
+        "\t\t}",
+        "\t}",
+        "\t",
+        "\tactions",
+        "\t{",
+        "\t\tarea(SystemActions)",
+        "\t\t{",
+        "\t\t\tsystemaction(${9|Generate,Attach,Cancel,Ok,Regenerate|})",
+        "\t\t\t{",
+        "\t\t\t\ttrigger OnAction()",
+        "\t\t\t\tbegin",
+        "\t\t\t\t\t$0",
+        "\t\t\t\tend;",
+        "\t\t\t}",
+        "\t\t}",
+        "\t}",
+        "\t",
+        "}"
+      ],
+      "description": "Snippet: Page of type Prompt Dialog"
     }
 }

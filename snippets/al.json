@@ -154,6 +154,26 @@
         ],
         "description": "Snippet: Business Event"
     },
+    "Snippet: Internal Event": {
+        "prefix": "teventinternal",
+        "body": [
+            "[InternalEvent(${1:IncludeSender})]",
+            "local procedure ${0:MyProcedure}()",
+            "begin",
+            "end;"
+        ],
+        "description": "Snippet: Internal Event"
+    },
+    "Snippet: External Business Event": {
+        "prefix": "teventexternal",
+        "body": [
+            "[ExternalBusinessEvent(${1:Name}, ${2:DisplayName}, ${3:Description}, ${4:Category}, ${5:Version})]",
+            "local procedure ${0:MyProcedure}()",
+            "begin",
+            "end;"
+        ],
+        "description": "Snippet: External Business Event"
+    },
     "Snippet: Caption ML": {
         "prefix": "tcaptionml",
         "body": [

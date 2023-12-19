@@ -4,8 +4,9 @@
         "body": [
             "report ${1:Id} ${2:MyReport}",
             "{",
-            "\tUsageCategory = ${3|Administration,Documents,History,Lists,None,ReportsAndAnalysis,Tasks|};",
+            "\tUsageCategory = ${3|ReportsAndAnalysis,Administration,Documents,History,Lists,None,Tasks|};",
             "\tApplicationArea = ${4|All,Basic,Suite,Advanced|};",
+            "\tDefaultRenderingLayout = ${17:LayoutName};",
             "\t",
             "\tdataset",
             "\t{",
@@ -20,16 +21,18 @@
             "\t",
             "\trequestpage",
             "\t{",
+            "\t\tAboutTitle = '${10:Teaching tip title}';",
+            "\t\tAboutText = '${11:Teaching tip content}';",
             "\t\tlayout",
             "\t\t{",
             "\t\t\tarea(Content)",
             "\t\t\t{",
-            "\t\t\t\tgroup(${10:GroupName})",
+            "\t\t\t\tgroup(${12:GroupName})",
             "\t\t\t\t{",
-            "\t\t\t\t\tfield(${12:Name}; ${11:SourceExpression})",
+            "\t\t\t\t\tfield(${14:Name}; ${13:SourceExpression})",
             "\t\t\t\t\t{",
             "\t\t\t\t\t\tApplicationArea = ${4};",
-            "\t\t\t\t\t\t${13}",
+            "\t\t\t\t\t\t${15}",
             "\t\t\t\t\t}",
             "\t\t\t\t}",
             "\t\t\t}",
@@ -37,19 +40,28 @@
             "\t",
             "\t\tactions",
             "\t\t{",
-            "\t\t\tarea(${14:processing})",
+            "\t\t\tarea(${16:processing})",
             "\t\t\t{",
-            "\t\t\t\taction(${15:ActionName})",
+            "\t\t\t\taction(${17:ActionName})",
             "\t\t\t\t{",
             "\t\t\t\t\tApplicationArea = ${4};",
-            "\t\t\t\t\t${16}",
+            "\t\t\t\t\t${18}",
             "\t\t\t\t}",
             "\t\t\t}",
             "\t\t}",
             "\t}",
             "\t",
+            "\trendering",
+            "\t{",
+            "\t\tlayout(${19:LayoutName})",
+            "\t\t{",
+            "\t\t\tType = ${20:Excel};",
+            "\t\t\tLayoutFile = '${21:mySpreadsheet.xlsx}';",
+            "\t\t}",
+            "\t}",
+            "\t",
             "\tvar",
-            "\t\t${17:myInt}: ${0:Integer};",
+            "\t\t${22:myInt}: ${0:Integer};",
             "}"
         ],
         "description": "Snippet: Report"
@@ -65,7 +77,7 @@
             "\t}",
             "}"
         ],
-        "description": "Snippet: Data Item"
+        "description": "Snippet: Report Data Item"
     },
     "Snippet: Column": {
         "prefix": "tcolumn",
@@ -76,5 +88,16 @@
             "}"
         ],
         "description": "Snippet: Column"
+    },
+    "Snippet: Report Layout": {
+        "prefix": "treportlayout",
+        "body": [
+            "layout(${0:LayoutName})",
+            "{",
+            "\tType = ${1:Excel};",
+            "\tLayoutFile = '${2:mySpreadsheet.xlsx}';",
+            "}"
+        ],
+        "description": "Snippet: Report Layout"
     }
 }
