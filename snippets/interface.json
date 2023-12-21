@@ -1,0 +1,12 @@
+{
+    "Snippet: Interface": {
+        "prefix": "tinterface",
+        "body": [
+            "interface ${1:MyInterface}",
+            "{",
+			    "\tprocedure ${0:MyProcedure}();",
+            "}"
+        ],
+        "description": "Snippet: Interface"
+    }
+}

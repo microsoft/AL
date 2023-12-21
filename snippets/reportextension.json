@@ -1,0 +1,29 @@
+{
+    "Snippet: Report Extension": {
+        "prefix": "treportext",
+        "body": [
+            "reportextension ${1:Id} ${2:MyExtension} extends ${3:MyTargetReport}",
+            "{",
+            "\tdataset",
+            "\t{",
+            "\t\t${4:// Add changes to dataitems and columns here}",
+            "\t}",
+            "\t",
+            "\trequestpage",
+            "\t{",
+            "\t\t${5:// Add changes to the requestpage here}",
+            "\t}",
+            "\t",
+            "\trendering",
+            "\t{",
+            "\t\tlayout(${6:LayoutName})",
+            "\t\t{",
+            "\t\t\tType = ${7:RDLC};",
+            "\t\t\tLayoutFile = '${8:mylayout.rdl}';",
+            "\t\t}",
+            "\t}",
+            "}"
+        ],
+        "description": "Snippet: Report Extension"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "Snippet: PermissionSet": {
+        "prefix": "tpermissionset",
+        "body": [
+            "permissionset ${1:Id} ${2:MyPermissionSet}",
+            "{",
+            "\tAssignable = ${3|true,false|};",
+            "\tIncludedPermissionSets = ${4:SomePermissionSet};",
+            "\tPermissions = ",
+            "\t\t${5:ObjectType} ${6:ObjectName} = ${7:ObjectPermissions};",
+            "}"
+        ],
+        "description": "Snippet: Permission Set"
+    }
+}

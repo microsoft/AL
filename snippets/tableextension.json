@@ -9,10 +9,27 @@
             "\t\t${4:// Add changes to table fields here}",
             "\t}",
             "\t",
+            "\tkeys",
+            "\t{",
+            "\t\t${5:// Add changes to keys here}",
+            "\t}",
+            "\t",
+            "\tfieldgroups",
+            "\t{",
+            "\t\t${6:// Add changes to field groups here}",
+            "\t}",
+            "\t",
             "\tvar",
-            "\t\t${5:myInt}: ${0:Integer};",
+            "\t\t${7:myInt}: ${0:Integer};",
             "}"
         ],
         "description": "Snippet: Table Extension"
+    },
+    "Snippet: Table Extesion FieldGroup AddLast": {
+        "prefix": "tfieldgroupaddlast",
+        "body": [
+            "addlast(${1|DropDown,Brick|}; ${0:MyField}){}"
+        ],
+        "description": "Snippet: Table Extesion FieldGroup AddLast"
     }
 }

@@ -17,28 +17,33 @@
             "\t",
             "\tkeys",
             "\t{",
-            "\t\tkey(${8:PK}; ${4:MyField})",
+            "\t\tkey(${8:Key1}; ${4:MyField})",
             "\t\t{",
             "\t\t\tClustered = ${9|true,false|};",
             "\t\t}",
             "\t}",
             "\t",
+            "\tfieldgroups",
+            "\t{",
+            "\t\t${10:// Add changes to field groups here}",
+            "\t}",
+            "\t",
             "\tvar",
-            "\t\t${10:myInt}: ${11:Integer};",
+            "\t\t${11:myInt}: ${12:Integer};",
             "\t",
             "\ttrigger OnInsert()",
-            "\tbegin",
-            "\t\t$12",
-            "\tend;",
-            "\t",
-            "\ttrigger OnModify()",
             "\tbegin",
             "\t\t$13",
             "\tend;",
             "\t",
-            "\ttrigger OnDelete()",
+            "\ttrigger OnModify()",
             "\tbegin",
             "\t\t$14",
+            "\tend;",
+            "\t",
+            "\ttrigger OnDelete()",
+            "\tbegin",
+            "\t\t$15",
             "\tend;",
             "\t",
             "\ttrigger OnRename()",
@@ -56,7 +61,6 @@
             "field(${1:id}; ${2:MyField}; ${3|Blob,BigInteger,Boolean,Code[50],Date,DateFormula,Decimal,Duration,Integer,Guid,Media,MediaSet,Option,RecordID,TableFilter,Text[50],Time|})",
             "{",
             "\tDataClassification = ${4|ToBeClassified,CustomerContent,EndUserIdentifiableInformation,AccountData,EndUserPseudonymousIdentifiers,OrganizationIdentifiableInformation,SystemMetadata|};",
-            "\t${5:FieldPropertyName} = ${0:FieldPropertyValue};",
             "}"
         ],
         "description": "Snippet: Table Field"
@@ -103,5 +107,12 @@
             "}"
         ],
         "description": "Snippet: Table Key"
+    },
+    "Snippet: Table Field Group": {
+        "prefix": "tfieldgroup",
+        "body": [
+            "fieldgroup(${1|DropDown,Brick|}; ${0:MyField}){}"
+        ],
+        "description": "Snippet: Table Field Group"
     }
 }

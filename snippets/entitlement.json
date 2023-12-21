@@ -1,0 +1,15 @@
+{
+    "Snippet: Entitlement": {
+        "prefix": "tentitlement",
+        "body": [
+            "entitlement \"${1:MyEntitlement}\"",
+            "{",
+            "\tType = ${2|Application,ApplicationScope,ConcurrentUserServicePlan,FlatRateServicePlan,Implicit,PerUserServicePlan,Role,Group|};",
+            "\tRoleType =${3|Delegated,Local|};",
+            "\tId = '${4:MyId}';",
+            "\tObjectEntitlements = \"${0:MyListofObjects}\";",
+            "}"
+        ],
+        "description": "Snippet: Entitlement"
+    }
+}
