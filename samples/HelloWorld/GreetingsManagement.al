@@ -48,6 +48,7 @@ codeunit 50110 GreetingsManagement
             35: exit('Icelandic: Halló heimur');
             36: exit('Gaeilge: Dia duit an domhan');
             37: exit('Portuguese: Olá Mundo');
+            38: exit('Telugu: హలో వరల్డ్');
         else
             exit('Hello, World'); // Default to the good old one.
         end;
