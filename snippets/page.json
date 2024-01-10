@@ -82,21 +82,6 @@
         ],
         "description": "Snippet: Page Action"
     },
-    "Snippet: Selection-Aware Action": {
-        "prefix": "tactionselectionaware",
-        "body": [
-            "action(${1:ActionName})",
-            "{",
-            "\tScope = ${2|PageFilter,RepeaterRow,RepeaterSelection|};",
-            "\t",
-            "\ttrigger OnAction()",
-            "\tbegin",
-            "\t\t$0",
-            "\tend;",
-            "}"
-        ],
-        "description": "Snippet: Selection-Aware Action"
-    },
     "Snippet: Action Ref": {
         "prefix": "tactionref",
         "body": [
