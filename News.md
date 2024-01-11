@@ -2,19 +2,19 @@
  
 Over the last months, we've worked on improving the developer documentation for error handling in Dynamics 365 Business Central.
  
-You find the all the error handling content in the developer docs in the table of contents (TOC) under **Development**, choose **Programming in the AL language**, and then **Error handling**.
+You find the all the error handling content in the developer docs in the table of contents under **Development**, choose **Programming in the AL language**, and then **Error handling**.
  
 So what did we do? Well, quite a lot...
  
-- All articles related to error handling (that we're aware of) are now present under **Error handling** in the TOC.
+- All articles related to error handling (that we're aware of) are now present under **Error handling** in the table of contents.
 - All articles about error handling (that we're aware of) have been updated to reflect latest language features and to include AL example code.
 - New article *Failure modeling and robust coding practices* with two techniques that you can use to make your code more robust towards errors: **failure modeling** and **robust coding practices**.
 - Article *Understanding the error dialog* is updated with a section on how to understand the information in Copy details section. Also a new section explaining how to understand a AL stack trace.
 - New article *User experience guidelines for errors* that offers guidance on how to formulate good error messages, both for older versions of Business Central and for versions supporting the *actionable errors* framework.
 - New article *Actionable errors* that offers guidance on how to handle error dialogs in AL code, specifically how to use the *actionable errors* framework to provide recommended actions to users to resolve errors more effectively.
-- All four articles for telemetry related to errors are available in the *Error telemetry* part of the TOC.
-- All articles from the AL Language reference documentation (related to error handling) are present in the TOC and all reference articles have been updated to reflect latest language features and to include examples of robust coding practices.
-- All articles from the Base App reference documentation (related to error handling) are present in the TOC.
+- All four articles for telemetry related to errors are available in the *Error telemetry* part of the table of contents.
+- All articles from the AL Language reference documentation (related to error handling) are present in the table of contents and all reference articles have been updated to reflect latest language features and to include examples of robust coding practices.
+- All articles from the Base App reference documentation (related to error handling) are also present in the table of contents.
   
 Want to check it out? Then start by visiting the new [Error handling](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-error-handling) overview.
  
