@@ -303,7 +303,7 @@
         "page ${1:Id} ${2:PageName}",
         "{",
         "\tPageType = PromptDialog;",
-        "\tCaption = '{3:Draft with Copilot}';",
+        "\tCaption = '${3:Draft with Copilot}';",
         "\tPromptMode = ${4|Prompt,Generate,Content|};",
         "\tExtensible = false;",
         "\tSourceTable = ${5:TableName};",
