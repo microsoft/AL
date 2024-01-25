@@ -30,7 +30,7 @@ We added new content on the following topics:
 - Operational limits for reports with Word layouts
 - How to convert an RDL layout to a Word layout
 
-Want to check it out? Then start by visiting the [Creating an Word layout report](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-howto-report-layout) article.
+Want to check it out? Then start by visiting the [Creating an Word layout report](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-howto-report-layout?wt.mc_id=d365bc_inproduct_alextension) article.
 
 That's all for now, folks!
 
@@ -54,7 +54,7 @@ So what did we do? Well, quite a lot...
 - All articles from the AL Language reference documentation (related to error handling) are present in the table of contents and all reference articles have been updated to reflect latest language features and to include examples of robust coding practices.
 - All articles from the Base App reference documentation (related to error handling) are also present in the table of contents.
   
-Want to check it out? Then start by visiting the new [Error handling](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-error-handling) overview.
+Want to check it out? Then start by visiting the new [Error handling](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-error-handling?wt.mc_id=d365bc_inproduct_alextension) overview.
  
 That's all for now, folks!
  
