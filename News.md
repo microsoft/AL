@@ -1,3 +1,41 @@
+# 2024-01-25 Document reporting with Word layouts documentation just got better!
+
+Over the last weeks, we've worked on improving the developer documentation for Word layouts in Dynamics 365 Business Central.
+
+You find the all the Word layout content in the developer docs in the table of contents under **Development**, choose **Programming in the AL language**, then **Developing reports**, **Report layouts**, **Excel, Word, and RDL report layouts** and then **Creating an Excel layout report**.
+ 
+So what did we do? Well, quite a lot...
+ 
+We added new content on the following topics:
+
+- How to iterate a Word layout over a dataitem (also expanded the article on how WordMergeDataItem works)
+- How to create a new Word layout from Visual Studio Code
+- How to do totals
+- How to use headers/footers, sections, and watermarks
+- How to use fonts
+- How to use hyperlinks
+- How to use tables to control alignment of text and images
+- How to work with pictures in Word layouts
+- Changing layout properties such as margins or orientation
+- Designing layouts for precision printing
+- How to use the same table style for all tables in the layout
+- Design guidelines for a report dataset designed for Word layouts
+- Difference between RDL and Word layouts
+- More content on how to use Office document themes
+- How to use tables to display data from the report dataset (simple repeaters)
+- How to use lists to display data from the report dataset (simple repeaters)
+- How to use nested repeaters to display data from nested dataitems in the report dataset
+- How to do sub totals/running totals
+- How to do conditional formatting
+- Operational limits for reports with Word layouts
+- How to convert an RDL layout to a Word layout
+
+Want to check it out? Then start by visiting the [Creating an Word layout report](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-howto-report-layout?wt.mc_id=d365bc_inproduct_alextension) article.
+
+That's all for now, folks!
+
+Most of these suggestions we added because you gave us feedback on things you'd like to see in this part of docs. Keep the feedback coming, together we can make docs a really useful tool for AL developers.
+
 # 2024-01-11 Error handling documentation just got better!
  
 Over the last months, we've worked on improving the developer documentation for error handling in Dynamics 365 Business Central.
@@ -16,7 +54,7 @@ So what did we do? Well, quite a lot...
 - All articles from the AL Language reference documentation (related to error handling) are present in the table of contents and all reference articles have been updated to reflect latest language features and to include examples of robust coding practices.
 - All articles from the Base App reference documentation (related to error handling) are also present in the table of contents.
   
-Want to check it out? Then start by visiting the new [Error handling](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-error-handling) overview.
+Want to check it out? Then start by visiting the new [Error handling](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-error-handling?wt.mc_id=d365bc_inproduct_alextension) overview.
  
 That's all for now, folks!
  
