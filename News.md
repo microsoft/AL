@@ -1,3 +1,36 @@
+# 2024-02-28 Working on AppSource apps and per-tenant extensions? Get ready for the next major release.
+
+As developers and solution architects, you play a pivotal role in shaping the Business Central ecosystem. We count on you to facilitate a seamless experience for our shared customers as they move to the upcoming major release. Here we wanted to list some of the key best practices for getting ready for the new major release. 
+
+## AppSource apps 
+
+One month before the next major release, we cease accepting AppSource apps that are incompatible with the upcoming version. Please start identifying and addressing compatibility issues already now, to handle them proactively, avoiding last-minute firefighting and disruption. 
+
+We also start checking the existing AppSource apps for compatibility with the next major release, and publish validation results weekly to a public URL (aka.ms/readyForNextMajor?appId=<appId>), making it easier for you to assess your app’s readiness for the next release. However, as best practice, do not just rely on checking the results of our validation, but perform your own, in your pipelines. For more information, see documentation on [technical validation](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission?wt.mc_id=d365bc_inproduct_alextension). 
+
+In our recent release, we introduced hotfixing capabilities the ability to hotfix for older versions of AppSource apps. This means you can continue patching your apps for previous Business Central versions while simultaneously working on the new version targeting the next major release. Your customers running on the previous versions of your apps will therefore not be left behind and get the support they need. Find more information about hotfixing AppSource apps [here](https://learn.microsoft.com/dynamics365/release-plan/2023wave1/smb/dynamics365-business-central/hotfix-older-appsource-apps?wt.mc_id=d365bc_inproduct_alextension). 
+
+## Per-tenant extensions  
+
+Also, one month prior to the major release, our system starts notifying customers when their per-tenant extensions are incompatible with the next major release. The notifications are sent via email, to the recipients registered in Business Central Admin Center and via messages in Microsoft 365 Message Center. Use this information to prioritize fixing your per-tenant extensions, to avoid the risk of disruptions, escalations and dealing with requests to postpone updates. Find more information about our per tenant validation [here](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-customization-update-lifecycle#automated-extension-validation?wt.mc_id=d365bc_inproduct_alextension).  
+
+Business Central makes a Preview Sandbox environment available for all customers, one month prior to the major release date. Use this option to upload and test your extensions proactively. Read more about preview environments [here](https://aka.ms/bcpreview?wt.mc_id=d365bc_inproduct_alextension).  
+
+## Get ahead of the game with DevOps solutions 
+
+Business Central provides both AppSource and per-tenant extension builders with an easy to use, rich and secure DevOps solution: AL-Go for GitHub. Find more information [here](https://github.com/microsoft/AL-Go).
+
+Among many other capabilities, AL-Go for GitHub allows developers to easily check compatibility of their apps with any upcoming version, whether minor or major, in real-time with these changes being introduced by Business Central team. Start using this solution or other DevOps solutions available in the Business Central ecosystem to handle compatibility proactively.  
+
+By adhering to these technical best practices, you contribute to a thriving ecosystem. Prepare early, prioritize quality, and deliver exceptional solutions to our mutual customers. Thank you for helping us shape the future of Business Central! 
+
+## More information
+
+- [Maintain AppSource apps and per-tenant extensions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/app-maintain?wt.mc_id=d365bc_inproduct_alextension)
+- [Lifecycle of apps and extensions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-life-cycle?wt.mc_id=d365bc_inproduct_alextension)
+- [Update Lifecycle for Tenant Customizations](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-customization-update-lifecycle?wt.mc_id=d365bc_inproduct_alextension)
+- [Technical validation FAQ](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission-faq?wt.mc_id=d365bc_inproduct_alextension)
+
 # 2024-01-25 Document reporting with Word layouts documentation just got better!
 
 Over the last weeks, we've worked on improving the developer documentation for Word layouts in Dynamics 365 Business Central.
