@@ -1,6 +1,6 @@
 # 2024-02-28 Working on AppSource apps and per-tenant extensions? Get ready for the next major release
 
-As developers and solution architects, you play a pivotal role in shaping the Business Central ecosystem. We count on you to facilitate a seamless experience for our shared customers as they move to the upcoming major release. Here we wanted to list some of the key best practices for getting ready for the new major release. 
+As developers and solution architects, you play a pivotal role in shaping the Business Central ecosystem. We count on you to facilitate a seamless experience for our shared customers as they move to the upcoming major release. Here we want to list some of the key best practices for getting ready for the new major release. 
 
 ## AppSource apps 
 
@@ -14,7 +14,7 @@ In our recent release, we introduced the ability to hotfix older versions of App
 
 Also, one month prior to the major release, our system starts notifying customers when their per-tenant extensions are incompatible with the next major release. The notifications are sent via email, to the recipients registered in Business Central Admin Center and via messages in the Microsoft 365 Message Center. Use this information to prioritize fixing your per-tenant extensions, to avoid the risk of disruptions, escalations and dealing with requests to postpone updates. Find more information about our per-tenant validation [here](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-customization-update-lifecycle#automated-extension-validation?wt.mc_id=d365bc_inproduct_alextension).  
 
-Business Central makes a Preview Sandbox environment available for all customers, one month prior to the major release date. Use this option to upload and test your extensions proactively. Read more about preview environments [here](https://aka.ms/bcpreview?wt.mc_id=d365bc_inproduct_alextension).  
+Business Central makes a preview version available that allows you to create a sandbox environment available for all customers, one month prior to the major release date. Use this option to upload and test your extensions proactively. Read more about preview environments [here](https://aka.ms/bcpreview?wt.mc_id=d365bc_inproduct_alextension).  
 
 ## Get ahead of the game with DevOps solutions 
 
