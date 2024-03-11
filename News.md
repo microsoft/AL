@@ -1,3 +1,25 @@
+## 2024-03-12 Want to know how things work? Learn how Business Central integrates to other Microsoft services and products
+
+As developers and solution architects, developing in AL is likely only part of your job. In a world where customers operate in the cloud, integration to other Microsoft services and products is an increasingly important part of Business Central implementations. As children, many of you probably asked a lot of “how does that work?” questions and might have read the book “The way things work” by David Macaulay to satisfy your curiosity. In the Business Central product group we're no different and we asked ourselves: “Why not write the: The way Business Central integrations work" article to give an overview on, which integrations are currently possible and how they work.  
+
+![Shows how Business Central integrates to Microsoft 365](https://raw.githubusercontent.com/microsoft/AL/master/resources/all-integrations.png)
+
+We added new content on the following topics:
+
+- [Overall integration overview](https://aka.ms/bcintegration?wt.mc_id=d365bc_inproduct_alextension)
+- [Integrations to Office/M365](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/m365-integration-overview?wt.mc_id=d365bc_inproduct_alextension)
+- [Integrations to Power Platform](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/powerplatform-integration-overview?wt.mc_id=d365bc_inproduct_alextension)
+- [Integrations to Dataverse](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/dataverse-integration-overview?wt.mc_id=d365bc_inproduct_alextension)
+- [Integrations to Azure](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/integration-azure-overview?wt.mc_id=d365bc_inproduct_alextension)
+- [Integrations to infrastructure services](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/integration-infrastructure-overview?wt.mc_id=d365bc_inproduct_alextension)
+
+Want to check it out? Then start by visiting the new overview article [aka.ms/bcintegration](https://aka.ms/bcintegration?wt.mc_id=d365bc_inproduct_alextension).
+
+That's all for now, folks!
+
+Most of these suggestions we added because you gave us feedback on things you'd like to see in this part of docs. Keep the feedback coming, together we can make docs a really useful tool for AL developers.
+
+
 # 2024-02-28 Working on AppSource apps and per-tenant extensions? Get ready for the next major release
 
 As developers and solution architects, you play a pivotal role in shaping the Business Central ecosystem. We count on you to facilitate a seamless experience for our shared customers as they move to the upcoming major release. Here we want to list some of the key best practices for getting ready for the new major release. 
