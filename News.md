@@ -1,6 +1,6 @@
 # 2024-04-24 Transient failures while running v.24 updates and publishing apps from Visual Studio Code
  
-We have identified an issue where publishing apps may sometime fail due to a race condition in the flow of installing or updating multiple apps, causing certain development operations like app publishing and updates to v.24 to fail with internal error. For troubleshooting update issues, please see the Operations Log page in the Business Central Admin Center to find the details of the errors discovered during update or app publishing.
+We have identified an issue where publishing apps might sometimes fail due to a race condition in the flow of installing or updating multiple apps, causing certain development operations like app publishing and updates to v. 24 to fail with an internal error. For troubleshooting update issues, see the **Operations Log** page in the Business Central Admin Center. Here you'll find the details of the errors discovered during update or app publishing.
  
 We are actively working on identifying the root cause and mitigating the issue.
  
