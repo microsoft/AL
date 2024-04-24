@@ -1,3 +1,15 @@
+# 2024-04-24 Transient failures while running v.24 updates and publishing apps from Visual Studio Code
+ 
+We have identified an issue where publishing apps may sometime fail due to a race condition in the flow of installing or updating multiple apps, causing certain development operations like app publishing and updates to v.24 to fail with internal error. For troubleshooting update issues, please see the Operations Log page in the Business Central Admin Center to find the details of the errors discovered during update or app publishing.
+ 
+We are actively working on identifying the root cause and mitigating the issue.
+ 
+While we are working on addressing this instability, the issue can be mitigated by re-trying the operation, e.g. re-trying app publishing or update, until it succeeds. When deploying PTEs as DEV extensions from Visual Studio code fails, another option is to upload it via the Extension Management page in the web client, and optionally subsequently use debug without publishing if performing debugging.
+ 
+We will delete this entry when the issue has been resolved. In the meantime, you can follow or provide details on the GitHub AL issue on [deploying through Visual Studio code fails](https://github.com/microsoft/AL/issues/7721)
+ 
+Comms on this have been posted under ID DN78455 if you need to refer to that in any related support case.
+
 ## 2024-03-12 Want to know how things work? Learn how Business Central integrates to other Microsoft services and products
 
 As developers and solution architects, developing in AL is likely only part of your job. In a world where customers operate in the cloud, integration to other Microsoft services and products is an increasingly important part of Business Central implementations. As children, many of you probably asked a lot of “how does that work?” questions and might have read the book “The way things work” by David Macaulay to satisfy your curiosity. In the Business Central product group we're no different and we asked ourselves: “Why not write the: The way Business Central integrations work" article to give an overview on, which integrations are currently possible and how they work.  
