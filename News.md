@@ -6,9 +6,11 @@ We are actively working on identifying the root cause and mitigating the issue.
  
 While we are working on addressing this instability, the issue can be mitigated by re-trying the operation, e.g. re-trying app publishing or update, until it succeeds. When deploying PTEs as DEV extensions from Visual Studio code fails, another option is to upload it via the Extension Management page in the web client, and optionally subsequently use debug without publishing if performing debugging.
  
-We will delete this entry when the issue has been resolved. In the meantime, you can follow or provide details on the GitHub AL issue on [deploying through Visual Studio code fails](https://github.com/microsoft/AL/issues/7721)
+**Please do not open any new, duplicate support cases on above**. Comms on this have been posted under ID DN78455 if you need to refer to that in any existing, related support case.
  
-Comms on this have been posted under ID DN78455 if you need to refer to that in any related support case.
+We will delete this entry when the issue has been resolved. 
+
+In the meantime, you can follow or provide details on the GitHub AL issue on [deploying through Visual Studio code fails](https://github.com/microsoft/AL/issues/7721)
 
 ## 2024-03-12 Want to know how things work? Learn how Business Central integrates to other Microsoft services and products
 
