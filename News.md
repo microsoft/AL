@@ -6,7 +6,7 @@ We are actively working on identifying the root cause and mitigating the issue.
  
 While we are working on addressing this instability, the issue can be mitigated by re-trying the operation, for example, re-trying app publishing or update, until it succeeds. When deploying PTEs as DEV extensions from Visual Studio code fails, another option is to upload it through the **Extension Management** page in the web client, and optionally subsequently use debug without publishing if you're doing debugging.
  
-**Please do not open any new, duplicate support cases on above**. Communication on this issue is posted under ID DN78455 if you need to refer to that in any existing, related support case.
+**Please do not open any new, duplicate support cases on above**. Communication on this issue is posted under ID DN784551 if you need to refer to that in any existing, related support case.
  
 We will delete this entry when the issue has been resolved. 
 
