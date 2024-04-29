@@ -9,9 +9,9 @@ These are the sessions that we think are most relevant for you as a developer an
 - [What's new: Designing generative AI experiences](https://www.youtube.com/watch?v=qP0id91bIlA)
 - [What's new: Key updates in our learning content (documentation) for developers](https://www.youtube.com/watch?v=mnxOSl1Y9PI)  
 - [What's new: Excel layouts for developers](https://www.youtube.com/watch?v=BofJJPqgrTI)  
-- [What's new: Introducing the Business Foundation and the No. Series module](https://www.youtube.com/watch?v=BofJJPqgrTI)
-- [What's new: Going Open Source with the new GitHub repository for Business Central](https://www.youtube.com/watch?v=BofJJPqgrTI)
-- [In preview: User acceptance testing with the Page Scripting tool](https://www.youtube.com/watch?v=BofJJPqgrTI)
+- [What's new: Introducing the Business Foundation and the No. Series module](https://www.youtube.com/watch?v=kbRTIWH-nio)
+- [What's new: Going Open Source with the new GitHub repository for Business Central](https://www.youtube.com/watch?v=tjHDcjwsOIE)
+- [In preview: User acceptance testing with the Page Scripting tool](https://www.youtube.com/watch?v=B8cWQGwajwQ)
 
 If AI and Copilot rock your boat, consider diving more into the topic with these sessions:
 
