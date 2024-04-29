@@ -1,3 +1,62 @@
+# 2024-04-29 Business Central 2024 release wave 1 launch event content for developers
+
+In April 2024, the Business Central 2024 release wave 1 launch event went live with videos on the latest innovations for Business Central to you through an all-access digital experience. They contain high-quality content presented by product leaders to enable you to learn how to take Business Central to the next level as a developer. All 100% free. All you need to do is to visit the [Business Central Youtube channel](https://www.youtube.com/@MicrosoftDynamics365BC) and then set aside time to learn and digest. There's a lot of content, so maybe set aside 20 minutes every morning before you open your email. We guarantee you that it will be worth the time.
+
+These are the sessions that we think are most relevant for you as a developer and where you should start your learning journey:
+
+- What's new: Developer tools 
+- What's new: Extending Copilot using AL code
+- What's new: Designing generative AI experiences 
+- What's new: Key updates in our learning content (documentation) for developers
+- What's new: Excel layouts for developers 
+- What's new: Introducing the Business Foundation and the No. Series module
+- What's new: Going Open Source with the new GitHub repository for Business Central - In preview: User acceptance testing with the Page Scripting tool
+
+If AI and Copilot rock your boat, consider diving more into the topic with these sessions:
+
+- Introducing: Chat with Copilot
+- Introducing: AI-powered analysis with Copilot
+- Introducing: Sales lines suggestions with Copilot
+- What's new: Extending Copilot using AL code
+- What's new: Designing generative AI experiences
+
+You might also want to dive deeper into the Business Central platform, and learn about the server, database, resource governance (in the online version of Business Central), and troubleshooting with telemetry:
+
+- What’s new: AL runtime and database 
+- What's new: Web services in Business Central
+
+After you've seen/browsed those sessions, consider spending some time in the Application track. We think that these sessions are particularly useful for developers (or you can just be a hero and send some links to your functional consultant friends): 
+
+- What's new: Excel reports for finance and sales
+- Introducing: Sustainability in Business Central
+- What's new: E-Documents
+- What's new: Cost Adjustment 
+- What's new: Service Management
+- What's new: Project Management 
+- What's new: Financial management - Overview
+- What's new: Financial management - Reminder Automation 
+- What's new: Financial management - G/L Account Revaluations 
+- What's new: Entering and approving time sheets
+- What's new: Business Central Mobile App and Barcode Scanning 
+- What's new: Automated IRS1099 reporting 
+- What's new: The Danish Bookkeeping Act
+
+If you want to dive more into ways to integrate Business central with other services, such as Microsoft Power Platform, Power BI, Microsoft 365, or Shopify, then check out these sessions:
+
+- What's new: Key updates in learning content (docs) for systems architects and integration developers 
+- What's new: Business Central Integration with Power Platform 
+- What's new: Using Power Pages with Business Central
+- What's new: Business Central Integration with Dataverse 
+- What's new: Shopify Connector B2B Functionality 
+- Introducing: Dynamics 365 Field Service Integration with Business Central
+- Introducing: Create Power Automate flows with Copilot
+
+If you also spend time administering environments, check this out session: 
+
+- What's new: Governance & Administration
+
+That's all folks! Go learn. Get smart. Be awesome. Help customers.
+
 # 2024-04-24 Transient failures while running v.24 updates and publishing apps from Visual Studio Code
  
 We have identified an issue where publishing apps might sometimes fail due to a race condition in the flow of installing or updating multiple apps, causing certain development operations like app publishing and updates to v. 24 to fail with an internal error. For troubleshooting update issues, see the **Operations Log** page in the Business Central Admin Center. Here you'll find the details of the errors discovered during update or app publishing.
