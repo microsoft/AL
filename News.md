@@ -4,56 +4,57 @@ In April 2024, the Business Central 2024 release wave 1 launch event went live w
 
 These are the sessions that we think are most relevant for you as a developer and where you should start your learning journey:
 
-- What's new: Developer tools 
-- What's new: Extending Copilot using AL code
-- What's new: Designing generative AI experiences 
-- What's new: Key updates in our learning content (documentation) for developers
-- What's new: Excel layouts for developers 
-- What's new: Introducing the Business Foundation and the No. Series module
-- What's new: Going Open Source with the new GitHub repository for Business Central - In preview: User acceptance testing with the Page Scripting tool
+- [What's new: Developer tools](https://www.youtube.com/watch?v=tzeO0mc8RJo)  
+- [What's new: Extending Copilot using AL code](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=18s)  
+- [What's new: Designing generative AI experiences](https://www.youtube.com/watch?v=qP0id91bIlA)
+- [What's new: Key updates in our learning content (documentation) for developers](https://www.youtube.com/watch?v=mnxOSl1Y9PI)  
+- [What's new: Excel layouts for developers](https://www.youtube.com/watch?v=BofJJPqgrTI)  
+- [What's new: Introducing the Business Foundation and the No. Series module](https://www.youtube.com/watch?v=BofJJPqgrTI)
+- [What's new: Going Open Source with the new GitHub repository for Business Central](https://www.youtube.com/watch?v=BofJJPqgrTI)
+- [In preview: User acceptance testing with the Page Scripting tool](https://www.youtube.com/watch?v=BofJJPqgrTI)
 
 If AI and Copilot rock your boat, consider diving more into the topic with these sessions:
 
-- Introducing: Chat with Copilot
-- Introducing: AI-powered analysis with Copilot
-- Introducing: Sales lines suggestions with Copilot
-- What's new: Extending Copilot using AL code
-- What's new: Designing generative AI experiences
+- [Introducing: Chat with Copilot](https://www.youtube.com/watch?v=j5ULVClJaKU)
+- [Introducing: AI-powered analysis with Copilot](https://www.youtube.com/watch?v=mHrY_OI0qNo)
+- [Introducing: Sales lines suggestions with Copilot](https://www.youtube.com/watch?v=cZCSi6khZFo)
+- [What's new: Extending Copilot using AL code](https://www.youtube.com/watch?v=ytYKvn2MiGs)  
+- [What's new: Designing generative AI experiences](https://www.youtube.com/watch?v=qP0id91bIlA)
 
 You might also want to dive deeper into the Business Central platform, and learn about the server, database, resource governance (in the online version of Business Central), and troubleshooting with telemetry:
 
-- What’s new: AL runtime and database 
-- What's new: Web services in Business Central
+- [What’s new: AL runtime and database](https://www.youtube.com/watch?v=OLN-2Ec2GMM)
+- [What's new: Web services in Business Central](https://www.youtube.com/watch?v=VpNQ-CYNrkM)
 
 After you've seen/browsed those sessions, consider spending some time in the Application track. We think that these sessions are particularly useful for developers (or you can just be a hero and send some links to your functional consultant friends): 
 
-- What's new: Excel reports for finance and sales
-- Introducing: Sustainability in Business Central
-- What's new: E-Documents
-- What's new: Cost Adjustment 
-- What's new: Service Management
-- What's new: Project Management 
-- What's new: Financial management - Overview
-- What's new: Financial management - Reminder Automation 
-- What's new: Financial management - G/L Account Revaluations 
-- What's new: Entering and approving time sheets
-- What's new: Business Central Mobile App and Barcode Scanning 
-- What's new: Automated IRS1099 reporting 
-- What's new: The Danish Bookkeeping Act
+- [What's new: Excel reports for finance and sales](https://www.youtube.com/watch?v=gMyp9JkXf9g)
+- [Introducing: Sustainability in Business Central](https://www.youtube.com/watch?v=_ynMUzh956w)
+- [What's new: E-Documents](https://www.youtube.com/watch?v=kAFdLxb2ghc)
+- [What's new: Cost Adjustment](https://www.youtube.com/watch?v=w0okH0v0VvY) 
+- [What's new: Service Management](https://www.youtube.com/watch?v=N8Unj6WLB6U)
+- [What's new: Project Management](https://www.youtube.com/watch?v=dD_2NEs3A40) 
+- [What's new: Financial management - Overview](https://www.youtube.com/watch?v=HI7VcPzR2OE)
+- [What's new: Financial management - Reminder Automation](https://www.youtube.com/watch?v=UTxX4XPLcgQ) 
+- [What's new: Financial management - G/L Account Revaluations](https://www.youtube.com/watch?v=u1oO9MEg9kc) 
+- [What's new: Entering and approving time sheets](https://www.youtube.com/watch?v=MgWlmZAlqGI)
+- [What's new: Business Central Mobile App and Barcode Scanning](https://www.youtube.com/watch?v=W2yhU8eXT5w) 
+- [What's new: Automated IRS1099 reporting](https://www.youtube.com/watch?v=WI_3mjpQ2JU) 
+- [What's new: The Danish Bookkeeping Act](https://www.youtube.com/watch?v=hcu7T3qLdDA)
 
 If you want to dive more into ways to integrate Business central with other services, such as Microsoft Power Platform, Power BI, Microsoft 365, or Shopify, then check out these sessions:
 
-- What's new: Key updates in learning content (docs) for systems architects and integration developers 
-- What's new: Business Central Integration with Power Platform 
-- What's new: Using Power Pages with Business Central
-- What's new: Business Central Integration with Dataverse 
-- What's new: Shopify Connector B2B Functionality 
-- Introducing: Dynamics 365 Field Service Integration with Business Central
-- Introducing: Create Power Automate flows with Copilot
+- [What's new: Key updates in learning content (docs) for systems architects and integration developers](https://www.youtube.com/watch?v=gAzmWJg9Z5g)
+- [What's new: Business Central Integration with Power Platform](https://www.youtube.com/watch?v=V_ZyGeF5JXE)
+- [What's new: Using Power Pages with Business Central](https://www.youtube.com/watch?v=auoHUd24Gfw)
+- [What's new: Business Central Integration with Dataverse](https://www.youtube.com/watch?v=-q8Gm7u7R2A)
+- [What's new: Shopify Connector B2B Functionality](https://www.youtube.com/watch?v=3tmaVpPTQLw)
+- [Introducing: Dynamics 365 Field Service Integration with Business Central](https://www.youtube.com/watch?v=ByRoL46n-Gg)
+- [Introducing: Create Power Automate flows with Copilot](https://www.youtube.com/watch?v=T63y0F_38SI)
 
 If you also spend time administering environments, check this out session: 
 
-- What's new: Governance & Administration
+- [What's new: Governance & Administration](https://www.youtube.com/watch?v=kAwI0EGSyls)
 
 That's all folks! Go learn. Get smart. Be awesome. Help customers.
 
