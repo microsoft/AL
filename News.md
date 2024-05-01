@@ -58,18 +58,21 @@ If you also spend time administering environments, check this out session:
 
 That's all folks! Go learn. Get smart. Be awesome. Help customers.
 
-# 2024-04-24 Transient failures while running v.24 updates and publishing apps from Visual Studio Code
+# 2024-04-29 [UPDATE] Transient failures while running v.24 updates and publishing apps from Visual Studio Code
+_We have released a hotfix for below issue and it has been deployed over the weekend. We have verified that it works. We recognize the impact it has had on AL developers and the publishing story and sincerely apologize for the disruption this issue caused. Unfortunately, the root cause was a race condition caused due to a database configuration change. It was an issue that was very hard to debug and reproduce due to appearing only on specific database configurations and only intermittently, which is why it took so long to fix._
  
-We have identified an issue where publishing apps might sometimes fail due to a race condition in the flow of installing or updating multiple apps, causing certain development operations like app publishing and updates to v. 24 to fail with an internal error. For troubleshooting update issues, see the **Operations Log** page in the Business Central Admin Center. Here you'll find the details of the errors discovered during update or app publishing.
- 
-We are actively working on identifying the root cause and mitigating the issue.
- 
-While we are working on addressing this instability, the issue can be mitigated by re-trying the operation, for example, re-trying app publishing or update, until it succeeds. When deploying PTEs as DEV extensions from Visual Studio code fails, another option is to upload it through the **Extension Management** page in the web client, and optionally subsequently use debug without publishing if you're doing debugging.
- 
-**Please do not open any new, duplicate support cases on above**. Communication on this issue is posted under ID DN784551 if you need to refer to that in any existing, related support case.
- 
-We will delete this entry when the issue has been resolved. 
+_We will keep this entry open for a short time for awareness of the issue being fixed, and then remove the entry_
 
+We have identified an issue where publishing apps might sometimes fail due to a race condition in the flow of installing or updating multiple apps, causing certain development operations like app publishing and updates to v. 24 to fail with an internal error. For troubleshooting update issues, see the **Operations Log** page in the Business Central Admin Center. Here you'll find the details of the errors discovered during update or app publishing.
+
+We are actively working on identifying the root cause and mitigating the issue.
+
+While we are working on addressing this instability, the issue can be mitigated by re-trying the operation, for example, re-trying app publishing or update, until it succeeds. When deploying PTEs as DEV extensions from Visual Studio code fails, another option is to upload it through the **Extension Management** page in the web client, and optionally subsequently use debug without publishing if you're doing debugging.
+
+**Please do not open any new, duplicate support cases on above**. Communication on this issue is posted under ID DN784551 if you need to refer to that in any existing, related support case.
+
+We will delete this entry when the issue has been resolved.
+ 
 In the meantime, you can follow or provide details on the GitHub AL issue on [deploying through Visual Studio code fails](https://github.com/microsoft/AL/issues/7721)
 
 ## 2024-03-12 Want to know how things work? Learn how Business Central integrates to other Microsoft services and products
