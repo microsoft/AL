@@ -1,19 +1,62 @@
-# 2024-04-29 [UPDATE] Transient failures while running v.24 updates and publishing apps from Visual Studio Code
-_We have released a hotfix for below issue and it has been deployed over the weekend. We have verified that it works. We recognize the impact it has had on AL developers and the publishing story and sincerely apologize for the disruption this issue caused. Unfortunately, the root cause was a race condition caused due to a database configuration change. It was an issue that was very hard to debug and reproduce due to appearing only on specific database configurations and only intermittently, which is why it took so long to fix._
- 
-_We will keep this entry open for a short time for awareness of the issue being fixed, and then remove the entry_
+# 2024-05-01 Business Central 2024 release wave 1 launch event content for developers
 
-We have identified an issue where publishing apps might sometimes fail due to a race condition in the flow of installing or updating multiple apps, causing certain development operations like app publishing and updates to v. 24 to fail with an internal error. For troubleshooting update issues, see the **Operations Log** page in the Business Central Admin Center. Here you'll find the details of the errors discovered during update or app publishing.
+In April 2024, the Business Central 2024 release wave 1 launch event went live with videos on the latest innovations for Business Central to you through an all-access digital experience. They contain high-quality content presented by product leaders to enable you to learn how to take Business Central to the next level as a developer. All 100% free. All you need to do is to visit the [Business Central Youtube channel](https://www.youtube.com/@MicrosoftDynamics365BC) and then set aside time to learn and digest. There's a lot of content, so maybe set aside 20 minutes every morning before you open your email. We guarantee you that it will be worth the time.
 
-We are actively working on identifying the root cause and mitigating the issue.
+These are the sessions that we think are most relevant for you as a developer and where you should start your learning journey:
 
-While we are working on addressing this instability, the issue can be mitigated by re-trying the operation, for example, re-trying app publishing or update, until it succeeds. When deploying PTEs as DEV extensions from Visual Studio code fails, another option is to upload it through the **Extension Management** page in the web client, and optionally subsequently use debug without publishing if you're doing debugging.
+- [What's new: Developer tools](https://www.youtube.com/watch?v=tzeO0mc8RJo)  
+- [What's new: Extending Copilot using AL code](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=18s)  
+- [What's new: Designing generative AI experiences](https://www.youtube.com/watch?v=qP0id91bIlA)
+- [What's new: Key updates in our learning content (documentation) for developers](https://www.youtube.com/watch?v=mnxOSl1Y9PI)  
+- [What's new: Excel layouts for developers](https://www.youtube.com/watch?v=BofJJPqgrTI)  
+- [What's new: Introducing the Business Foundation and the No. Series module](https://www.youtube.com/watch?v=kbRTIWH-nio)
+- [What's new: Going Open Source with the new GitHub repository for Business Central](https://www.youtube.com/watch?v=tjHDcjwsOIE)
+- [In preview: User acceptance testing with the Page Scripting tool](https://www.youtube.com/watch?v=B8cWQGwajwQ)
 
-**Please do not open any new, duplicate support cases on above**. Communication on this issue is posted under ID DN784551 if you need to refer to that in any existing, related support case.
+If AI and Copilot rock your boat, consider diving more into the topic with these sessions:
 
-We will delete this entry when the issue has been resolved.
- 
-In the meantime, you can follow or provide details on the GitHub AL issue on [deploying through Visual Studio code fails](https://github.com/microsoft/AL/issues/7721)
+- [Introducing: Chat with Copilot](https://www.youtube.com/watch?v=j5ULVClJaKU)
+- [Introducing: AI-powered analysis with Copilot](https://www.youtube.com/watch?v=mHrY_OI0qNo)
+- [Introducing: Sales lines suggestions with Copilot](https://www.youtube.com/watch?v=cZCSi6khZFo)
+- [What's new: Extending Copilot using AL code](https://www.youtube.com/watch?v=ytYKvn2MiGs)  
+- [What's new: Designing generative AI experiences](https://www.youtube.com/watch?v=qP0id91bIlA)
+
+You might also want to dive deeper into the Business Central platform, and learn about the server, database, resource governance (in the online version of Business Central), and troubleshooting with telemetry:
+
+- [What’s new: AL runtime and database](https://www.youtube.com/watch?v=OLN-2Ec2GMM)
+- [What's new: Web services in Business Central](https://www.youtube.com/watch?v=VpNQ-CYNrkM)
+
+After you've seen/browsed those sessions, consider spending some time in the Application track. We think that these sessions are particularly useful for developers (or you can just be a hero and send some links to your functional consultant friends): 
+
+- [What's new: Excel reports for finance and sales](https://www.youtube.com/watch?v=gMyp9JkXf9g)
+- [Introducing: Sustainability in Business Central](https://www.youtube.com/watch?v=_ynMUzh956w)
+- [What's new: E-Documents](https://www.youtube.com/watch?v=kAFdLxb2ghc)
+- [What's new: Cost Adjustment](https://www.youtube.com/watch?v=w0okH0v0VvY) 
+- [What's new: Service Management](https://www.youtube.com/watch?v=N8Unj6WLB6U)
+- [What's new: Project Management](https://www.youtube.com/watch?v=dD_2NEs3A40) 
+- [What's new: Financial management - Overview](https://www.youtube.com/watch?v=HI7VcPzR2OE)
+- [What's new: Financial management - Reminder Automation](https://www.youtube.com/watch?v=UTxX4XPLcgQ) 
+- [What's new: Financial management - G/L Account Revaluations](https://www.youtube.com/watch?v=u1oO9MEg9kc) 
+- [What's new: Entering and approving time sheets](https://www.youtube.com/watch?v=MgWlmZAlqGI)
+- [What's new: Business Central Mobile App and Barcode Scanning](https://www.youtube.com/watch?v=W2yhU8eXT5w) 
+- [What's new: Automated IRS1099 reporting](https://www.youtube.com/watch?v=WI_3mjpQ2JU) 
+- [What's new: The Danish Bookkeeping Act](https://www.youtube.com/watch?v=hcu7T3qLdDA)
+
+If you want to dive more into ways to integrate Business central with other services, such as Microsoft Power Platform, Power BI, Microsoft 365, or Shopify, then check out these sessions:
+
+- [What's new: Key updates in learning content (docs) for systems architects and integration developers](https://www.youtube.com/watch?v=gAzmWJg9Z5g)
+- [What's new: Business Central Integration with Power Platform](https://www.youtube.com/watch?v=V_ZyGeF5JXE)
+- [What's new: Using Power Pages with Business Central](https://www.youtube.com/watch?v=auoHUd24Gfw)
+- [What's new: Business Central Integration with Dataverse](https://www.youtube.com/watch?v=-q8Gm7u7R2A)
+- [What's new: Shopify Connector B2B Functionality](https://www.youtube.com/watch?v=3tmaVpPTQLw)
+- [Introducing: Dynamics 365 Field Service Integration with Business Central](https://www.youtube.com/watch?v=ByRoL46n-Gg)
+- [Introducing: Create Power Automate flows with Copilot](https://www.youtube.com/watch?v=T63y0F_38SI)
+
+If you also spend time administering environments, check this out session: 
+
+- [What's new: Governance & Administration](https://www.youtube.com/watch?v=kAwI0EGSyls)
+
+That's all folks! Go learn. Get smart. Be awesome. Help customers.
 
 ## 2024-03-12 Want to know how things work? Learn how Business Central integrates to other Microsoft services and products
 
