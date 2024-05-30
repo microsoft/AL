@@ -1,0 +1,13 @@
+{
+    "Snippet: ProfileExtension": {
+        "prefix": "tprofileextension",
+        "body": [
+            "profileextension ${1:MyProfileExt} extends ${2:MyTargetProfile}",
+            "{",
+            "\tCaption = '${3:New Caption}';",
+            "\tCustomizations = ${0:Customizations};",
+            "}"
+        ],
+        "description": "Snippet: Profile extension"
+    }
+}
