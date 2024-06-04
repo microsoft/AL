@@ -1,6 +1,6 @@
 # 2024-06-04 Help the Dynamics 365 Business Central team assess the usage of DevOps solutions
 
-DevOps is a vital part of every development project and helps ensure consistency and quality of your solutions. In Business Central we're currently running a survey to assess, which DevOps solutions partners are using, and what challenges they are facing.
+DevOps is a vital part of every development project and helps ensure consistency and quality of your solutions. In Business Central we're currently running a survey to assess, which DevOps solutions partners are using, and what challenges they're facing.
 
 Please join our survey and provide your feedback here, before June 18, 2024: [Survey](https://forms.office.com/r/ZmFBTA9t7D)
 
