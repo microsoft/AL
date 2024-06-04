@@ -1,3 +1,9 @@
+# 2024-06-04 Help the Dynamics 365 Business Central team assess the usage of DevOps solutions
+
+DevOps is a vital part of every development project and helps ensuring consistency and quality of your solutions. In Business Central we're currently running a survey to assess, which DevOps solutions partners are using, and what challenges they are facing.
+
+Please join our survey and provide your feedback here, before June 18, 2024: [Survey](https://forms.office.com/r/ZmFBTA9t7D)
+
 # 2024-05-01 Business Central 2024 release wave 1 launch event content for developers
 
 In April 2024, the Business Central 2024 release wave 1 launch event went live with videos on the latest innovations for Business Central to you through an all-access digital experience. They contain high-quality content presented by product leaders to enable you to learn how to take Business Central to the next level as a developer. All 100% free. All you need to do is to visit the [Business Central Youtube channel](https://www.youtube.com/@MicrosoftDynamics365BC) and then set aside time to learn and digest. There's a lot of content, so maybe set aside 20 minutes every morning before you open your email. We guarantee you that it will be worth the time.
