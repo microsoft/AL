@@ -73,7 +73,7 @@
     "Query DataItemLink": {
         "prefix": "tquerydataitemlink",
         "body": [
-            "\t\t\tDataItemLink = ${1:id} = ${2:parent}.${3:parentid};"
+            "\t\t\tDataItemLink = ${1:column} = ${2:parent}.${3:parentColumn};"
         ],
         "description": "Add a data item link to a data item"
     }
