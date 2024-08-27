@@ -13,6 +13,7 @@ page 50103 Addresses
     ModifyAllowed = False;
     ShowFilter = False;
     LinksAllowed = False;
+    ApplicationArea = All; 
 
     Caption = 'Addresses';
 
@@ -27,22 +28,18 @@ page 50103 Addresses
                 field(Address;Address) 
                 { 
                     Caption = 'Address';
-                    ApplicationArea = All; 
                 }
                 field(Locality;Locality) 
                 { 
                     Caption = 'Locality';
-                    ApplicationArea = All; 
                 }
                 field("Town/City";"Town/City") 
                 { 
                     Caption = 'Town/City';
-                    ApplicationArea = All; 
                 }
                 field(County;County) 
                 { 
                     Caption = 'Country';
-                    ApplicationArea = All; 
                 }
             }
         }

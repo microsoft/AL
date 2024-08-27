@@ -2,6 +2,7 @@ page 50200 CustomersMapPage
 {
     Caption = 'Customer Map';
     Description = 'Customer Map';
+    ApplicationArea = All;
 
     layout
     {
@@ -28,7 +29,6 @@ page 50200 CustomersMapPage
         {
             action(LoadData)
             {
-                ApplicationArea = All;
                 Caption = 'Load data';
 
                 trigger OnAction();
