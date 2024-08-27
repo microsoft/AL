@@ -11,6 +11,7 @@ page 50104 "Service Setup"
     DeleteAllowed = False;
     ShowFilter = False;
     LinksAllowed = False;
+    ApplicationArea = All; 
 
     Caption = 'Service Setup';
 
@@ -25,12 +26,10 @@ page 50104 "Service Setup"
                 field("Service URL";"Service URL") 
                 { 
                     Caption = 'Serivce URL';
-                    ApplicationArea = All; 
                 }
                 field("API Key";"API Key") 
                 { 
                     Caption = 'API Key';
-                    ApplicationArea = All; 
                 }
             }
         }

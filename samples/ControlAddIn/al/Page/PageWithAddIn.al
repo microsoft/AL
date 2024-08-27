@@ -1,12 +1,13 @@
 page 50300 PageWithAddIn
 {
+    ApplicationArea = All;
+
     layout
     {
         area(Content)
         {
             usercontrol(ControlName; TestAddIn)
             {
-                ApplicationArea = All;
 
                 trigger Callback(i : integer; s: text; d : decimal; c : char)
                 begin
@@ -22,8 +23,6 @@ page 50300 PageWithAddIn
         {
             action(CallJavaScript)
             {
-                ApplicationArea = All;
-
                 trigger OnAction();
                 begin
                     CurrPage.ControlName.CallJavaScript(5, 'text', 6.3, 'c');
@@ -32,8 +31,6 @@ page 50300 PageWithAddIn
 
             action(CallViaCodeunit)
             {
-                ApplicationArea = All;
-
                 trigger OnAction();
                 var c : Codeunit AddInHelpers;
                 begin
@@ -43,8 +40,6 @@ page 50300 PageWithAddIn
 
             action(CallByRef)
             {
-                ApplicationArea = All;
-
                 trigger OnAction();
                 var c : Codeunit AddInHelpers;
                 begin
@@ -54,7 +49,6 @@ page 50300 PageWithAddIn
 
             action(CallViaCodeunitGlobalVar)
             {
-                ApplicationArea = All;
 
                 trigger OnAction();
                 var c : Codeunit AddInHelpers;
@@ -65,8 +59,6 @@ page 50300 PageWithAddIn
 
             action(StoreAddInRef)
             {
-                ApplicationArea = All;
-
                 trigger OnAction();
                 var c : Codeunit AddInHelpersSingleton;
                 begin
@@ -77,15 +69,12 @@ page 50300 PageWithAddIn
 
             action(CallUnInitialized)
             {
-                ApplicationArea = All;
-
                 trigger OnAction();
                 var c : Codeunit AddInHelpers;
                 begin
                     c.CallOnUnInitializedVar();
                 end;
             }
-
         }
     }
 }

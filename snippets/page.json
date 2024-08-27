@@ -17,7 +17,6 @@
             "\t\t\t{",
             "\t\t\t\tfield(${9:Name}; ${8:NameSource})",
             "\t\t\t\t{",
-            "\t\t\t\t\tApplicationArea = ${4};",
             "\t\t\t\t\t${10}",
             "\t\t\t\t}",
             "\t\t\t}",
@@ -30,7 +29,6 @@
             "\t\t{",
             "\t\t\taction(${12:ActionName})",
             "\t\t\t{",
-            "\t\t\t\tApplicationArea = ${4};",
             "\t\t\t\t",
             "\t\t\t\ttrigger OnAction()",
             "\t\t\t\tbegin",
@@ -51,8 +49,7 @@
         "body": [
             "field(${1:MyField}; ${2:FieldSource})",
             "{",
-            "\tApplicationArea = ${3|All,Basic,Suite,Advanced|};",
-            "\t${4:FieldPropertyName} = ${0:FieldPropertyValue};",
+            "\t${3:FieldPropertyName} = ${0:FieldPropertyValue};",
             "}"
         ],
         "description": "Snippet: Page Field"
@@ -72,8 +69,6 @@
         "body": [
             "action(${1:ActionName})",
             "{",
-            "\tApplicationArea = ${2|All,Basic,Suite,Advanced|};",
-            "\t",
             "\ttrigger OnAction()",
             "\tbegin",
             "\t\t$0",
@@ -97,7 +92,6 @@
         "body": [
             "customaction(${1:CustomActionName})",
             "{",
-            "\tApplicationArea = ${2|All,Basic,Suite,Advanced|};",
             "\t$0",
             "}"
         ],
@@ -121,9 +115,7 @@
         "body": [
             "usercontrol(${1:ControlName}; ${2:AddInName})",
             "{",
-            "\tApplicationArea = ${3|All,Basic,Suite,Advanced|};",
-            "\t",
-            "\ttrigger ${4:MyTrigger()}",
+            "\ttrigger ${3:MyTrigger()}",
             "\tbegin",
             "\t\t$0",
             "\tend;",
@@ -164,7 +156,6 @@
         "body": [
             "part(${1:PartName}; ${2:PartSource})",
             "{",
-            "\tApplicationArea = ${3|All,Basic,Suite,Advanced|};",
             "\t${0}",
             "}"
         ],
@@ -188,7 +179,6 @@
             "\t\t\t{",
             "\t\t\t\tfield(${7:Name}; ${6:NameSource})",
             "\t\t\t\t{",
-            "\t\t\t\t\tApplicationArea = ${3};",
             "\t\t\t\t\t${8}",
             "\t\t\t\t}",
             "\t\t\t}",
@@ -205,7 +195,6 @@
             "\t\t{",
             "\t\t\taction(${11:ActionName})",
             "\t\t\t{",
-            "\t\t\t\tApplicationArea = ${3};",
             "\t\t\t\t",
             "\t\t\t\ttrigger OnAction()",
             "\t\t\t\tbegin",
