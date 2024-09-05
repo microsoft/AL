@@ -1,3 +1,38 @@
+# 2024-09-05 Get your AppSource and per-tenant apps ready for the next major release (2024 release wave 2)
+
+We're approaching yet another major release, and as developers and solution architects, you play a pivotal role in ensuring a seamless upgrade experience for our shared customers. Here we want to repeat some of the key best practices for getting ready for the new major release, and call out some changes for AppSource apps from this release going forward.
+
+## AppSource apps
+
+As for previous releases, one month before the next major release (i.e., from today), we no longer accept AppSource app submissions that are incompatible with the upcoming version. Thus, please start identifying and addressing compatibility issues already now, to handle them proactively, avoiding last-minute firefighting and disruption. If your AppSource submission fails, we push detailed results to the AppInsights for the AppSource app, if that has been provided in the app.json file. You can read more about how to do that and available submit signals here: [Analyzing AppSource submission validation telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-appsource-submission-validation-trace?wt.mc_id=d365bc_inproduct_alextension).
+
+We also start checking the existing, installed AppSource apps for compatibility with the next major release. In previous releases we published validation results to a public URL where you could check results for you app by providing an appId, but we're no longer supporting this. Instead, we also publish these results to a provided AppInsights for the AppSource app. The relevant signals here are `LC0230` to `LC0237`.
+As a best practice, however, don't just rely on checking the results of our validation, but perform your own, in your pipelines. For more information, see documentation on [technical validation](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission?wt.mc_id=d365bc_inproduct_alextension).
+
+In our recent release, we introduced the ability to hotfix older versions of AppSource apps. This means you can continue patching your apps for previous Business Central versions while simultaneously working on the new version targeting the next major release. Your customers running on the previous versions of your apps will therefore not be left behind and get the support they need. Find more information about hotfixing AppSource apps [here](https://learn.microsoft.com/dynamics365/release-plan/2023wave1/smb/dynamics365-business-central/hotfix-older-appsource-apps).
+
+## Per-tenant extensions
+
+Again, as for previous releases, one month prior to the major release (i.e., now), our system starts notifying customers when their per-tenant extensions are incompatible with the next major release. The notifications are sent via email, to the recipients registered in Business Central Admin Center and via messages in the Microsoft 365 Message Center. Use this information to prioritize fixing your per-tenant extensions, to avoid the risk of disruptions, escalations and dealing with requests to postpone updates. Find more information about our per-tenant validation [here](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-customization-update-lifecycle#automated-extension-validation?wt.mc_id=d365bc_inproduct_alextension).
+
+Business Central makes a preview version available that allows you to create a sandbox environment available for all customers, one month prior to the major release date. Use this option to upload and test your extensions proactively. Read more about preview environments [here](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/preview-environments?wt.mc_id=d365bc_inproduct_alextension).
+
+## Get ahead of the game with DevOps solutions
+
+Business Central provides both AppSource and per-tenant extension builders with an easy to use, rich and secure DevOps solution: AL-Go for GitHub. Find more information [here](https://github.com/microsoft/AL-Go).
+
+Among many other capabilities, AL-Go for GitHub allows developers to easily check compatibility of their apps with any upcoming version, whether minor or major, in real-time with these changes being introduced by Business Central team. Start using this solution or other DevOps solutions available in the Business Central ecosystem to handle compatibility proactively.
+
+By adhering to these technical best practices, you contribute to a thriving ecosystem. Prepare early, prioritize quality, and deliver exceptional solutions to our mutual customers. Thank you for helping us shape the future of Business Central!
+
+More information:
+
+- [Maintain AppSource apps and per-tenant extensions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/app-maintain?wt.mc_id=d365bc_inproduct_alextension)
+- [Lifecycle of apps and extensions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-life-cycle?wt.mc_id=d365bc_inproduct_alextension)
+- [Update Lifecycle for Tenant Customizations](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-customization-update-lifecycle?wt.mc_id=d365bc_inproduct_alextension)
+- [Technical validation FAQ](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission-faq?wt.mc_id=d365bc_inproduct_alextension)
+
+
 # 2024-06-04 Help the Dynamics 365 Business Central team assess the usage of DevOps solutions
 
 DevOps is a vital part of every development project and helps ensure consistency and quality of your solutions. In Business Central we're currently running a survey to assess, which DevOps solutions partners are using, and what challenges they're facing.
