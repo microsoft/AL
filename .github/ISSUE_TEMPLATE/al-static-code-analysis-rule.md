@@ -1,9 +1,10 @@
 ---
 name: AL static code analysis rule suggestion
-about: "\U0001F6D1\U0001F6D1\U0001F6D1Please go to http://aka.ms/bcideas\U0001F6D1\U0001F6D1\U0001F6D1"  
-about: "\U0001F6D1\U0001F6D1\U0001F6D1Please go to http://aka.ms/bcideas\U0001F6D1\U0001F6D1\U0001F6D1"  
+about: "\U0001F6D1\U0001F6D1\U0001F6D1Please go to http://aka.ms/bcideas\U0001F6D1\U0001F6D1\U0001F6D1"
+title: ''
 labels: static-code-analysis
 assignees: ''
+
 ---
 
 For suggestions for new static analysis rules or improvements to existing static analysis rules, use [Business Central Ideas](https://aka.ms/bcideas)

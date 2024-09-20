@@ -48,6 +48,10 @@ A clear and concise description of what happened accompanied by images, animatio
 - Visual Studio Code:
 - Business Central:
 - List of Visual Studio Code extensions that you have installed:
+- Operating System:
+  * [ ] Windows
+  * [ ] Linux
+  * [ ] MacOS
 
 ### Final Checklist
 
