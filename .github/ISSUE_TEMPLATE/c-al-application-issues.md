@@ -3,7 +3,7 @@ name: C/AL Application Issues
 about: "\U0001F6D1\U0001F6D1\U0001F6D1Please contact customer support\U0001F6D1\U0001F6D1\U0001F6D1"
 title: "\U0001F6D1\U0001F6D1\U0001F6D1Please contact customer support\U0001F6D1\U0001F6D1\U0001F6D1"
 labels: customer-support
-assignees: atoader
+assignees: ''
 
 ---
 
