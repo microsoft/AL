@@ -1,3 +1,71 @@
+# 2024-10-23 Business Central 2024 release wave 2 launch event content for developers
+
+The Business Central 2024 release wave 2 went live on October 1st and with it the launch event was kicked off with videos on the latest innovations for Business Central. These videos contain high-quality content presented by product leaders to enable you to learn how to take Business Central to the next level as a developer. Visit the [Business Central Youtube channel](https://www.youtube.com/@MicrosoftDynamics365BC) to see what is available. We've produced a lot of content, and we guarantee you that it will be worth the time you invest in it.
+
+If you're a developer, we'd suggest the following titles to get you started on the latest additions and improvements:
+
+[What's new in AL - Language](https://www.youtube.com/watch?v=lofGuQRe1BM)  
+[What's new in AL - Interfaces](https://www.youtube.com/watch?v=PHmFqehrPG4)  
+[What's new in AL - Dependency Publishing](https://www.youtube.com/watch?v=JKsLjwSh0SQ)  
+[What's new in AL: Easy access to source code with Open In VS Code and GitHub projects](https://www.youtube.com/watch?v=8t3WaWh7K9Y)  
+[What's new: Analyze performance issues with scheduled profiles](https://www.youtube.com/watch?v=0qt0Zy9ZsRo)  
+[What’s new: Data search improvements (for developers)](https://www.youtube.com/watch?v=lH2Z4xfdhmY)  
+[Embedding resources in applications](https://www.youtube.com/watch?v=QhHgkCe3kkk)  
+[What’s new: Reporting features (for developers and consultants)](https://www.youtube.com/watch?v=hn92Al_x-s8)  
+[What’s new: Enhanced document reporting features (for developers)](https://www.youtube.com/watch?v=V8CSor5qBRE)  
+[What's new: Business Central integration with Power Platform including Power BI (for developers)](https://www.youtube.com/watch?v=6Zb7VAvLVm4&list=PL1FESh9FqyhRj4fjUlWvghJ3rPFyz2Foz&index=40&t=551s)  
+[What's new in AL-Go for GitHub](https://www.youtube.com/watch?v=weDf53bJOL4)  
+[What's new: Run page scripts in CICD pipelines](https://www.youtube.com/watch?v=5GoAzII20L0)  
+[What's new in the Co-Development initiative](https://www.youtube.com/watch?v=6SyNNeHQDUo)  
+
+Learn about the latest usability and productivity improvements in the Business Central web client:
+
+[What's new: Business Central user experience](https://www.youtube.com/watch?v=rWZcmEwwVHg)  
+
+If you're interested in AI and Copilot, consider diving more into the topic with these sessions:
+
+[What's new: Extending Copilot in Business Central](https://www.youtube.com/watch?v=QCo-uIfPs9g)  
+[What's new: Setting up Copilot in Business Central - tips for admins](https://www.youtube.com/watch?v=UQmuMPRlHek)  
+[What's new: Testing Copilot in Business Central](https://www.youtube.com/watch?v=eA7CENx7se0)  
+
+For content about environment management, we suggest you watch the following videos:
+
+[What's new: Auditing In Purview](https://www.youtube.com/watch?v=lk1YJKOmHyI)  
+[What's new: Customer-managed encryption key & Lockbox](https://www.youtube.com/watch?v=DnZJ2iOgIjI)  
+[What's new: Environment-level access controls for delegated administrators](https://www.youtube.com/watch?v=TBBlYpwbAFk)  
+[What's new: Flexible update management](https://www.youtube.com/watch?v=uv2NsSD5P7U&list=PL1FESh9FqyhRj4fjUlWvghJ3rPFyz2Foz)  
+
+Watch content about new integration functionality in these videos:
+
+[What's new: Business Central integration with Power Platform including Power BI](https://www.youtube.com/watch?v=6Zb7VAvLVm4)  
+[What's new: Auto-applying templates in integration with Dataverse](https://www.youtube.com/watch?v=ItuCEHpaI1E)  
+[What's new: Power BI reporting for Business central - new apps](https://www.youtube.com/watch?v=DpYJOkwKxTY)  
+
+With Copilot in Business Central, we've worked hard to provide productivity tools that help users be more effective in their work. The following videos dive into how Copilot can help get work done in Business Central:
+
+[Introducing: Copilot for Finance: Why is this a game changer](https://www.youtube.com/watch?v=YL50nOTAPIY)  
+[What's new: Suggest Number Series with Copilot](https://www.youtube.com/watch?v=MpDKjl7zzdk)  
+[What's new: Analysis assist with Copilot in 2024 release wave 2](https://www.youtube.com/watch?v=GbMjcJurkFE)  
+[What's new: Item Substitution with Copilot](https://www.youtube.com/watch?v=bCIcq1zESKk)  
+[What's new in Sales Lines suggestions with Copilot](https://www.youtube.com/watch?v=_1LhwG2ZgFw)  
+
+And for more videos on all of the new functionality in the application, consider these videos:
+
+[What's new: Subscription Billing](https://www.youtube.com/watch?v=jJxBswIy_Xw)  
+[What's new: Concurrency in Warehousing](https://www.youtube.com/watch?v=QfOgUCXg94o)  
+[What's new: Enhancements to Job Queue](https://www.youtube.com/watch?v=fHi8ohBlZro)  
+[What's new: Get notified of issues with Job Queues](https://www.youtube.com/watch?v=efoFM5uiCxg)  
+[What's new: Field Service Integration to Service Management](https://www.youtube.com/watch?v=WvG4EOHQuiw)  
+[What's new: Financial analytics](https://www.youtube.com/watch?v=5RJ3yZ7m1UU)  
+[What's new: Project and Service management](https://www.youtube.com/watch?v=pEXl-POet_4)  
+[What's new: Shopify Connector](https://www.youtube.com/watch?v=p-pwG6f5srY)  
+[What's new: Financial Management](https://www.youtube.com/watch?v=YVViIBPui-A)  
+[Introduction in Multiple VAT Numbers for Customers](https://www.youtube.com/watch?v=fdzTWZyT6mI)  
+[What's new in E-Documents](https://www.youtube.com/watch?v=hba7KVWrIwY)  
+[What's new in Sustainability](https://www.youtube.com/watch?v=NYG4pOtW-Xw)  
+
+We hope you'll find this useful. If you have any feedback, please let us know.
+
 # 2024-09-05 Get your AppSource and per-tenant apps ready for the next major release (2024 release wave 2)
 
 We're approaching yet another major release, and as developers and solution architects, you play a pivotal role in ensuring a seamless upgrade experience for our shared customers. Here we want to repeat some of the key best practices for getting ready for the new major release, and call out some changes for AppSource apps from this release going forward.
