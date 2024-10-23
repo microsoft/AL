@@ -1,4 +1,4 @@
-# 2024-10-21 Business Central 2024 release wave 2 launch event content for developers
+# 2024-10-23 Business Central 2024 release wave 2 launch event content for developers
 
 The Business Central 2024 release wave 2 went live on October 1st and with it the launch event was kicked off with videos on the latest innovations for Business Central. These videos contain high-quality content presented by product leaders to enable you to learn how to take Business Central to the next level as a developer. Visit the [Business Central Youtube channel](https://www.youtube.com/@MicrosoftDynamics365BC) to see what is available. We've produced a lot of content, and we guarantee you that it will be worth the time you invest in it.
 
