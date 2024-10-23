@@ -8,7 +8,7 @@ If you're a developer, we'd suggest the following titles to get you started on t
 [What's new in AL - Interfaces](https://www.youtube.com/watch?v=PHmFqehrPG4)  
 [What's new in AL - Dependency Publishing](https://www.youtube.com/watch?v=JKsLjwSh0SQ)  
 [What's new in AL: Easy access to source code with Open In VS Code and GitHub projects](https://www.youtube.com/watch?v=8t3WaWh7K9Y)  
-[What's New: Analyze performance issues with scheduled profiles](https://www.youtube.com/watch?v=0qt0Zy9ZsRo)  
+[What's new: Analyze performance issues with scheduled profiles](https://www.youtube.com/watch?v=0qt0Zy9ZsRo)  
 [What’s new: Data search improvements (for developers)](https://www.youtube.com/watch?v=lH2Z4xfdhmY)  
 [Embedding resources in applications](https://www.youtube.com/watch?v=QhHgkCe3kkk)  
 [What’s new: Reporting features (for developers and consultants)](https://www.youtube.com/watch?v=hn92Al_x-s8)  
