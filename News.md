@@ -13,6 +13,7 @@ If you're a developer, we'd suggest the following titles to get you started on t
 [Embedding resources in applications](https://www.youtube.com/watch?v=QhHgkCe3kkk)  
 [What’s new: Reporting features (for developers and consultants)](https://www.youtube.com/watch?v=hn92Al_x-s8)  
 [What’s new: Enhanced document reporting features (for developers)](https://www.youtube.com/watch?v=V8CSor5qBRE)  
+[What's new: Business Central integration with Power Platform including Power BI (for developers)](https://www.youtube.com/watch?v=6Zb7VAvLVm4&list=PL1FESh9FqyhRj4fjUlWvghJ3rPFyz2Foz&index=40&t=551s)  
 [What's new in AL-Go for GitHub](https://www.youtube.com/watch?v=weDf53bJOL4)  
 [What's new: Run page scripts in CICD pipelines](https://www.youtube.com/watch?v=5GoAzII20L0)  
 [What's new in the Co-Development initiative](https://www.youtube.com/watch?v=6SyNNeHQDUo)  
