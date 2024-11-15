@@ -17,4 +17,4 @@ assignees: ''
 - Contact your Service Account Manager (SAM) in your local subsidiary to understand what is included in your contract as of support incident and PAH (Partner Advisory Hours). Your SAM might also direct you "step by step" how to open a support request or how to get credentials, if this is the first time for you or your company.
 
 ## General Questions
-You can use [Yammer](https://www.yammer.com/dynamicsnavdev) for asking questions and providing feedback around the runtime behavior of the product.
+You can use [Viva Engage](https://www.yammer.com/dynamicsnavdev) for asking questions and providing feedback around the runtime behavior of the product.
