@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-🔻🔻🔻This repository is only dedicated to bug reports and feature suggestions for AL compiler and developer tools. Runtime issues should follow the support process indicated below. 🔻🔻🔻
+🔻🔻🔻This repository is only dedicated to bug reports for AL compiler and developer tools. Runtime issues should follow the support process indicated below. 🔻🔻🔻
 
 # Official Support Processes
 - Open a support request to CSS through the PartnerSource portal or the Business Central Admin Center.
