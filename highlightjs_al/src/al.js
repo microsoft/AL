@@ -13,6 +13,7 @@ export default function(hljs) {
     'begin',
     'break',
     'case',
+    'continue',
     'do',
     'downto',
     'else',
