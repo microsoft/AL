@@ -1,3 +1,13 @@
+# 2025-02-20 Upcoming changes to the process of how we set up app key vaults for AppSource Apps
+The [existing process](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/setup-app-key-vault) for registering partners tenants to use KeyVault feature in their AppSource apps is to be fully automated in the incoming month. In order for this change to work properly we need to make sure that no partners have specified `keyVaultUrls` in their `app.json` that are not used. The following concequences should be considered:
+1. Every app source submission starting **1st of April 2025** that has entries in `keyVaultUrls` property in their `app.json` that are invalid will result in submission failure. For more details follow the guidelines provided in the failure
+message in Partner Center.
+2. All Azure KeyVault urls that are valid will result in registering the tenant Id that these KeyVaults belong to.
+
+
+Note that currently deprecation scenario is not supported and once tenant Id is being registered to an app, it cannot be changed.
+
+
 # 2024-10-23 Business Central 2024 release wave 2 launch event content for developers
 
 The Business Central 2024 release wave 2 went live on October 1st and with it the launch event was kicked off with videos on the latest innovations for Business Central. These videos contain high-quality content presented by product leaders to enable you to learn how to take Business Central to the next level as a developer. Visit the [Business Central Youtube channel](https://www.youtube.com/@MicrosoftDynamics365BC) to see what is available. We've produced a lot of content, and we guarantee you that it will be worth the time you invest in it.
