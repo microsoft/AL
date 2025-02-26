@@ -1,9 +1,16 @@
 # 2025-02-20 Upcoming changes to the process of how we set up app key vaults for AppSource Apps
 We are updating the [process](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/setup-app-key-vault) for registering partners tenants to use KeyVault feature in their AppSource apps is moving to fully automated in the incoming month. In order for this change to work properly we need to make sure that no partners have specified `keyVaultUrls` in their `app.json` that are not used. The following concequences should be considered starting **1st of April 2025**:
-1. Every AppSource submission that has entries in `keyVaultUrls` property in their `app.json` that are invalid will result in submission failure. For more details follow the guidelines provided in the failure
-message in Partner Center.
-2. Every AppSource submission that contains apps that have already Entra Tenant Id registered will not fail even if they don't have `AllowedBusinessCentralAppIds` special secret in their key vault url. However, we highly recommend adding the secret as it is described in the [guide](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/setup-app-key-vault) because submissions might fail in the future. 
-3. All Azure KeyVault urls that are valid will result in registering the tenant Id that these KeyVaults belong to.
+1. Every AppSource submission that has entries in `keyVaultUrls` property in their `app.json` 
+that are invalid will automatically be picked up for registration. If you don't want to
+register your key vault please take it out of your `app.json` before submitting. Every invalid or 
+forgotten key vault url will result in submission failure. For more details follow the guidelines 
+provided in the failure message in Partner Center.
+2. Every AppSource submission that contains apps that have already Entra Tenant Id registered 
+will not fail even if they don't have `AllowedBusinessCentralAppIds` special secret in their 
+key vault url. However, we highly recommend adding the secret as it is described in the 
+[guide](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/setup-app-key-vault) because submissions might fail in the future. 
+3. All Azure KeyVault urls that are valid will result in registering the tenant Id that 
+these KeyVaults belong to.
 
 
 Note that currently deprecation scenario is not supported and once tenant Id is being registered to an app, it cannot be changed without reaching out to support in Partner Center.
