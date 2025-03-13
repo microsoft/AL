@@ -2,13 +2,13 @@
 
 We're updating the [process](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/setup-app-key-vault) for registering partner tenants to use the key vault feature in their AppSource apps and moving to a fully automated process in the coming month. For this change to work properly we need to make sure that no partners have specified unused `keyVaultUrls` properties in their `app.json` files. The following concequences should be considered starting **1st of April 2025**:
 
-1. Every AppSource submission with non valid entries in the `keyVaultUrls` property in the `app.json` file, will automatically be picked up for registration. If you don't want to register your key vault, please remove it from your `app.json` file before submitting. Any non valid or forgotten key vault URL will result in a submission failure. For more details follow the guidelines provided in the failure message in Partner Center.
+1. Every AppSource submission with data in the `keyVaultUrls` property in the `app.json` file, will automatically be picked up for registration. If you don't want to register your key vault, please remove it from your `app.json` file before submitting. Any value that cannot be validated will result in a submission failure. For more details follow the guidelines provided in the failure message in Partner Center.
 2. Every AppSource submission that contains apps that already have an Entra Tenant ID registered will not fail even if they don't have a `AllowedBusinessCentralAppIds` special secret in their key vault URL. However, we highly recommend adding the secret by following the description in the [guide](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/setup-app-key-vault) to avoid submissions failing in the future.
 3. All Azure KeyVault URLs that are valid will result in registering the tenant ID that these key vaults belong to.
 
 Note, that currently the deprecation scenario isn't supported and once the tenant ID is registered to an app, it can't be changed without reaching out to support in Partner Center.
 
-Keep an eye on what's cooking for an upcoming episode where we go through it.
+Keep an eye on "What's cooking" series on our [official Business central channel](https://www.youtube.com/@MicrosoftDynamics365BC) on YouTube for an upcoming episode where we go through it.
 
 # 2024-10-23 Business Central 2024 release wave 2 launch event content for developers
 
