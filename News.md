@@ -1,3 +1,15 @@
+# 2025-03-14 Upcoming changes to the process of how we set up app key vaults for AppSource apps
+
+We're updating the [process](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/setup-app-key-vault) for registering the owning Microsoft Entra tenant ID for the key vault specified in AppSource apps and moving it to a fully automated process in the coming month. For this change to be effective we encourage partners who have specified the `keyVaultUrls` property in their `app.json` files to verify the value. The following consequences should be considered starting **1st of April 2025**:
+
+1. Every AppSource submission with data in the `keyVaultUrls` property in the `app.json` files, will automatically be picked up for registration. If you don't want to register your key vaults, remove it from your `app.json` files before submitting. Any value that cannot be validated will result in a submission failure. For more details follow the guidelines provided in the failure message in Partner Center.
+2. When the `keyVaultUrls` property has been validated, the owning Microsoft Entra tenant ID will be registered as part of the submission.
+3. Every AppSource submission that contains apps that already have an Microsoft Entra tenant ID registered will not fail even if they don't have a `AllowedBusinessCentralAppIds` special secret in their key vaults. However, we highly recommend adding the secret by following the description in the [guide](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/setup-app-key-vault) to avoid submissions failing in the future.
+
+Note that automatic removal of the Microsoft Entra ID registration is not supported without reaching out to support.
+
+Keep an eye on our ["What's cooking"](https://www.youtube.com/@MicrosoftDynamics365BC) series for an upcoming episode, where we'll go through the process.
+
 # 2024-10-23 Business Central 2024 release wave 2 launch event content for developers
 
 The Business Central 2024 release wave 2 went live on October 1st and with it the launch event was kicked off with videos on the latest innovations for Business Central. These videos contain high-quality content presented by product leaders to enable you to learn how to take Business Central to the next level as a developer. Visit the [Business Central Youtube channel](https://www.youtube.com/@MicrosoftDynamics365BC) to see what is available. We've produced a lot of content, and we guarantee you that it will be worth the time you invest in it.
