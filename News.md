@@ -8,7 +8,7 @@ We're updating the [process](https://learn.microsoft.com/en-us/dynamics365/busin
 
 Note, that currently the deprecation scenario isn't supported and once the tenant ID is registered to an app, it can't be changed without reaching out to support in Partner Center.
 
-Keep an eye on "What's cooking" series on our [official Business central channel](https://www.youtube.com/@MicrosoftDynamics365BC) on YouTube for an upcoming episode where we go through it.
+Keep an eye on "What's cooking" series on our [official Business Central channel](https://www.youtube.com/@MicrosoftDynamics365BC) on YouTube for an upcoming episode where we go through it.
 
 # 2024-10-23 Business Central 2024 release wave 2 launch event content for developers
 
