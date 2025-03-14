@@ -6,7 +6,7 @@ We're updating the [process](https://learn.microsoft.com/en-us/dynamics365/busin
 2. When `keyVaultUrls` has been validated the owning Microsoft Entra tenant ID will be registered as part of the submission
 3. Every AppSource submission that contains apps that already have an Microsoft Entra tenant ID registered will not fail even if they don't have a `AllowedBusinessCentralAppIds` special secret in their key vaults. However, we highly recommend adding the secret by following the description in the [guide](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/setup-app-key-vault) to avoid submissions failing in the future.
 
-Note, automatic removal of the Microsoft Entra ID registration is not supported without reaching out to support in Partner Center.
+Note, automatic removal of the Microsoft Entra ID registration is not supported without reaching out to support.
 
 Keep an eye our ["What's cooking"](https://www.youtube.com/@MicrosoftDynamics365BC) series for an upcoming episode, where we'll go through the process.
 
