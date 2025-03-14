@@ -4,7 +4,7 @@ We're updating the [process](https://learn.microsoft.com/en-us/dynamics365/busin
 
 1. Every AppSource submission with data in the `keyVaultUrls` property in the `app.json` files, will automatically be picked up for registration. If you don't want to register your key vaults, remove it from your `app.json` files before submitting. Any value that cannot be validated will result in a submission failure. For more details follow the guidelines provided in the failure message in Partner Center.
 2. When `keyVaultUrls` has been validated the owning Microsoft Entra tenant ID will be registered as part of the submission
-3. Every AppSource submission that contains apps that already have an Entra ID registered will not fail even if they don't have a `AllowedBusinessCentralAppIds` special secret in their key vault URL. However, we highly recommend adding the secret by following the description in the [guide](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/setup-app-key-vault) to avoid submissions failing in the future.
+3. Every AppSource submission that contains apps that already have an Microsoft Entra tenant ID registered will not fail even if they don't have a `AllowedBusinessCentralAppIds` special secret in their `keyVaultUrls`. However, we highly recommend adding the secret by following the description in the [guide](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/setup-app-key-vault) to avoid submissions failing in the future.
 
 Note, automatic removal of the Microsoft Entra ID registration is not supported without reaching out to support in Partner Center.
 
