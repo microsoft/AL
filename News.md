@@ -1,4 +1,4 @@
-# 2025-03-14 Upcoming changes to the process of how we set up app key vaults for AppSource Apps
+# 2025-03-14 Upcoming changes to the process of how we set up app key vaults for AppSource apps
 
 We're updating the [process](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/setup-app-key-vault) for registering the owning Microsoft Entra tenant ID for the key vault specified in AppSource apps and moving it to a fully automated process in the coming month. For this change to be effective we encourage partners who have specified the `keyVaultUrls` property in their `app.json` files to verify the value. The following consequences should be considered starting **1st of April 2025**:
 
