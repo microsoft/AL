@@ -1,3 +1,100 @@
+# 2025-05-01 Business Central 2025 release wave 1 launch event content for developers
+
+The Business Central 2025 release wave 1 went live on April 1st and with it the launch event was kicked off with videos on the latest innovations for Business Central. These videos contain high-quality content presented by product leaders to enable you to learn how to take Business Central to the next level as a developer. Visit the [Business Central Youtube channel](https://www.youtube.com/@MicrosoftDynamics365BC) to see what is available. We've produced a lot of content, and we guarantee you that it will be worth the time you invest in it.
+
+If you're a developer, we'd suggest the following titles to get you started on the latest additions and improvements:
+
+Peter TODO: add your videos here
+[]()
+[]()
+[]()
+
+Freddy TODO: add your AL-GO videos here
+[]()
+[]()
+[]()
+
+[What's new: Contoso demo tool](https://www.youtube.com/watch?v=8037fdtrU1o&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=60)
+[What's new: Server and database](https://www.youtube.com/watch?v=G0avZpiDFtI&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=45)
+[What's new: Reporting (for developers)](https://www.youtube.com/watch?v=W003w36Isto&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=24)
+[What's new: Power BI embedding (for developers)](https://www.youtube.com/watch?v=RU3D3RMAvVI&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=41)
+[What's new: Extending E-Documents with new interface](https://www.youtube.com/watch?v=QGIr_XPp8lk&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=40)
+
+
+Learn about the latest usability and productivity improvements in the Business Central web client:
+[What's new: Business Central user experience and productivity](https://www.youtube.com/watch?v=Fczo8KJyqlI&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=38)
+[What's new: Data analysis](https://www.youtube.com/watch?v=Rh1AFX9A1x4&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=27)
+[Introducing: Discover and explore reports](https://www.youtube.com/watch?v=yXz3ZlSioWQ&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=2)
+
+
+
+If you're interested in AI and Agents, consider diving more into the topic with these sessions:
+[Introducing: Payables agent](https://www.youtube.com/watch?v=YsmwHqxL1Zc&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=25)
+[Introducing: Sales order agent](https://www.youtube.com/watch?v=XhO4oFmoh1M&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=26)
+
+
+For content about environment management, we suggest you watch the following videos:
+[What's new: Telemetry](https://www.youtube.com/watch?v=hS8yWS3bxWE&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=21)
+[What's new: Flexible update management](https://www.youtube.com/watch?v=wPEZ3U5j4zw&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=5)
+[What's new: Customer-managed encryption key](https://www.youtube.com/watch?v=b-ixzwDS41c&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=22)
+[Introducing: PTEs in admin center](https://www.youtube.com/watch?v=_nmA6xJXKiY&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=23)
+
+
+Watch content about new integration functionality in these videos:
+[What's new: Integration with Dynamics 365 Field Service](https://www.youtube.com/watch?v=Jbo2DOCd7Pw&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=48)
+[Introducing: Tenant discovery endpoint](https://www.youtube.com/watch?v=669rJN75L2g&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=54)
+[]()
+[]()
+
+
+With Copilot in Business Central, we've worked hard to provide productivity tools that help users be more effective in their work. The following videos dive into how Copilot can help get work done in Business Central:
+[What's new: Autofill fields with Copilot](https://www.youtube.com/watch?v=PB2ZG8fM3EE&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=32)
+[What's new: Copilot for sustainability](https://www.youtube.com/watch?v=JBGuaqk5nXk&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=36)
+[What's new: Summarize with Copilot](https://www.youtube.com/watch?v=HjsOuhThGKk&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=37)
+[What's new: Enhanced purchase order matching with Copilot](https://www.youtube.com/watch?v=D56EVy3JgHA&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=43)
+[What's new: Chat with Copilot in 2025](https://www.youtube.com/watch?v=2uXVammbab0&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=61)
+
+
+In this release wave, we added a lot of new reporting and analytics capabilities. If that is your thing, check out these videos:
+[What's new: Data analysis](https://www.youtube.com/watch?v=Rh1AFX9A1x4&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=27)
+[Introducing: Discover and explore reports](https://www.youtube.com/watch?v=yXz3ZlSioWQ&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=2)
+[What’s new: Financial reporting (for report users)](https://www.youtube.com/watch?v=RdYLc7ebNJ8&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=31)
+[What’s new: Financial reporting (for report authors)](https://www.youtube.com/watch?v=RLmDGw1o_PI&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=44)
+[What’s new: Financial reporting (for administrators)](https://www.youtube.com/watch?v=Oxfai-_UnTI&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=33)
+[What's new: Manufacturing analytics (new and updated reports)](https://www.youtube.com/watch?v=9X-IWRkI2GM&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=52)
+[What's new: Manufacturing analytics (updated Power BI app)](https://www.youtube.com/watch?v=6NuJOL8DEqA&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=56)
+[What's new: Power BI (for sales)](https://www.youtube.com/watch?v=zXoSeH1cmaE&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=3)
+[What's new: Power BI (for subscription billing)](https://www.youtube.com/watch?v=zCmzehADz2s&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=6)
+[What's new: Power BI reports for sustainability](https://www.youtube.com/watch?v=hX2zkeUvvdY&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=14)
+[What's new: Excel reporting (for finance, sales, purchasing, fixed assets, and sustainability)](https://www.youtube.com/watch?v=jricCM_04H4&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=13)
+
+
+And for more videos on all of the new functionality in the application, consider these videos:
+[What's new: Concurrent inventory posting](https://www.youtube.com/watch?v=64_cQzp8BP4&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=57)
+[What's new: Cost adjustment](https://www.youtube.com/watch?v=8IOEXgk7q5I&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=55)
+[What's new: E-Documents localizations](https://www.youtube.com/watch?v=hL4PUhjyhNY&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=19)
+[What's new: Enhancements in E-Documents](https://www.youtube.com/watch?v=Qz-V7qvOY-8&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=29)
+[What's new: E-Documents connectors](https://www.youtube.com/watch?v=GM0DNxu39LM&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=46)
+[What's new: Document preview in E-Documents](https://www.youtube.com/watch?v=CCIGX86ljYQ&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=51)
+[What's new: Enhancements in intrastat](https://www.youtube.com/watch?v=whtP2i7zeso&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=7)
+[What's new in manufacturing: Integration to warehouse](https://www.youtube.com/watch?v=vnaySMIKnp8&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=8)
+[What's new in manufacturing: Reverse production order transactions](https://www.youtube.com/watch?v=tzX0qB9tiBs&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=10)
+[What's new in manufacturing: Streamline product design](https://www.youtube.com/watch?v=giNi8WtCX_s&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=18)
+[What's new in manufacturing: Order processing](https://www.youtube.com/watch?v=SdQVQLNXVS0&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=42)
+[What's new in manufacturing: Costing](https://www.youtube.com/watch?v=DHODFt_jVO4&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=53)
+[What's new in project management: Receive project items with receipts or put-aways](https://www.youtube.com/watch?v=sVlPlmok5U8&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=9)
+[What's new in Shopify connector: Activate sales channels](https://www.youtube.com/watch?v=cuez5kIanKo&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=16)
+[What's new in Shopify connector: Metafields](https://www.youtube.com/watch?v=h5PQI4I4b7c&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=17)
+[What's new in Shopify connector: Troubleshoot export issues on Shopify skipped records page](https://www.youtube.com/watch?v=5Qfc7r618OM&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=62)
+[What's new in sustainability: Post emissions with the general journal](https://www.youtube.com/watch?v=RaiQPiEdvbg&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=28)
+[What's new in sustainability: Water and waste management](https://www.youtube.com/watch?v=MaMwHvimNTY&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=30)
+[What's new in sustainability: Default sustainability information](https://www.youtube.com/watch?v=2_yYu3RgYwo&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=63)
+[What's new: Value chain automation with transfer orders](https://www.youtube.com/watch?v=bnqxycPzbeI&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=15)
+[What's new: Value chain automation with assembly orders](https://www.youtube.com/watch?v=JoGW2xlIq0I&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=47)
+[What's new: Value chain automation with production orders](https://www.youtube.com/watch?v=6d6iajwQQ-c&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=59)
+
+We hope you'll find this useful. If you have any feedback, please let us know.
+
 # 2025-03-14 Upcoming changes to the process of how we set up app key vaults for AppSource apps
 
 We're updating the [process](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/setup-app-key-vault) for registering the owning Microsoft Entra tenant ID for the key vault specified in AppSource apps and moving it to a fully automated process in the coming month. For this change to be effective we encourage partners who have specified the `keyVaultUrls` property in their `app.json` files to verify the value. The following consequences should be considered starting **1st of April 2025**:
