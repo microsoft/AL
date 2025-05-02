@@ -1,37 +1,34 @@
-# 2025-05-01 Business Central 2025 release wave 1 launch event content for developers
+# 2025-05-02 Business Central 2025 release wave 1 launch event content for developers
 
 The Business Central 2025 release wave 1 went live on April 1st and with it the launch event was kicked off with videos on the latest innovations for Business Central. These videos contain high-quality content presented by product leaders to enable you to learn how to take Business Central to the next level as a developer. Visit the [Business Central Youtube channel](https://www.youtube.com/@MicrosoftDynamics365BC) to see what is available. We've produced a lot of content, and we guarantee you that it will be worth the time you invest in it.
 
 If you're a developer, we'd suggest the following titles to get you started on the latest additions and improvements:
 
-Peter TODO: add your videos here
-[]()
-[]()
-[]()
+[What's new: AL language](https://www.youtube.com/watch?v=eUkx_VCcyoU&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=21)
+[What's new: Moving tables and fields between AppSource extensions](https://www.youtube.com/watch?v=vQU-oYfDn88&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=12)
+[What's new: Opening Visual Studio code from the web client](https://www.youtube.com/watch?v=LDzOda1IOnE&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=36)
+[Introducing: How to mock outbound http calls for easier testing](https://www.youtube.com/watch?v=JI9OpaBx0nk&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=50)
 
-Freddy TODO: add your AL-GO videos here
-[]()
-[]()
-[]()
+[What's new : AL-Go for GitHub on quality and testability](https://www.youtube.com/watch?v=xr8C3c6WhOI&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=5)
+[What's new: AL-Go for GitHub on delivery and deployment](https://www.youtube.com/watch?v=px1MOyXfmnQ&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=13)
+[What's new : AL-Go for GitHub on build and performance](https://www.youtube.com/watch?v=Gjs00Wy0HlI&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=40)
+[What's next: AL-Go for GitHub](https://www.youtube.com/watch?v=6B6F38AswE8&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=59)
 
 [What's new: Contoso demo tool](https://www.youtube.com/watch?v=8037fdtrU1o&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=60)
 [What's new: Server and database](https://www.youtube.com/watch?v=G0avZpiDFtI&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=45)
 [What's new: Reporting (for developers)](https://www.youtube.com/watch?v=W003w36Isto&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=24)
 [What's new: Power BI embedding (for developers)](https://www.youtube.com/watch?v=RU3D3RMAvVI&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=41)
 [What's new: Extending E-Documents with new interface](https://www.youtube.com/watch?v=QGIr_XPp8lk&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=40)
-
+[What's new: Prepare your Copilot extension - practical considerations](https://www.youtube.com/watch?v=NE7NIjpkX3c&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=35)
 
 Learn about the latest usability and productivity improvements in the Business Central web client:
 [What's new: Business Central user experience and productivity](https://www.youtube.com/watch?v=Fczo8KJyqlI&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=38)
 [What's new: Data analysis](https://www.youtube.com/watch?v=Rh1AFX9A1x4&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=27)
 [Introducing: Discover and explore reports](https://www.youtube.com/watch?v=yXz3ZlSioWQ&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=2)
 
-
-
 If you're interested in AI and Agents, consider diving more into the topic with these sessions:
 [Introducing: Payables agent](https://www.youtube.com/watch?v=YsmwHqxL1Zc&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=25)
 [Introducing: Sales order agent](https://www.youtube.com/watch?v=XhO4oFmoh1M&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=26)
-
 
 For content about environment management, we suggest you watch the following videos:
 [What's new: Telemetry](https://www.youtube.com/watch?v=hS8yWS3bxWE&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=21)
@@ -39,13 +36,9 @@ For content about environment management, we suggest you watch the following vid
 [What's new: Customer-managed encryption key](https://www.youtube.com/watch?v=b-ixzwDS41c&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=22)
 [Introducing: PTEs in admin center](https://www.youtube.com/watch?v=_nmA6xJXKiY&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=23)
 
-
 Watch content about new integration functionality in these videos:
 [What's new: Integration with Dynamics 365 Field Service](https://www.youtube.com/watch?v=Jbo2DOCd7Pw&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=48)
 [Introducing: Tenant discovery endpoint](https://www.youtube.com/watch?v=669rJN75L2g&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=54)
-[]()
-[]()
-
 
 With Copilot in Business Central, we've worked hard to provide productivity tools that help users be more effective in their work. The following videos dive into how Copilot can help get work done in Business Central:
 [What's new: Autofill fields with Copilot](https://www.youtube.com/watch?v=PB2ZG8fM3EE&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=32)
@@ -53,7 +46,6 @@ With Copilot in Business Central, we've worked hard to provide productivity tool
 [What's new: Summarize with Copilot](https://www.youtube.com/watch?v=HjsOuhThGKk&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=37)
 [What's new: Enhanced purchase order matching with Copilot](https://www.youtube.com/watch?v=D56EVy3JgHA&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=43)
 [What's new: Chat with Copilot in 2025](https://www.youtube.com/watch?v=2uXVammbab0&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=61)
-
 
 In this release wave, we added a lot of new reporting and analytics capabilities. If that is your thing, check out these videos:
 [What's new: Data analysis](https://www.youtube.com/watch?v=Rh1AFX9A1x4&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=27)
@@ -67,7 +59,6 @@ In this release wave, we added a lot of new reporting and analytics capabilities
 [What's new: Power BI (for subscription billing)](https://www.youtube.com/watch?v=zCmzehADz2s&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=6)
 [What's new: Power BI reports for sustainability](https://www.youtube.com/watch?v=hX2zkeUvvdY&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=14)
 [What's new: Excel reporting (for finance, sales, purchasing, fixed assets, and sustainability)](https://www.youtube.com/watch?v=jricCM_04H4&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=13)
-
 
 And for more videos on all of the new functionality in the application, consider these videos:
 [What's new: Concurrent inventory posting](https://www.youtube.com/watch?v=64_cQzp8BP4&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=57)
