@@ -2,7 +2,7 @@
 
 The Business Central 2025 release wave 1 went live on April 1st and with it the launch event was kicked off with videos on the latest innovations for Business Central. These videos contain high-quality content presented by product leaders to enable you to learn how to take Business Central to the next level as a developer. Visit the [Business Central Youtube channel](https://www.youtube.com/@MicrosoftDynamics365BC) to see what is available. We've produced a lot of content, and we guarantee you that it will be worth the time you invest in it.
 
-If you're a developer, we'd suggest the following titles to get you started on the latest additions and improvements:
+If you're a developer, we'd suggest the following titles to get you started on the latest additions and improvements
 
 [What's new: AL language](https://www.youtube.com/watch?v=eUkx_VCcyoU&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=21)  
 [What's new: Moving tables and fields between AppSource extensions](https://www.youtube.com/watch?v=vQU-oYfDn88&list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB&index=12)  
