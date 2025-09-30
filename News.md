@@ -1,3 +1,29 @@
+# 2025-09-30 🚀 GitHub Copilot Agent Tools Now Available in AL Extension (Pre-release)
+
+We've just added a set of GitHub Copilot agent tools to the AL extension! These tools enable Copilot agents to automate and orchestrate AL workflows, making development faster, smarter, and more flexible.
+
+## 🔧 What You Can Do:
+
+- Build your project with `al_build`
+- Publish apps using `al_publish` or `al_fulldependencypublish`
+- Download source code with `al_downloadsource`
+- Start debugging sessions via `al_debug`
+- Navigate symbols using `al_navigate`
+- …and more tools are available!
+
+## 💡 Why It Matters:
+
+These tools allow GitHub Copilot agents to act as intelligent copilots—automating repetitive tasks, chaining commands, and adapting to your workflow. Whether you're building, deploying, or debugging, Copilot agents can now handle it for you.
+
+## 🧪 Try it out and help shape what comes next:
+
+- What workflows should we support?
+- What tools are missing?
+- What ideas do you have?
+
+Drop your feedback here or reach out directly. Let's build the future of agentic development together!
+
+
 # 2025-05-02 Business Central 2025 release wave 1 launch event content for developers
 
 The Business Central 2025 release wave 1 went live on April 1st and with it the launch event was kicked off with videos on the latest innovations for Business Central. These videos contain high-quality content presented by product leaders to enable you to learn how to take Business Central to the next level as a developer. Visit the [Business Central Youtube channel](https://www.youtube.com/@MicrosoftDynamics365BC) to see what is available. We've produced a lot of content, and we guarantee you that it will be worth the time you invest in it.
@@ -716,3 +742,4 @@ Some of you might recognize the look and feel of the AL Explorer's grid. It is b
 - You can also reorder the columns to your liking by drag and dropping them.
 
 ![AL Explorer advanced features](https://raw.githubusercontent.com/microsoft/AL/master/resources/ExplorerAdvancedFeatures.gif)
+
