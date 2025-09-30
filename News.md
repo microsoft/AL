@@ -13,7 +13,7 @@ We've just added a set of GitHub Copilot agent tools to the AL VSIX! These tools
 
 ## 💡 Why it matters
 
-These tools allow GitHub Copilot agents to act as intelligent copilots—automating repetitive tasks, chaining commands, and adapting to your workflow. Whether you're building, deploying, or debugging, Copilot agents can now handle it for you.
+These tools allow GitHub Copilot agent mode to act more intelligently - automating repetitive tasks, chaining commands, and adapting to your workflow. Whether you're building, deploying, or debugging, GitHub Copilot agent mode can now handle it for you.
 
 ## 🧪 Try it out and help shape what comes next
 
