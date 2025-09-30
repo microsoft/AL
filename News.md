@@ -1,6 +1,6 @@
 # 2025-09-30 🚀 GitHub Copilot Agent Tools now available in the AL Extension (Pre-release version)
 
-We've just added a set of GitHub Copilot agent tools to the AL extension! These tools enable Copilot agents to automate and orchestrate AL workflows, making development faster, smarter, and more flexible.
+We've just added a set of GitHub Copilot agent tools to the AL VSIX! These tools enable the GitHub Copilot agent mode to automate and orchestrate AL workflows, making development faster, smarter, and more flexible.
 
 ## 🔧 What you can do
 
