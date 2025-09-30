@@ -1,21 +1,21 @@
-# 2025-09-30 🚀 GitHub Copilot Agent Tools Now Available in AL Extension (Pre-release)
+# 2025-09-30 🚀 GitHub Copilot Agent Tools Now Available in the AL Extension (Pre-release version)
 
 We've just added a set of GitHub Copilot agent tools to the AL extension! These tools enable Copilot agents to automate and orchestrate AL workflows, making development faster, smarter, and more flexible.
 
-## 🔧 What You Can Do:
+## 🔧 What you can do
 
 - Build your project with `al_build`
 - Publish apps using `al_publish` or `al_fulldependencypublish`
 - Download source code with `al_downloadsource`
-- Start debugging sessions via `al_debug`
-- Navigate symbols using `al_navigate`
+- Start debugging sessions using `al_debug`
+- Navigate symbols with `al_navigate`
 - …and more tools are available!
 
-## 💡 Why It Matters:
+## 💡 Why it matters
 
 These tools allow GitHub Copilot agents to act as intelligent copilots—automating repetitive tasks, chaining commands, and adapting to your workflow. Whether you're building, deploying, or debugging, Copilot agents can now handle it for you.
 
-## 🧪 Try it out and help shape what comes next:
+## 🧪 Try it out and help shape what comes next
 
 - What workflows should we support?
 - What tools are missing?
