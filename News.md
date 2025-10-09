@@ -1,3 +1,102 @@
+# 2025-10-09 Business Central 2025 release wave 2 launch edition (BCLE) content for developers
+
+The Business Central 2025 release wave 2 went live on October 1st and with it the launch edition on Youtube was kicked off with videos on the latest innovations for Business Central. These videos contain high-quality content presented by product leaders to enable you to learn how to take Business Central to the next level as a developer. Visit the [Business Central Youtube channel](https://aka.ms/bcYoutube) to see what's available. We've produced a lot of content, and we guarantee you that it'll be worth the time you invest in it.
+
+If you're a developer, we'd suggest the following titles to get you started on the latest additions and improvements:
+
+Peter TODO: add your videos here
+[]()
+[]()
+[]()
+
+Jonas TODO: add AL-GO videos here
+[]()
+[]()
+[]()
+
+[What's new: Server and database (in 2025 release wave 2)](https://www.youtube.com/watch?v=M1S2_bgLd3Q)
+[What's new: Document reporting (in 2025 release wave 2)](https://www.youtube.com/watch?v=vLcb31rfZ48)
+[Introducing: Extending Copilot Chat with your app's documentation](https://www.youtube.com/watch?v=sv1utmneaXA&list=PL1FESh9FqyhRxSFtOd8WD7r6AZ96zGM3n&index=4)
+
+If you want to learn more about the new PDF post processing features in the platform, check out the:
+
+[What's new: E-Documents ZUGFeRD format](https://www.youtube.com/watch?v=gVjrKPHlrgM&list=PL1FESh9FqyhRxSFtOd8WD7r6AZ96zGM3n&index=35)
+[What's new: Demo data for analytics (in 2025 release wave 2)](https://www.youtube.com/watch?v=_1onqwZz4rA)
+[What's new: Drill-back and dynamic dimension name support in Power BI apps for Business Central (in  2025 release wave 2)](https://www.youtube.com/watch?v=kJfGIKor3VA)
+[What's new: Open sourcing Power BI apps for Business Central (in 2025 release wave 2)](https://www.youtube.com/watch?v=VEVo5LgCGfw)
+
+Learn about the latest usability and productivity improvements in the Business Central web client:
+
+[What's new: User experience improvements](https://www.youtube.com/watch?v=_Bv3VX-kkpo&list=PL1FESh9FqyhRxSFtOd8WD7r6AZ96zGM3n&index=24)
+
+If you're interested in AI and Agents, consider diving more into the topic with these sessions:
+
+[What's new: Payables Agent update](https://www.youtube.com/watch?v=Xc3ISQ7NAaQ&list=PL1FESh9FqyhRxSFtOd8WD7r6AZ96zGM3n&index=15)
+[What's new: Sales Order Agent enhancements](https://www.youtube.com/watch?v=4nFViDASGhg&list=PL1FESh9FqyhRxSFtOd8WD7r6AZ96zGM3n&index=14)
+
+For content about environment management and migrations, we suggest you watch the following videos:
+
+[What's new: Migrate record links and notes](https://www.youtube.com/watch?v=01GoAUnpBnw&list=PL1FESh9FqyhRxSFtOd8WD7r6AZ96zGM3n&index=16)
+
+Watch content about new integration functionality in these videos:
+
+[What's new: IRS1099 integration with IRIS](https://www.youtube.com/watch?v=k0pugXY4CEw&list=PL1FESh9FqyhRxSFtOd8WD7r6AZ96zGM3n&index=34)
+[What's new: APIs in E-Documents](https://www.youtube.com/watch?v=S5Xw-b8YF-c&list=PL1FESh9FqyhRxSFtOd8WD7r6AZ96zGM3n&index=11)
+[What's new in Shopify Connector: Prices for markets](https://www.youtube.com/watch?v=gy_6QnFpiEw&list=PL1FESh9FqyhRxSFtOd8WD7r6AZ96zGM3n&index=6)
+[What's new in Shopify Connector: Point of sale](https://www.youtube.com/watch?v=inuqqx12yJ8&list=PL1FESh9FqyhRxSFtOd8WD7r6AZ96zGM3n&index=7)
+[What's new in Shopify Connector: Shopify B2B companies and company locations](https://www.youtube.com/watch?v=VjYMhjjc3uw&list=PL1FESh9FqyhRxSFtOd8WD7r6AZ96zGM3n&index=8)
+[What's new in Shopify Connector: Troubleshoot synchronization](https://www.youtube.com/watch?v=StIVhsnOHWY&list=PL1FESh9FqyhRxSFtOd8WD7r6AZ96zGM3n&index=9)
+
+With Copilot in Business Central, we've worked hard to provide productivity tools that help users be more effective in their work. The following videos dive into how Copilot can help get work done in Business Central:
+
+[What's new: Sustainability Copilot](https://www.youtube.com/watch?v=bHXEbtsx0JY&list=PL1FESh9FqyhRxSFtOd8WD7r6AZ96zGM3n&index=5)
+[Introducing: Extending Copilot Chat with your app's documentation](https://www.youtube.com/watch?v=sv1utmneaXA&list=PL1FESh9FqyhRxSFtOd8WD7r6AZ96zGM3n&index=4)
+[What's new: Enhancements to Copilot summaries](https://www.youtube.com/watch?v=q0TxpWfm9rc&list=PL1FESh9FqyhRxSFtOd8WD7r6AZ96zGM3n&index=3)
+[What's new: Enhancements to Chat with Copilot](https://www.youtube.com/watch?v=oFG9gBkd2NU&list=PL1FESh9FqyhRxSFtOd8WD7r6AZ96zGM3n&index=2)
+[What's new: Autofill contact details with Copilot](https://www.youtube.com/watch?v=SH4Ffukj3P4&list=PL1FESh9FqyhRxSFtOd8WD7r6AZ96zGM3n&index=1)
+
+In this release wave, we added a lot of new reporting and analytics capabilities. If that is your thing, check out these videos:
+
+[What's new: Enhanced Power BI for purchasing (in 2025 release wave 2)](https://www.youtube.com/watch?v=R57aHqQRrAA)
+[What's new: Manufacturing analytics (in 2025 release wave 2)](https://www.youtube.com/watch?v=JT4ownMbotw)
+[What's new: Sales analytics (in 2025 release wave 2)](https://www.youtube.com/watch?v=rAaUiKByyEE)
+[What's new: Financial analytics (in 2025 release wave 2)](https://www.youtube.com/watch?v=Fs90uUdWi0M)
+[What's new: Power BI for projects and inventory (in 2025 release wave 2)](https://www.youtube.com/watch?v=6lUli23t3fU)
+[What's new: Drill-back and dynamic dimension name support in Power BI apps for Business Central (in  2025 release wave 2)](https://www.youtube.com/watch?v=kJfGIKor3VA)
+[What's new: Open sourcing Power BI apps for Business Central (in 2025 release wave 2)](https://www.youtube.com/watch?v=VEVo5LgCGfw)
+[What's new: Data analysis (in 2025 release wave 2)](https://www.youtube.com/watch?v=SHOAw9GehdI)
+[What's new: Demo data for analytics (in 2025 release wave 2)](https://www.youtube.com/watch?v=_1onqwZz4rA)
+[What's new: Drill-back and dynamic dimension name support in Power BI apps for Business Central (in  2025 release wave 2)](https://www.youtube.com/watch?v=kJfGIKor3VA)
+[What's new: Open sourcing Power BI apps for Business Central (in 2025 release wave 2)](https://www.youtube.com/watch?v=VEVo5LgCGfw)
+
+Want to learn more about E-Documents and electronic invoices? Then consider these videos:
+
+[What's new: E-Documents ZUGFeRD format](https://www.youtube.com/watch?v=gVjrKPHlrgM&list=PL1FESh9FqyhRxSFtOd8WD7r6AZ96zGM3n&index=35)
+[What's new: Draft page for electronic invoices](https://www.youtube.com/watch?v=axQegcPweNY&list=PL1FESh9FqyhRxSFtOd8WD7r6AZ96zGM3n&index=13)
+[What's new: E-Documents and Clearance model](https://www.youtube.com/watch?v=h6a8BVzvuZ4&list=PL1FESh9FqyhRxSFtOd8WD7r6AZ96zGM3n&index=12)
+[What's new: APIs in E-Documents](https://www.youtube.com/watch?v=S5Xw-b8YF-c&list=PL1FESh9FqyhRxSFtOd8WD7r6AZ96zGM3n&index=11)
+[What's new: E-Documents and E-Shipments](https://www.youtube.com/watch?v=zy-Tg9bBtHc&list=PL1FESh9FqyhRxSFtOd8WD7r6AZ96zGM3n&index=10)
+
+Want to learn more about the sustainability module? Then consider these videos:
+
+[What's new: Sustainability Copilot](https://www.youtube.com/watch?v=bHXEbtsx0JY&list=PL1FESh9FqyhRxSFtOd8WD7r6AZ96zGM3n&index=5)
+[What's new in Sustainability: Reporting CSRD](https://www.youtube.com/watch?v=qPInVj03wkY&list=PL1FESh9FqyhRxSFtOd8WD7r6AZ96zGM3n&index=17)
+[What's new in Sustainability: Measure all gasses as Carbon Equivalents](https://www.youtube.com/watch?v=UKVp28M5TtU&list=PL1FESh9FqyhRxSFtOd8WD7r6AZ96zGM3n&index=18)
+[What's new in Sustainability: Value Chain with Item Charges](https://www.youtube.com/watch?v=lcy36b9GS38&list=PL1FESh9FqyhRxSFtOd8WD7r6AZ96zGM3n&index=19)
+[What's new in Sustainability: Track your energy consumption](https://www.youtube.com/watch?v=i-MTLNYwA9o&list=PL1FESh9FqyhRxSFtOd8WD7r6AZ96zGM3n&index=20)
+[What's new in Sustainability: Value Chain in Projects](https://www.youtube.com/watch?v=Sc8eGyMkBTA&list=PL1FESh9FqyhRxSFtOd8WD7r6AZ96zGM3n&index=21)
+[What's new in Sustainability: Sustainability Journals Approval](https://www.youtube.com/watch?v=XYr0xwgpomA&list=PL1FESh9FqyhRxSFtOd8WD7r6AZ96zGM3n&index=22)
+[What's new in Sustainability: Reporting for CBAM and EPR](https://www.youtube.com/watch?v=kD8kX14VVZE&list=PL1FESh9FqyhRxSFtOd8WD7r6AZ96zGM3n&index=23)
+
+And for more videos on other new functionality in the application, consider these videos:
+
+[What's new: Account Payable role center](https://www.youtube.com/watch?v=Tl2B-85JQIw&list=PL1FESh9FqyhRxSFtOd8WD7r6AZ96zGM3n&index=37)
+[What's new: Create multiple Fixed Assets](https://www.youtube.com/watch?v=CkGTSItdTbs&list=PL1FESh9FqyhRxSFtOd8WD7r6AZ96zGM3n&index=36)
+[What's new: IRS1099 integration with IRIS](https://www.youtube.com/watch?v=k0pugXY4CEw&list=PL1FESh9FqyhRxSFtOd8WD7r6AZ96zGM3n&index=34)
+[What's new: Excise Taxes Framework](https://www.youtube.com/watch?v=lcpk-gPfGQU&list=PL1FESh9FqyhRxSFtOd8WD7r6AZ96zGM3n&index=38)
+
+We hope you'll find this useful. If you have any feedback, please let us know.
+
 # 2025-09-30 🚀 GitHub Copilot Agent Tools now available in the AL Extension (Pre-release version)
 
 We've just added a set of GitHub Copilot agent tools to the AL VSIX! These tools enable the GitHub Copilot agent mode to automate and orchestrate AL workflows, making development faster, smarter, and more flexible.
