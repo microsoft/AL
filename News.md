@@ -4,16 +4,13 @@ The Business Central 2025 release wave 2 went live on October 1st and with it th
 
 If you're a developer, we'd suggest the following titles to get you started on the latest additions and improvements:
 
-Peter TODO: add your videos here
-[]()
-[]()
-[]()
-
-Jonas TODO: add AL-GO videos here
-[]()
-[]()
-[]()
-
+[What's new: AL Language](https://www.youtube.com/watch?v=qlFEdXPjX6A)
+[What's new: Capturing SQL calls in performance profiles](https://www.youtube.com/watch?v=ZKq0hc04f-s)
+[What's New: Page scripting enhancements](https://www.youtube.com/watch?v=KnyS6ZKI_2c)
+[What's new: Smarter Pipelines](https://www.youtube.com/watch?v=4mD9R50V134)
+[What's new in AL-Go for GitHub: Introducing Custom Templates](https://www.youtube.com/watch?v=vm3sTuXdUho)
+[What's new in AL-Go for GitHub: Telemetry and Dashboards](https://www.youtube.com/watch?v=rdnYN7czJs4)
+[What's new in AL-Go for GitHub: Productivity Enhancements](https://www.youtube.com/watch?v=kCTYPb5t5XQ)
 [What's new: Server and database (in 2025 release wave 2)](https://www.youtube.com/watch?v=M1S2_bgLd3Q)
 [What's new: Document reporting (in 2025 release wave 2)](https://www.youtube.com/watch?v=vLcb31rfZ48)
 [Introducing: Extending Copilot Chat with your app's documentation](https://www.youtube.com/watch?v=sv1utmneaXA&list=PL1FESh9FqyhRxSFtOd8WD7r6AZ96zGM3n&index=4)
