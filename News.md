@@ -1,4 +1,4 @@
-# 2025-10-09 Business Central 2025 release wave 2 launch edition (BCLE) content for developers
+# 2025-10-10 Business Central 2025 release wave 2 launch edition (BCLE) content for developers
 
 The Business Central 2025 release wave 2 went live on October 1st and with it the launch edition on Youtube was kicked off with videos on the latest innovations for Business Central. These videos contain high-quality content presented by product leaders to enable you to learn how to take Business Central to the next level as a developer. Visit the [Business Central Youtube channel](https://aka.ms/bcYoutube) to see what's available. We've produced a lot of content, and we guarantee you that it'll be worth the time you invest in it.
 
