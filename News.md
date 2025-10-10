@@ -14,13 +14,14 @@ If you're a developer, we'd suggest the following titles to get you started on t
 [What's new: Server and database (in 2025 release wave 2)](https://www.youtube.com/watch?v=M1S2_bgLd3Q)  
 [What's new: Document reporting (in 2025 release wave 2)](https://www.youtube.com/watch?v=vLcb31rfZ48)  
 [Introducing: Extending Copilot Chat with your app's documentation](https://www.youtube.com/watch?v=sv1utmneaXA&list=PL1FESh9FqyhRxSFtOd8WD7r6AZ96zGM3n&index=4)  
-
-If you want to learn more about the new PDF post processing features in the platform, check out the:
-
-[What's new: E-Documents ZUGFeRD format](https://www.youtube.com/watch?v=gVjrKPHlrgM&list=PL1FESh9FqyhRxSFtOd8WD7r6AZ96zGM3n&index=35)  
 [What's new: Demo data for analytics (in 2025 release wave 2)](https://www.youtube.com/watch?v=_1onqwZz4rA)  
 [What's new: Drill-back and dynamic dimension name support in Power BI apps for Business Central (in  2025 release wave 2)](https://www.youtube.com/watch?v=kJfGIKor3VA)  
 [What's new: Open sourcing Power BI apps for Business Central (in 2025 release wave 2)](https://www.youtube.com/watch?v=VEVo5LgCGfw)  
+
+
+If you want to learn more about the new PDF post processing features in the platform, check out the:
+
+[What's new: E-Documents ZUGFeRD format](https://www.youtube.com/watch?v=gVjrKPHlrgM&list=PL1FESh9FqyhRxSFtOd8WD7r6AZ96zGM3n&index=35) 
 
 Learn about the latest usability and productivity improvements in the Business Central web client:
 
