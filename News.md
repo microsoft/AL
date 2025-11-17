@@ -1,6 +1,6 @@
 # 2025-11-17 MCP Server for Business Central is now in public preview
 
-At Directions EMEA 2025, we announced that the public preview of MCP Server for Business Central is available in 27.1. If you want to take the new kid on the block in developing external agents for Business Central, we'd suggest the following resources to get you started:
+At Directions EMEA 2025, we announced that the public preview of MCP Server for Business Central is available in 27.1. Are you curious to learn more? Take a look at the following resources for developing external agents for Business Central using the Model Context Protocol (MCP):
 
 To learn what MCP is, take a look at the specification here [What is the Model Context Protocol (MCP)?](https://modelcontextprotocol.io/docs/getting-started/intro).
 
