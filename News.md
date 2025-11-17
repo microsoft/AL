@@ -1,3 +1,17 @@
+# 2025-11-17 MCP Server for Business Central is now in public preview
+
+At Directions EMEA 2025, we announced that the public preview of MCP Server for Business Central is available in 27.1. If you want to take the new kid on the block in developing external agents for Business Central, we'd suggest the following resources to get you started:
+
+To learn what MCP is, take a look at the specification here [What is the Model Context Protocol (MCP)?](https://modelcontextprotocol.io/docs/getting-started/intro).
+
+To set up MCP Server configurations in Business Central, go to [Configure Business Central MCP Server](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/configure-mcp-server?wt.mc_id=d365bc_inproduct_alextension).
+
+To use MCP in Copilot Studio, go to [Create agents that connect to Business Central MCP Server](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/create-agent-in-copilot-studio#create-agents-that-connect-to-business-central-mcp-server?wt.mc_id=d365bc_inproduct_alextension).
+
+The first version of the MCP Server for Business Central only supports Copilot Studio as the MCP client. If you want to play with other MCP clients such as Visual Studio Code or Claude Desktop, go to [Business Central MCP Proxy](https://github.com/microsoft/BCTech/tree/master/samples/BcMCPProxy).
+
+We hope that you'll start experimenting with this exciting new tool. And we promise that we'll iterate fast during the public preview and release updates as soon as they're ready for you to test.
+
 # 2025-10-10 Business Central 2025 release wave 2 launch edition (BCLE) content for developers
 
 The Business Central 2025 release wave 2 went live on October 1st and with it the launch edition on YouTube was kicked off with videos on the latest innovations for Business Central. These videos contain high-quality content presented by product leaders to enable you to learn how to take Business Central to the next level as a developer. Visit the [Business Central YouTube channel](https://aka.ms/bcYoutube) to see what's available. We've produced a lot of content, and we guarantee you that it'll be worth the time you invest in it.
