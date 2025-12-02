@@ -108,6 +108,8 @@ export default function(hljs) {
 
   var BUILTIN_TYPES_KEYWORDS = [
     'action',
+    'analysisview',
+    'analysisviews',
     'array',
     'automation',
     'biginteger',
