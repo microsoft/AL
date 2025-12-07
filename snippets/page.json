@@ -332,5 +332,16 @@
         "}"
       ],
       "description": "Snippet: Page of type Prompt Dialog"
+    },
+        "Snippet: Analysis View": {
+        "prefix": "tanalysisview",
+        "body": [
+            "analysisview(${1:AnalysisViewName})",
+            "{",
+            "\tCaption = '${2:ViewCaption}';",
+            "\tDefinitionFile = '${2:DefinitionFilePath}';",
+            "}"
+        ],
+        "description": "Snippet: Analysis View"
     }
 }
