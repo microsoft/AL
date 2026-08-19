@@ -27,7 +27,7 @@ jobs:
       pull-requests: write
     steps:
     - run: echo "Closing issues that have labels [${{ github.event.inputs.labels }}]. Is this a dry run? ${{ github.event.inputs.debug }}"
-    - uses: actions/stale@98ed4cb500039dbcccf4bd9bedada4d0187f2757 # v3.0.19
+    - uses: actions/stale@4391f3da665fdf50b6810c1a66712fb9ba21aa93 # v11.0.0
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         close-issue-message: ${{ github.event.inputs.message }}
