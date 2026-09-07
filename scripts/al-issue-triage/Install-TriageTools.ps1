@@ -2,10 +2,12 @@
 param()
 
 $ErrorActionPreference = 'Stop'
+$bcContainerHelperVersion = '6.1.17'
 
 dotnet tool install --global Microsoft.Dynamics.BusinessCentral.Development.Tools --prerelease
 npm install --global @github/copilot@1.0.79-9
-Install-Module BcContainerHelper -Force -Scope CurrentUser -Repository PSGallery
+Install-Module BcContainerHelper -RequiredVersion $bcContainerHelperVersion `
+    -Force -Scope CurrentUser -Repository PSGallery
 
 $alVersion = (& al --version 2>&1 | Out-String).Trim()
 if (-not $alVersion) {

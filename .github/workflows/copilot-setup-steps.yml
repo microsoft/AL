@@ -42,7 +42,8 @@ jobs:
         shell: pwsh
         run: |
           $ErrorActionPreference = 'Stop'
-          Install-Module BcContainerHelper -Force -Scope CurrentUser -Repository PSGallery
+          $version = '6.1.17'
+          Install-Module BcContainerHelper -RequiredVersion $version -Force -Scope CurrentUser -Repository PSGallery
           Import-Module BcContainerHelper -Force
           Write-Host "Installed BcContainerHelper $((Get-Module BcContainerHelper).Version)."
 
