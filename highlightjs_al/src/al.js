@@ -361,6 +361,12 @@ export default function(hljs) {
     name: 'AL',
     aliases: ['al'],
     case_insensitive: true,
+    // AL wins Highlight.js's own C/AL detection fixture, which is not
+    // surprising given C/AL is AL's predecessor and the two look almost
+    // identical to a heuristic. Auto-detection is therefore disabled, as
+    // Highlight.js recommends when a grammar cannot pass the detect suite.
+    // Explicit registration and language-al are unaffected.
+    disableAutodetect: true,
     keywords: KEYWORDS,
     illegal: /\/\*/,
     contains: [
@@ -387,7 +393,7 @@ export default function(hljs) {
         className: 'meta',
         begin: '#', end: '$',
         keywords: {
-          'meta-keyword': 'if else elif endif define undef region endregion pragma'
+          keyword: 'if else elif endif define undef region endregion pragma'
         }
       },
       STRING, 
