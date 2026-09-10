@@ -89,7 +89,7 @@ function Assert-AlIssueTriageEvidence {
         )
         if (-not $recommendedNextStep.Success -or
             $recommendedNextStep.Groups['value'].Value -notmatch
-                '(?i)^\s*(?:please\s+)?close\b.*\blikely fixed\b') {
+                '(?im)^\s*(?:please\s+|we\s+recommend(?:\s+to)?\s+)?clos(?:e|ing)\b.*\blikely fixed\b') {
             throw 'Likely fixed must recommend closing the issue as likely fixed.'
         }
         if ($recommendedNextStep.Groups['value'].Value -match '(?i)\baccept(?:ed|ance)?\b') {

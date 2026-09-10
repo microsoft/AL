@@ -12,6 +12,10 @@ function Assert-Contains([string] $Text, [string] $Expected) {
 }
 
 $workflowScriptsRoot = Join-Path $repositoryRoot 'scripts\al-issue-triage'
+$versionResolverPath = Join-Path $workflowScriptsRoot 'Resolve-TriageSandboxVersions.ps1'
+if (-not (Test-Path -LiteralPath $versionResolverPath -PathType Leaf)) {
+    throw 'Required sandbox version resolver is missing.'
+}
 $workflowScripts = @{}
 foreach ($scriptName in @(
     'Install-TriageTools.ps1',
@@ -69,11 +73,20 @@ foreach ($text in @(
 
 foreach ($assertion in @(
     @{ Script = 'Install-TriageTools.ps1'; Text = 'Microsoft.Dynamics.BusinessCentral.Development.Tools --prerelease' },
+    @{ Script = 'Install-TriageTools.ps1'; Text = "-RequiredVersion `$bcContainerHelperVersion" },
     @{ Script = 'Install-TriageTools.ps1'; Text = 'ALTOOL_PATH=$altoolPath' },
+    @{ Script = 'Start-TriageSandbox.ps1'; Text = 'Wait-DockerApi' },
+    @{ Script = 'Start-TriageSandbox.ps1'; Text = 'Get-BcContainerNavVersion' },
+    @{ Script = 'Start-TriageSandbox.ps1'; Text = 'Get-BcContainerPlatformVersion' },
+    @{ Script = 'Start-TriageSandbox.ps1'; Text = 'BC_APPLICATION_VERSION=$($versions.Application)' },
+    @{ Script = 'Start-TriageSandbox.ps1'; Text = 'BC_PLATFORM_VERSION=$($versions.Platform)' },
     @{ Script = 'Start-TriageSandbox.ps1'; Text = 'BC_SERVER_USERNAME=admin' },
     @{ Script = 'Start-TriageSandbox.ps1'; Text = 'BC_SERVER_PASSWORD=$passwordText' },
     @{ Script = 'Start-TriageSandbox.ps1'; Text = 'BC_SERVER_PORT=7049' },
     @{ Script = 'Start-TriageSandbox.ps1'; Text = 'BC_TENANT=default' },
+    @{ Script = 'Test-AlToolSandboxAccess.ps1'; Text = '$env:BC_APPLICATION_VERSION' },
+    @{ Script = 'Test-AlToolSandboxAccess.ps1'; Text = '$env:BC_PLATFORM_VERSION' },
+    @{ Script = 'Test-AlToolSandboxAccess.ps1'; Text = '"retryable":true' },
     @{ Script = 'Invoke-AlIssueTriage.ps1'; Text = '$rawOutput.Substring($headingIndex).Trim()' },
     @{ Script = 'Invoke-AlIssueTriage.ps1'; Text = 'Invoke verify-prerelease-altool first' },
     @{ Script = 'Invoke-AlIssueTriage.ps1'; Text = 'run-al-mcp-tool, compile-al-app' },
@@ -91,9 +104,18 @@ if ([regex]::Matches($workflow, '(?m)^\s+run:\s+\|').Count -ne 0) {
 foreach ($text in @(
     'BC_SERVER_USERNAME=admin',
     'BC_SERVER_PASSWORD=$passwordText',
-    'BC_TENANT=default'
+    'BC_TENANT=default',
+    'Install-Module BcContainerHelper -RequiredVersion $version'
 )) {
     Assert-Contains $setup $text
+}
+
+$splitVersions = & $versionResolverPath `
+    -ApplicationVersion '30.0.54242.0-W1' `
+    -PlatformVersion '29.0.54137.0'
+if ($splitVersions.Application -ne '30.0.0.0' -or
+    $splitVersions.Platform -ne '29.0.0.0') {
+    throw 'Sandbox application and platform versions were not resolved independently.'
 }
 
 foreach ($text in @(
@@ -210,6 +232,17 @@ $validLikelyFixedRuntimeReport = @'
 Close this issue as likely fixed; provide a fresh current-version reproduction if the problem persists.
 '@
 Assert-AlIssueTriageEvidence -Comment $validLikelyFixedRuntimeReport
+
+$validLikelyFixedRecommendationVariant = @'
+## Automated AL issue triage
+**Classification:** `tooling bug`
+- **Scope:** `likely fixed` - Latest prerelease tooling did not exhibit the reported failure.
+| ALTool reproduction | `not reproduced` | Executed `run-al-mcp-tool al_build`; observed success without the reported error. |
+| BC runtime reproduction | `not attempted` | Not applicable. |
+### Recommended next step
+We recommend closing this issue as likely fixed; provide a current reproduction if the problem persists.
+'@
+Assert-AlIssueTriageEvidence -Comment $validLikelyFixedRecommendationVariant
 
 foreach ($invalidReport in @(
 @'
