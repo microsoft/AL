@@ -13,7 +13,7 @@ If you maintain automated build or test pipelines, on-premises environments, con
 
 We recommend validating these scenarios as part of your usual update testing and reviewing the system requirements for your Business Central release for the latest supported configurations.
 
-![Dotnet version transition to .NET 10](https://raw.githubusercontent.com/microsoft/AL/master/resources/preview.jpg)
+![Dotnet version transition to .NET 10](https://raw.githubusercontent.com/microsoft/AL/master/resources/preview.png)
 
 # 2026-05-26 Language Server Protocol (LSP) now available outside Visual Studio Code
 
