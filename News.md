@@ -1,3 +1,20 @@
+
+# 2026-10-19 Business Central is transitioning to .NET 10
+
+As part of our continued investment in the Business Central platform, we are transitioning supported Business Central releases from .NET 8 to .NET 10, across both Business Central online and on-premises deployments.
+
+For Business Central online, Microsoft manages the transition to .NET 10. The transition may involve internal migration of your environment during its configured maintenance window. We recommend configuring your maintenance window for a period that minimizes potential impact on your organization.
+
+For on-premises deployments, .NET 10 support is delivered through updates to supported Business Central releases. For Business Central 27 and 28, .NET 10 is introduced with cumulative updates 27.12 and 28.6, respectively. Customers should therefore verify the .NET runtime requirements for the specific Business Central version and cumulative update they are running.
+
+For most customers, no application changes are expected solely because of the underlying runtime change. Partners and customers with development or test scenarios that depend on .NET interoperability or custom .NET components should, however, review their tooling and dependencies.
+
+If you maintain automated build or test pipelines, on-premises environments, container-based environments, or extensions that interact with .NET components, make sure that the versions of your AL development tools, .NET dependencies, and container images match the runtime requirements of your Business Central environment.
+
+We recommend validating these scenarios as part of your usual update testing and reviewing the system requirements for your Business Central release for the latest supported configurations.
+
+![Dotnet version transition to .NET 10](https://raw.githubusercontent.com/microsoft/AL/master/resources/preview.png)
+
 # 2026-05-26 Language Server Protocol (LSP) now available outside Visual Studio Code
 
 The AL Development Tools package now ships a standalone Language Server Protocol (LSP) server — the same language intelligence that powers Visual Studio Code, made available to autonomous AI agents, alternative editors, and custom tooling. Learn more in [AL Development Tools package](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-tool-package).
